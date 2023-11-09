@@ -13,8 +13,8 @@
     <style name="Theme.AppCompat.DayNight.DialogWhenLarge" parent="@style/Theme.AppCompat.DialogWhenLarge" />
     <style name="Theme.AppCompat.DayNight.NoActionBar" parent="@style/Theme.AppCompat.NoActionBar" />
     <style name="Theme.CollapsingToolbar.Settings" parent="@style/Theme.MaterialComponents.DayNight">
-        <item name="colorAccent">@android:color/system_surface_container_low_light</item>
-        <item name="colorPrimary">@android:color/holo_control_normal</item>
+        <item name="colorAccent">@*android:color/system_surface_container_low_light</item>
+        <item name="colorPrimary">@*android:color/holo_control_normal</item>
         <item name="elevationOverlayColor">?colorPrimary</item>
         <item name="elevationOverlayEnabled">true</item>
     </style>

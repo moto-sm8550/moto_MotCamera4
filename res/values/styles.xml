@@ -152,41 +152,41 @@
         <item name="textAppearanceSubtitle2">@style/TextAppearance.Moto.Subtitle2</item>
         <item name="toolbarStyle">@style/Widget.Moto.Toolbar</item>
     </style>
-    <style name="Base.TextAppearance.AppCompat" parent="@android:style/TextAppearance.Material" />
-    <style name="Base.TextAppearance.AppCompat.Body1" parent="@android:style/TextAppearance.Material.Body1" />
-    <style name="Base.TextAppearance.AppCompat.Body2" parent="@android:style/TextAppearance.Material.Body2" />
-    <style name="Base.TextAppearance.AppCompat.Button" parent="@android:style/TextAppearance.Material.Button" />
-    <style name="Base.TextAppearance.AppCompat.Caption" parent="@android:style/TextAppearance.Material.Caption" />
-    <style name="Base.TextAppearance.AppCompat.Display1" parent="@android:style/TextAppearance.Material.Display1" />
-    <style name="Base.TextAppearance.AppCompat.Display2" parent="@android:style/TextAppearance.Material.Display2" />
-    <style name="Base.TextAppearance.AppCompat.Display3" parent="@android:style/TextAppearance.Material.Display3" />
-    <style name="Base.TextAppearance.AppCompat.Display4" parent="@android:style/TextAppearance.Material.Display4" />
-    <style name="Base.TextAppearance.AppCompat.Headline" parent="@android:style/TextAppearance.Material.Headline" />
-    <style name="Base.TextAppearance.AppCompat.Inverse" parent="@android:style/TextAppearance.Material.Inverse" />
-    <style name="Base.TextAppearance.AppCompat.Large" parent="@android:style/TextAppearance.Material.Large" />
-    <style name="Base.TextAppearance.AppCompat.Large.Inverse" parent="@android:style/TextAppearance.Material.Large.Inverse" />
-    <style name="Base.TextAppearance.AppCompat.Light.Widget.PopupMenu.Large" parent="@android:style/TextAppearance.Material.Widget.PopupMenu.Large" />
-    <style name="Base.TextAppearance.AppCompat.Light.Widget.PopupMenu.Small" parent="@android:style/TextAppearance.Material.Widget.PopupMenu.Small" />
-    <style name="Base.TextAppearance.AppCompat.Medium" parent="@android:style/TextAppearance.Material.Medium" />
-    <style name="Base.TextAppearance.AppCompat.Medium.Inverse" parent="@android:style/TextAppearance.Material.Medium.Inverse" />
-    <style name="Base.TextAppearance.AppCompat.Menu" parent="@android:style/TextAppearance.Material.Menu" />
+    <style name="Base.TextAppearance.AppCompat" parent="@*android:style/TextAppearance.Material" />
+    <style name="Base.TextAppearance.AppCompat.Body1" parent="@*android:style/TextAppearance.Material.Body1" />
+    <style name="Base.TextAppearance.AppCompat.Body2" parent="@*android:style/TextAppearance.Material.Body2" />
+    <style name="Base.TextAppearance.AppCompat.Button" parent="@*android:style/TextAppearance.Material.Button" />
+    <style name="Base.TextAppearance.AppCompat.Caption" parent="@*android:style/TextAppearance.Material.Caption" />
+    <style name="Base.TextAppearance.AppCompat.Display1" parent="@*android:style/TextAppearance.Material.Display1" />
+    <style name="Base.TextAppearance.AppCompat.Display2" parent="@*android:style/TextAppearance.Material.Display2" />
+    <style name="Base.TextAppearance.AppCompat.Display3" parent="@*android:style/TextAppearance.Material.Display3" />
+    <style name="Base.TextAppearance.AppCompat.Display4" parent="@*android:style/TextAppearance.Material.Display4" />
+    <style name="Base.TextAppearance.AppCompat.Headline" parent="@*android:style/TextAppearance.Material.Headline" />
+    <style name="Base.TextAppearance.AppCompat.Inverse" parent="@*android:style/TextAppearance.Material.Inverse" />
+    <style name="Base.TextAppearance.AppCompat.Large" parent="@*android:style/TextAppearance.Material.Large" />
+    <style name="Base.TextAppearance.AppCompat.Large.Inverse" parent="@*android:style/TextAppearance.Material.Large.Inverse" />
+    <style name="Base.TextAppearance.AppCompat.Light.Widget.PopupMenu.Large" parent="@*android:style/TextAppearance.Material.Widget.PopupMenu.Large" />
+    <style name="Base.TextAppearance.AppCompat.Light.Widget.PopupMenu.Small" parent="@*android:style/TextAppearance.Material.Widget.PopupMenu.Small" />
+    <style name="Base.TextAppearance.AppCompat.Medium" parent="@*android:style/TextAppearance.Material.Medium" />
+    <style name="Base.TextAppearance.AppCompat.Medium.Inverse" parent="@*android:style/TextAppearance.Material.Medium.Inverse" />
+    <style name="Base.TextAppearance.AppCompat.Menu" parent="@*android:style/TextAppearance.Material.Menu" />
     <style name="Base.TextAppearance.AppCompat.SearchResult" parent="">
         <item name="android:textStyle">normal</item>
         <item name="android:textColor">?android:textColorPrimary</item>
         <item name="android:textColorHint">?android:textColorHint</item>
     </style>
-    <style name="Base.TextAppearance.AppCompat.SearchResult.Subtitle" parent="@android:style/TextAppearance.Material.SearchResult.Subtitle" />
-    <style name="Base.TextAppearance.AppCompat.SearchResult.Title" parent="@android:style/TextAppearance.Material.SearchResult.Title" />
-    <style name="Base.TextAppearance.AppCompat.Small" parent="@android:style/TextAppearance.Material.Small" />
-    <style name="Base.TextAppearance.AppCompat.Small.Inverse" parent="@android:style/TextAppearance.Material.Small.Inverse" />
-    <style name="Base.TextAppearance.AppCompat.Subhead" parent="@android:style/TextAppearance.Material.Subhead" />
+    <style name="Base.TextAppearance.AppCompat.SearchResult.Subtitle" parent="@*android:style/TextAppearance.Material.SearchResult.Subtitle" />
+    <style name="Base.TextAppearance.AppCompat.SearchResult.Title" parent="@*android:style/TextAppearance.Material.SearchResult.Title" />
+    <style name="Base.TextAppearance.AppCompat.Small" parent="@*android:style/TextAppearance.Material.Small" />
+    <style name="Base.TextAppearance.AppCompat.Small.Inverse" parent="@*android:style/TextAppearance.Material.Small.Inverse" />
+    <style name="Base.TextAppearance.AppCompat.Subhead" parent="@*android:style/TextAppearance.Material.Subhead" />
     <style name="Base.TextAppearance.AppCompat.Subhead.Inverse" parent="@style/Base.TextAppearance.AppCompat.Subhead">
         <item name="android:textColor">?android:textColorPrimaryInverse</item>
         <item name="android:textColorHighlight">?android:textColorHighlightInverse</item>
         <item name="android:textColorHint">?android:textColorHintInverse</item>
         <item name="android:textColorLink">?android:textColorLinkInverse</item>
     </style>
-    <style name="Base.TextAppearance.AppCompat.Title" parent="@android:style/TextAppearance.Material.Title" />
+    <style name="Base.TextAppearance.AppCompat.Title" parent="@*android:style/TextAppearance.Material.Title" />
     <style name="Base.TextAppearance.AppCompat.Title.Inverse" parent="@style/Base.TextAppearance.AppCompat.Title">
         <item name="android:textColor">?android:textColorPrimaryInverse</item>
         <item name="android:textColorHighlight">?android:textColorHighlightInverse</item>
@@ -196,18 +196,18 @@
     <style name="Base.TextAppearance.AppCompat.Tooltip" parent="@style/Base.TextAppearance.AppCompat">
         <item name="android:textSize">14.0sp</item>
     </style>
-    <style name="Base.TextAppearance.AppCompat.Widget.ActionBar.Menu" parent="@android:style/TextAppearance.Material.Widget.ActionBar.Menu" />
-    <style name="Base.TextAppearance.AppCompat.Widget.ActionBar.Subtitle" parent="@android:style/TextAppearance.Material.Widget.ActionBar.Subtitle" />
-    <style name="Base.TextAppearance.AppCompat.Widget.ActionBar.Subtitle.Inverse" parent="@android:style/TextAppearance.Material.Widget.ActionBar.Subtitle.Inverse" />
-    <style name="Base.TextAppearance.AppCompat.Widget.ActionBar.Title" parent="@android:style/TextAppearance.Material.Widget.ActionBar.Title" />
-    <style name="Base.TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse" parent="@android:style/TextAppearance.Material.Widget.ActionBar.Title.Inverse" />
-    <style name="Base.TextAppearance.AppCompat.Widget.ActionMode.Subtitle" parent="@android:style/TextAppearance.Material.Widget.ActionMode.Subtitle" />
-    <style name="Base.TextAppearance.AppCompat.Widget.ActionMode.Title" parent="@android:style/TextAppearance.Material.Widget.ActionMode.Title" />
-    <style name="Base.TextAppearance.AppCompat.Widget.Button" parent="@android:style/TextAppearance.Material.Widget.Button" />
-    <style name="Base.TextAppearance.AppCompat.Widget.Button.Borderless.Colored" parent="@android:style/TextAppearance.Material.Widget.Button.Borderless.Colored" />
-    <style name="Base.TextAppearance.AppCompat.Widget.Button.Colored" parent="@android:style/TextAppearance.Material.Widget.Button.Colored" />
-    <style name="Base.TextAppearance.AppCompat.Widget.Button.Inverse" parent="@android:style/TextAppearance.Material.Widget.Button.Inverse" />
-    <style name="Base.TextAppearance.AppCompat.Widget.DropDownItem" parent="@android:style/TextAppearance.Small">
+    <style name="Base.TextAppearance.AppCompat.Widget.ActionBar.Menu" parent="@*android:style/TextAppearance.Material.Widget.ActionBar.Menu" />
+    <style name="Base.TextAppearance.AppCompat.Widget.ActionBar.Subtitle" parent="@*android:style/TextAppearance.Material.Widget.ActionBar.Subtitle" />
+    <style name="Base.TextAppearance.AppCompat.Widget.ActionBar.Subtitle.Inverse" parent="@*android:style/TextAppearance.Material.Widget.ActionBar.Subtitle.Inverse" />
+    <style name="Base.TextAppearance.AppCompat.Widget.ActionBar.Title" parent="@*android:style/TextAppearance.Material.Widget.ActionBar.Title" />
+    <style name="Base.TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse" parent="@*android:style/TextAppearance.Material.Widget.ActionBar.Title.Inverse" />
+    <style name="Base.TextAppearance.AppCompat.Widget.ActionMode.Subtitle" parent="@*android:style/TextAppearance.Material.Widget.ActionMode.Subtitle" />
+    <style name="Base.TextAppearance.AppCompat.Widget.ActionMode.Title" parent="@*android:style/TextAppearance.Material.Widget.ActionMode.Title" />
+    <style name="Base.TextAppearance.AppCompat.Widget.Button" parent="@*android:style/TextAppearance.Material.Widget.Button" />
+    <style name="Base.TextAppearance.AppCompat.Widget.Button.Borderless.Colored" parent="@*android:style/TextAppearance.Material.Widget.Button.Borderless.Colored" />
+    <style name="Base.TextAppearance.AppCompat.Widget.Button.Colored" parent="@*android:style/TextAppearance.Material.Widget.Button.Colored" />
+    <style name="Base.TextAppearance.AppCompat.Widget.Button.Inverse" parent="@*android:style/TextAppearance.Material.Widget.Button.Inverse" />
+    <style name="Base.TextAppearance.AppCompat.Widget.DropDownItem" parent="@*android:style/TextAppearance.Small">
         <item name="android:textColor">?android:textColorPrimaryDisableOnly</item>
     </style>
     <style name="Base.TextAppearance.AppCompat.Widget.PopupMenu.Header" parent="@style/TextAppearance.AppCompat">
@@ -215,10 +215,10 @@
         <item name="android:textColor">?android:textColorSecondary</item>
         <item name="android:fontFamily">sans-serif-medium</item>
     </style>
-    <style name="Base.TextAppearance.AppCompat.Widget.PopupMenu.Large" parent="@android:style/TextAppearance.Material.Widget.PopupMenu.Large" />
-    <style name="Base.TextAppearance.AppCompat.Widget.PopupMenu.Small" parent="@android:style/TextAppearance.Material.Widget.PopupMenu.Small" />
-    <style name="Base.TextAppearance.AppCompat.Widget.Switch" parent="@android:style/TextAppearance.Material.Button" />
-    <style name="Base.TextAppearance.AppCompat.Widget.TextView.SpinnerItem" parent="@android:style/TextAppearance.Material.Widget.TextView.SpinnerItem" />
+    <style name="Base.TextAppearance.AppCompat.Widget.PopupMenu.Large" parent="@*android:style/TextAppearance.Material.Widget.PopupMenu.Large" />
+    <style name="Base.TextAppearance.AppCompat.Widget.PopupMenu.Small" parent="@*android:style/TextAppearance.Material.Widget.PopupMenu.Small" />
+    <style name="Base.TextAppearance.AppCompat.Widget.Switch" parent="@*android:style/TextAppearance.Material.Button" />
+    <style name="Base.TextAppearance.AppCompat.Widget.TextView.SpinnerItem" parent="@*android:style/TextAppearance.Material.Widget.TextView.SpinnerItem" />
     <style name="Base.TextAppearance.MaterialComponents.Badge" parent="@style/TextAppearance.AppCompat">
         <item name="android:textSize">@dimen/mtrl_badge_text_size</item>
         <item name="android:textStyle">bold</item>
@@ -252,11 +252,11 @@
         <item name="android:letterSpacing">0.007142857</item>
         <item name="fontFamily">sans-serif-medium</item>
     </style>
-    <style name="Base.TextAppearance.Widget.AppCompat.ExpandedMenu.Item" parent="@android:style/TextAppearance.Medium">
+    <style name="Base.TextAppearance.Widget.AppCompat.ExpandedMenu.Item" parent="@*android:style/TextAppearance.Medium">
         <item name="android:textColor">?android:textColorPrimaryDisableOnly</item>
     </style>
-    <style name="Base.TextAppearance.Widget.AppCompat.Toolbar.Subtitle" parent="@android:style/TextAppearance.Material.Widget.ActionBar.Subtitle" />
-    <style name="Base.TextAppearance.Widget.AppCompat.Toolbar.Title" parent="@android:style/TextAppearance.Material.Widget.ActionBar.Title" />
+    <style name="Base.TextAppearance.Widget.AppCompat.Toolbar.Subtitle" parent="@*android:style/TextAppearance.Material.Widget.ActionBar.Subtitle" />
+    <style name="Base.TextAppearance.Widget.AppCompat.Toolbar.Title" parent="@*android:style/TextAppearance.Material.Widget.ActionBar.Title" />
     <style name="Base.Theme.AppCompat" parent="@style/Base.V28.Theme.AppCompat" />
     <style name="Base.Theme.AppCompat.CompactMenu" parent="">
         <item name="android:listViewStyle">@style/Widget.AppCompat.ListView.Menu</item>
@@ -609,7 +609,7 @@
         <item name="toolbarSurfaceStyle">@style/Widget.Material3.Toolbar.Surface</item>
     </style>
     <style name="Base.V14.Theme.Material3.Dark.BottomSheetDialog" parent="@style/Theme.Material3.Dark.Dialog">
-        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowBackground">@*android:color/transparent</item>
         <item name="android:windowIsFloating">false</item>
         <item name="android:windowAnimationStyle">@style/Animation.MaterialComponents.BottomSheetDialog</item>
         <item name="bottomSheetStyle">@style/Widget.Material3.BottomSheet.Modal</item>
@@ -941,7 +941,7 @@
         <item name="toolbarSurfaceStyle">@style/Widget.Material3.Toolbar.Surface</item>
     </style>
     <style name="Base.V14.Theme.Material3.Light.BottomSheetDialog" parent="@style/Theme.Material3.Light.Dialog">
-        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowBackground">@*android:color/transparent</item>
         <item name="android:windowIsFloating">false</item>
         <item name="android:windowAnimationStyle">@style/Animation.MaterialComponents.BottomSheetDialog</item>
         <item name="bottomSheetStyle">@style/Widget.Material3.BottomSheet.Modal</item>
@@ -1583,14 +1583,14 @@
         <item name="textAppearanceSubtitle2">@style/TextAppearance.MaterialComponents.Subtitle2</item>
     </style>
     <style name="Base.V14.ThemeOverlay.Material3.BottomSheetDialog" parent="@style/Base.ThemeOverlay.Material3.Dialog">
-        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowBackground">@*android:color/transparent</item>
         <item name="android:windowIsFloating">false</item>
         <item name="android:windowAnimationStyle">@style/Animation.MaterialComponents.BottomSheetDialog</item>
         <item name="bottomSheetStyle">@style/Widget.Material3.BottomSheet.Modal</item>
         <item name="enableEdgeToEdge">true</item>
     </style>
     <style name="Base.V14.ThemeOverlay.MaterialComponents.BottomSheetDialog" parent="@style/Base.ThemeOverlay.MaterialComponents.Dialog">
-        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowBackground">@*android:color/transparent</item>
         <item name="android:windowIsFloating">false</item>
         <item name="android:windowAnimationStyle">@style/Animation.MaterialComponents.BottomSheetDialog</item>
         <item name="bottomSheetStyle">@style/Widget.MaterialComponents.BottomSheet.Modal</item>
@@ -1708,10 +1708,10 @@
         <item name="android:windowElevation">@dimen/abc_floating_window_z</item>
     </style>
     <style name="Base.V21.ThemeOverlay.Material3.BottomSheetDialog" parent="@style/Base.V14.ThemeOverlay.Material3.BottomSheetDialog">
-        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:statusBarColor">@*android:color/transparent</item>
     </style>
     <style name="Base.V21.ThemeOverlay.MaterialComponents.BottomSheetDialog" parent="@style/Base.V14.ThemeOverlay.MaterialComponents.BottomSheetDialog">
-        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:statusBarColor">@*android:color/transparent</item>
     </style>
     <style name="Base.V22.Theme.AppCompat" parent="@style/Base.V21.Theme.AppCompat">
         <item name="actionModeShareDrawable">?android:actionModeShareDrawable</item>
@@ -1768,7 +1768,7 @@
         <item name="dialogCornerRadius">?android:dialogCornerRadius</item>
     </style>
     <style name="Base.V7.Theme.AppCompat" parent="@style/Platform.AppCompat">
-        <item name="android:panelBackground">@android:color/transparent</item>
+        <item name="android:panelBackground">@*android:color/transparent</item>
         <item name="android:dropDownListViewStyle">@style/Widget.AppCompat.ListView.DropDown</item>
         <item name="android:textViewStyle">@style/Widget.AppCompat.TextView</item>
         <item name="android:dropDownItemStyle">@style/Widget.AppCompat.DropDownItem.Spinner</item>
@@ -1914,7 +1914,7 @@
         <item name="windowActionModeOverlay">true</item>
     </style>
     <style name="Base.V7.Theme.AppCompat.Light" parent="@style/Platform.AppCompat.Light">
-        <item name="android:panelBackground">@android:color/transparent</item>
+        <item name="android:panelBackground">@*android:color/transparent</item>
         <item name="android:dropDownListViewStyle">@style/Widget.AppCompat.ListView.DropDown</item>
         <item name="android:textViewStyle">@style/Widget.AppCompat.TextView</item>
         <item name="android:dropDownItemStyle">@style/Widget.AppCompat.DropDownItem.Spinner</item>
@@ -2435,7 +2435,7 @@
         <item name="tabTextColor">@color/m3_tabs_icon_color</item>
     </style>
     <style name="Base.Widget.Material3.TabLayout.OnSurface" parent="@style/Widget.Material3.TabLayout">
-        <item name="android:background">@android:color/transparent</item>
+        <item name="android:background">@*android:color/transparent</item>
     </style>
     <style name="Base.Widget.Material3.TabLayout.Secondary" parent="@style/Widget.Material3.TabLayout">
         <item name="tabIndicator">@drawable/m3_tabs_line_indicator</item>
@@ -2618,7 +2618,7 @@
         <item name="android:lineHeight">16.0sp</item>
     </style>
     <style name="CTADialog" parent="@android:style/Theme.Dialog">
-        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowBackground">@*android:color/transparent</item>
         <item name="android:windowFrame">@null</item>
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowIsFloating">true</item>
@@ -2626,10 +2626,10 @@
         <item name="android:backgroundDimEnabled">false</item>
     </style>
     <style name="CameraAppTheme" parent="@style/Theme.Material3.Dark.NoActionBar">
-        <item name="android:colorBackground">@android:color/black</item>
+        <item name="android:colorBackground">@*android:color/black</item>
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowTitleSize">0.0dip</item>
-        <item name="android:colorBackgroundCacheHint">@android:color/black</item>
+        <item name="android:colorBackgroundCacheHint">@*android:color/black</item>
         <item name="android:windowActionBar">false</item>
         <item name="android:colorControlHighlight">@color/surface_light</item>
         <item name="android:colorAccent">@color/secondary_dark</item>
@@ -2672,9 +2672,9 @@
         <item name="android:textSize">148.0sp</item>
         <item name="android:textColor">@color/white</item>
     </style>
-    <style name="CollapsingToolbarTitle.Collapsed" parent="@android:style/TextAppearance.DeviceDefault.Widget.ActionBar.Title">
+    <style name="CollapsingToolbarTitle.Collapsed" parent="@*android:style/TextAppearance.DeviceDefault.Widget.ActionBar.Title">
         <item name="android:textSize">20.0dip</item>
-        <item name="android:fontFamily">@android:string/config_platformVpnConfirmDialogComponent</item>
+        <item name="android:fontFamily">@*android:string/config_platformVpnConfirmDialogComponent</item>
     </style>
     <style name="CollapsingToolbarTitle.Expanded" parent="@style/CollapsingToolbarTitle.Collapsed">
         <item name="android:textSize">32.0dip</item>
@@ -3211,8 +3211,8 @@
         <item name="iconSpaceReserved">@bool/config_materialPreferenceIconSpaceReserved</item>
     </style>
     <style name="Preference.DialogPreference" parent="@style/Preference">
-        <item name="android:positiveButtonText">@android:string/ok</item>
-        <item name="android:negativeButtonText">@android:string/cancel</item>
+        <item name="android:positiveButtonText">@*android:string/ok</item>
+        <item name="android:negativeButtonText">@*android:string/cancel</item>
     </style>
     <style name="Preference.DialogPreference.EditTextPreference" parent="@style/Preference.DialogPreference">
         <item name="android:dialogLayout">@layout/preference_dialog_edittext</item>
@@ -3407,8 +3407,8 @@
         <item name="android:paddingEnd">@dimen/abc_action_bar_overflow_padding_end_material</item>
     </style>
     <style name="ScrollingPagerIndicator">
-        <item name="spi_dotColor">@android:color/darker_gray</item>
-        <item name="spi_dotSelectedColor">@android:color/darker_gray</item>
+        <item name="spi_dotColor">@*android:color/darker_gray</item>
+        <item name="spi_dotSelectedColor">@*android:color/darker_gray</item>
         <item name="spi_dotSelectedSize">10.0dip</item>
         <item name="spi_dotSize">6.0dip</item>
         <item name="spi_dotSpacing">8.0dip</item>
@@ -3647,8 +3647,8 @@
         <item name="backgroundTint">@color/overlay_surface_medium</item>
     </style>
     <style name="SmartCamResultsTheme" parent="@android:style/Theme.Material">
-        <item name="android:colorBackground">@android:color/darker_gray</item>
-        <item name="android:textColor">@android:color/black</item>
+        <item name="android:colorBackground">@*android:color/darker_gray</item>
+        <item name="android:textColor">@*android:color/black</item>
         <item name="android:actionModeBackground">@color/smartcam_results_primary</item>
         <item name="android:windowActionModeOverlay">true</item>
         <item name="android:colorPrimary">@color/smartcam_results_primary</item>
@@ -3801,16 +3801,16 @@
     <style name="TextAppearance.AppCompat.Widget.PopupMenu.Small" parent="@style/Base.TextAppearance.AppCompat.Widget.PopupMenu.Small" />
     <style name="TextAppearance.AppCompat.Widget.Switch" parent="@style/Base.TextAppearance.AppCompat.Widget.Switch" />
     <style name="TextAppearance.AppCompat.Widget.TextView.SpinnerItem" parent="@style/Base.TextAppearance.AppCompat.Widget.TextView.SpinnerItem" />
-    <style name="TextAppearance.CategoryTitle.SettingsLib" parent="@android:style/TextAppearance.EasyCorrectSuggestion" />
-    <style name="TextAppearance.Compat.Notification" parent="@android:style/TextAppearance.Material.Notification" />
-    <style name="TextAppearance.Compat.Notification.Info" parent="@android:style/TextAppearance.Material.Notification.Info" />
+    <style name="TextAppearance.CategoryTitle.SettingsLib" parent="@*android:style/TextAppearance.EasyCorrectSuggestion" />
+    <style name="TextAppearance.Compat.Notification" parent="@*android:style/TextAppearance.Material.Notification" />
+    <style name="TextAppearance.Compat.Notification.Info" parent="@*android:style/TextAppearance.Material.Notification.Info" />
     <style name="TextAppearance.Compat.Notification.Info.Media" parent="@style/TextAppearance.Compat.Notification.Info" />
     <style name="TextAppearance.Compat.Notification.Line2" parent="@style/TextAppearance.Compat.Notification.Info" />
     <style name="TextAppearance.Compat.Notification.Line2.Media" parent="@style/TextAppearance.Compat.Notification.Info.Media" />
     <style name="TextAppearance.Compat.Notification.Media" parent="@style/TextAppearance.Compat.Notification" />
-    <style name="TextAppearance.Compat.Notification.Time" parent="@android:style/TextAppearance.Material.Notification.Time" />
+    <style name="TextAppearance.Compat.Notification.Time" parent="@*android:style/TextAppearance.Material.Notification.Time" />
     <style name="TextAppearance.Compat.Notification.Time.Media" parent="@style/TextAppearance.Compat.Notification.Time" />
-    <style name="TextAppearance.Compat.Notification.Title" parent="@android:style/TextAppearance.Material.Notification.Title" />
+    <style name="TextAppearance.Compat.Notification.Title" parent="@*android:style/TextAppearance.Material.Notification.Title" />
     <style name="TextAppearance.Compat.Notification.Title.Media" parent="@style/TextAppearance.Compat.Notification.Title" />
     <style name="TextAppearance.Design.CollapsingToolbar.Expanded" parent="@style/TextAppearance.AppCompat.Display1">
         <item name="android:textColor">?android:textColorPrimary</item>
@@ -4231,7 +4231,7 @@
         <item name="fontFamily">Roboto</item>
         <item name="lineHeight">16.0sp</item>
     </style>
-    <style name="TextAppearance.PreferenceTitle.SettingsLib" parent="@android:style/TextAppearance.Holo.Light">
+    <style name="TextAppearance.PreferenceTitle.SettingsLib" parent="@*android:style/TextAppearance.Holo.Light">
         <item name="android:textSize">18.0sp</item>
     </style>
     <style name="TextAppearance.Test.NoTextSize" parent="" />
@@ -4251,7 +4251,7 @@
         <item name="android:windowSoftInputMode">adjustResize</item>
         <item name="android:colorError">@color/settingslib_dialog_colorError</item>
         <item name="colorAccent">@color/settingslib_dialog_accent</item>
-        <item name="dialogCornerRadius">@android:dimen/config_bottomDialogCornerRadius</item>
+        <item name="dialogCornerRadius">@*android:dimen/config_bottomDialogCornerRadius</item>
     </style>
     <style name="Theme.AppCompat" parent="@style/Base.Theme.AppCompat" />
     <style name="Theme.AppCompat.CompactMenu" parent="@style/Base.Theme.AppCompat.CompactMenu" />
@@ -4282,12 +4282,12 @@
         <item name="windowNoTitle">true</item>
     </style>
     <style name="Theme.Camera" parent="@style/Theme.Material3.Dark.NoActionBar">
-        <item name="android:colorBackground">@android:color/black</item>
+        <item name="android:colorBackground">@*android:color/black</item>
         <item name="android:windowBackground">@drawable/window_bg</item>
         <item name="android:windowTitleSize">0.0dip</item>
         <item name="android:textColor">@color/white</item>
         <item name="android:windowFullscreen">true</item>
-        <item name="android:colorBackgroundCacheHint">@android:color/black</item>
+        <item name="android:colorBackgroundCacheHint">@*android:color/black</item>
         <item name="android:windowActionBar">false</item>
         <item name="android:windowActionBarOverlay">true</item>
         <item name="android:colorControlHighlight">@color/surface_light</item>
@@ -4295,20 +4295,20 @@
         <item name="android:rotationAnimation">seamless</item>
     </style>
     <style name="Theme.CollapsingToolbar.Settings" parent="@style/Theme.MaterialComponents.DayNight">
-        <item name="colorAccent">@android:color/system_surface_container_light</item>
-        <item name="colorPrimary">@android:color/holo_primary_dark</item>
+        <item name="colorAccent">@*android:color/system_surface_container_light</item>
+        <item name="colorPrimary">@*android:color/holo_primary_dark</item>
         <item name="elevationOverlayColor">?colorPrimary</item>
         <item name="elevationOverlayEnabled">true</item>
     </style>
     <style name="Theme.Design" parent="@style/Theme.AppCompat" />
     <style name="Theme.Design.BottomSheetDialog" parent="@style/Theme.AppCompat.Dialog">
-        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowBackground">@*android:color/transparent</item>
         <item name="android:windowAnimationStyle">@style/Animation.Design.BottomSheetDialog</item>
         <item name="bottomSheetStyle">@style/Widget.Design.BottomSheet.Modal</item>
     </style>
     <style name="Theme.Design.Light" parent="@style/Theme.AppCompat.Light" />
     <style name="Theme.Design.Light.BottomSheetDialog" parent="@style/Theme.AppCompat.Light.Dialog">
-        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowBackground">@*android:color/transparent</item>
         <item name="android:windowAnimationStyle">@style/Animation.Design.BottomSheetDialog</item>
         <item name="bottomSheetStyle">@style/Widget.Design.BottomSheet.Modal</item>
     </style>
@@ -4444,7 +4444,7 @@
     </style>
     <style name="Theme.MaterialComponents" parent="@style/Base.Theme.MaterialComponents" />
     <style name="Theme.MaterialComponents.BottomSheetDialog" parent="@style/Theme.MaterialComponents.Dialog">
-        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowBackground">@*android:color/transparent</item>
         <item name="android:windowAnimationStyle">@style/Animation.MaterialComponents.BottomSheetDialog</item>
         <item name="bottomSheetStyle">@style/Widget.MaterialComponents.BottomSheet.Modal</item>
     </style>
@@ -4491,7 +4491,7 @@
         <item name="actionBarSize">@dimen/action_bar_size</item>
     </style>
     <style name="Theme.MaterialComponents.Light.BottomSheetDialog" parent="@style/Theme.MaterialComponents.Light.Dialog">
-        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowBackground">@*android:color/transparent</item>
         <item name="android:windowAnimationStyle">@style/Animation.MaterialComponents.BottomSheetDialog</item>
         <item name="bottomSheetStyle">@style/Widget.MaterialComponents.BottomSheet.Modal</item>
     </style>
@@ -4538,72 +4538,72 @@
         <item name="windowNoTitle">true</item>
     </style>
     <style name="Theme.MyUI.Dark" parent="@android:style/Theme.DeviceDefault.Settings">
-        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@*android:color/transparent</item>
         <item name="android:windowLightStatusBar">false</item>
         <item name="android:windowLightNavigationBar">false</item>
-        <item name="myui_color_background">@android:color/system_neutral1_50</item>
+        <item name="myui_color_background">@*android:color/system_neutral1_50</item>
         <item name="myui_color_error">#fff2b8b5</item>
         <item name="myui_color_error_container">#ff8c1d18</item>
-        <item name="myui_color_on_background">@android:color/system_neutral1_100</item>
+        <item name="myui_color_on_background">@*android:color/system_neutral1_100</item>
         <item name="myui_color_on_error">#ff601410</item>
         <item name="myui_color_on_error_container">#fff2b8b5</item>
-        <item name="myui_color_on_primary">@android:color/system_accent1_800</item>
-        <item name="myui_color_on_primary_container">@android:color/system_accent1_100</item>
-        <item name="myui_color_on_secondary">@android:color/system_accent2_800</item>
-        <item name="myui_color_on_secondary_container">@android:color/system_accent2_100</item>
-        <item name="myui_color_on_surface">@android:color/system_neutral1_50</item>
-        <item name="myui_color_on_surface_inverse">@android:color/system_neutral1_900</item>
-        <item name="myui_color_on_surface_variant">@android:color/system_neutral2_200</item>
-        <item name="myui_color_on_tertiary">@android:color/system_accent3_800</item>
-        <item name="myui_color_on_tertiary_container">@android:color/system_accent3_100</item>
-        <item name="myui_color_outline">@android:color/system_neutral2_400</item>
-        <item name="myui_color_primary">@android:color/system_accent1_200</item>
-        <item name="myui_color_primary_container">@android:color/system_accent1_700</item>
-        <item name="myui_color_primary_inverse">@android:color/system_accent1_600</item>
-        <item name="myui_color_secondary">@android:color/system_accent2_200</item>
-        <item name="myui_color_secondary_container">@android:color/system_accent2_700</item>
-        <item name="myui_color_surface">@android:color/system_neutral1_800</item>
-        <item name="myui_color_surface_highlight_under">@android:color/system_neutral1_1000</item>
-        <item name="myui_color_surface_inverse">@android:color/system_neutral1_10</item>
-        <item name="myui_color_surface_variant">@android:color/system_neutral2_700</item>
-        <item name="myui_color_tertiary">@android:color/system_accent3_200</item>
-        <item name="myui_color_tertiary_container">@android:color/system_accent3_700</item>
+        <item name="myui_color_on_primary">@*android:color/system_accent1_800</item>
+        <item name="myui_color_on_primary_container">@*android:color/system_accent1_100</item>
+        <item name="myui_color_on_secondary">@*android:color/system_accent2_800</item>
+        <item name="myui_color_on_secondary_container">@*android:color/system_accent2_100</item>
+        <item name="myui_color_on_surface">@*android:color/system_neutral1_50</item>
+        <item name="myui_color_on_surface_inverse">@*android:color/system_neutral1_900</item>
+        <item name="myui_color_on_surface_variant">@*android:color/system_neutral2_200</item>
+        <item name="myui_color_on_tertiary">@*android:color/system_accent3_800</item>
+        <item name="myui_color_on_tertiary_container">@*android:color/system_accent3_100</item>
+        <item name="myui_color_outline">@*android:color/system_neutral2_400</item>
+        <item name="myui_color_primary">@*android:color/system_accent1_200</item>
+        <item name="myui_color_primary_container">@*android:color/system_accent1_700</item>
+        <item name="myui_color_primary_inverse">@*android:color/system_accent1_600</item>
+        <item name="myui_color_secondary">@*android:color/system_accent2_200</item>
+        <item name="myui_color_secondary_container">@*android:color/system_accent2_700</item>
+        <item name="myui_color_surface">@*android:color/system_neutral1_800</item>
+        <item name="myui_color_surface_highlight_under">@*android:color/system_neutral1_1000</item>
+        <item name="myui_color_surface_inverse">@*android:color/system_neutral1_10</item>
+        <item name="myui_color_surface_variant">@*android:color/system_neutral2_700</item>
+        <item name="myui_color_tertiary">@*android:color/system_accent3_200</item>
+        <item name="myui_color_tertiary_container">@*android:color/system_accent3_700</item>
     </style>
     <style name="Theme.MyUI.DayNight" parent="@style/Theme.MyUI.Light" />
     <style name="Theme.MyUI.Light" parent="@android:style/Theme.DeviceDefault.Settings">
-        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@*android:color/transparent</item>
         <item name="android:windowLightStatusBar">true</item>
         <item name="android:windowLightNavigationBar">true</item>
-        <item name="myui_color_background">@android:color/system_neutral1_50</item>
+        <item name="myui_color_background">@*android:color/system_neutral1_50</item>
         <item name="myui_color_error">#ffb3261e</item>
         <item name="myui_color_error_container">#fff9dedc</item>
-        <item name="myui_color_on_background">@android:color/system_neutral1_900</item>
-        <item name="myui_color_on_error">@android:color/white</item>
+        <item name="myui_color_on_background">@*android:color/system_neutral1_900</item>
+        <item name="myui_color_on_error">@*android:color/white</item>
         <item name="myui_color_on_error_container">#ff410e0b</item>
-        <item name="myui_color_on_primary">@android:color/system_accent1_0</item>
-        <item name="myui_color_on_primary_container">@android:color/system_accent1_900</item>
-        <item name="myui_color_on_secondary">@android:color/system_accent2_0</item>
-        <item name="myui_color_on_secondary_container">@android:color/system_accent2_900</item>
-        <item name="myui_color_on_surface">@android:color/system_neutral1_900</item>
-        <item name="myui_color_on_surface_inverse">@android:color/system_neutral1_50</item>
-        <item name="myui_color_on_surface_variant">@android:color/system_neutral2_700</item>
-        <item name="myui_color_on_tertiary">@android:color/system_accent3_0</item>
-        <item name="myui_color_on_tertiary_container">@android:color/system_accent3_900</item>
-        <item name="myui_color_outline">@android:color/system_neutral2_500</item>
-        <item name="myui_color_primary">@android:color/system_accent1_600</item>
-        <item name="myui_color_primary_container">@android:color/system_accent1_100</item>
-        <item name="myui_color_primary_inverse">@android:color/system_accent1_200</item>
-        <item name="myui_color_secondary">@android:color/system_accent2_600</item>
-        <item name="myui_color_secondary_container">@android:color/system_accent2_100</item>
-        <item name="myui_color_surface">@android:color/system_neutral1_10</item>
-        <item name="myui_color_surface_highlight_under">@android:color/system_neutral1_0</item>
-        <item name="myui_color_surface_inverse">@android:color/system_neutral1_800</item>
-        <item name="myui_color_surface_variant">@android:color/system_neutral2_100</item>
-        <item name="myui_color_tertiary">@android:color/system_accent3_600</item>
-        <item name="myui_color_tertiary_container">@android:color/system_accent3_100</item>
+        <item name="myui_color_on_primary">@*android:color/system_accent1_0</item>
+        <item name="myui_color_on_primary_container">@*android:color/system_accent1_900</item>
+        <item name="myui_color_on_secondary">@*android:color/system_accent2_0</item>
+        <item name="myui_color_on_secondary_container">@*android:color/system_accent2_900</item>
+        <item name="myui_color_on_surface">@*android:color/system_neutral1_900</item>
+        <item name="myui_color_on_surface_inverse">@*android:color/system_neutral1_50</item>
+        <item name="myui_color_on_surface_variant">@*android:color/system_neutral2_700</item>
+        <item name="myui_color_on_tertiary">@*android:color/system_accent3_0</item>
+        <item name="myui_color_on_tertiary_container">@*android:color/system_accent3_900</item>
+        <item name="myui_color_outline">@*android:color/system_neutral2_500</item>
+        <item name="myui_color_primary">@*android:color/system_accent1_600</item>
+        <item name="myui_color_primary_container">@*android:color/system_accent1_100</item>
+        <item name="myui_color_primary_inverse">@*android:color/system_accent1_200</item>
+        <item name="myui_color_secondary">@*android:color/system_accent2_600</item>
+        <item name="myui_color_secondary_container">@*android:color/system_accent2_100</item>
+        <item name="myui_color_surface">@*android:color/system_neutral1_10</item>
+        <item name="myui_color_surface_highlight_under">@*android:color/system_neutral1_0</item>
+        <item name="myui_color_surface_inverse">@*android:color/system_neutral1_800</item>
+        <item name="myui_color_surface_variant">@*android:color/system_neutral2_100</item>
+        <item name="myui_color_tertiary">@*android:color/system_accent3_600</item>
+        <item name="myui_color_tertiary_container">@*android:color/system_accent3_100</item>
     </style>
     <style name="Theme.PlayCore.Transparent" parent="@android:style/Theme">
-        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowBackground">@*android:color/transparent</item>
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowIsFloating">true</item>
         <item name="android:windowIsTranslucent">true</item>
@@ -4622,8 +4622,8 @@
     <style name="Theme.SystemSubSettingsBase" parent="@style/Theme.SystemSettingsBase">
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowActionBar">false</item>
-        <item name="android:statusBarColor">@android:color/transparent</item>
-        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:statusBarColor">@*android:color/transparent</item>
+        <item name="android:navigationBarColor">@*android:color/transparent</item>
         <item name="alertDialogTheme">@style/Theme.AlertDialog.SettingsLib</item>
         <item name="colorControlNormal">?android:colorControlNormal</item>
     </style>
@@ -4670,7 +4670,7 @@
         <item name="colorContainer">?colorSurface</item>
     </style>
     <style name="ThemeOverlay.Material3.Button.TextButton" parent="">
-        <item name="colorContainer">@android:color/transparent</item>
+        <item name="colorContainer">@*android:color/transparent</item>
         <item name="colorOnContainer">?colorPrimary</item>
     </style>
     <style name="ThemeOverlay.Material3.Button.TextButton.Snackbar" parent="@style/ThemeOverlay.Material3.Button.TextButton">
@@ -5111,12 +5111,12 @@
         <item name="colorControlNormal">@color/material_on_surface_emphasis_medium</item>
     </style>
     <style name="ThemeOverlay.Moto.BottomSheetDialog" parent="@style/ThemeOverlay.Material3.Dialog">
-        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowBackground">@*android:color/transparent</item>
         <item name="android:windowIsFloating">false</item>
         <item name="android:windowAnimationStyle">@style/Animation.Moto.BottomSheet.Modal</item>
-        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:statusBarColor">@*android:color/transparent</item>
         <item name="android:navigationBarColor">?colorSurface</item>
-        <item name="android:navigationBarDividerColor">@android:color/transparent</item>
+        <item name="android:navigationBarDividerColor">@*android:color/transparent</item>
         <item name="bottomSheetStyle">@style/Widget.Moto.BottomSheet.Modal</item>
     </style>
     <style name="ThemeOverlayColorAccentRed">
@@ -5367,8 +5367,8 @@
         <item name="backgroundSplit">@drawable/m3_appbar_background</item>
     </style>
     <style name="Widget.Material3.AppBarLayout" parent="@style/Widget.MaterialComponents.AppBarLayout.Surface">
-        <item name="android:outlineSpotShadowColor">@android:color/transparent</item>
-        <item name="android:outlineAmbientShadowColor">@android:color/transparent</item>
+        <item name="android:outlineSpotShadowColor">@*android:color/transparent</item>
+        <item name="android:outlineAmbientShadowColor">@*android:color/transparent</item>
         <item name="liftOnScroll">true</item>
     </style>
     <style name="Widget.Material3.AutoCompleteTextView.FilledBox" parent="@style/Widget.MaterialComponents.AutoCompleteTextView.FilledBox">
@@ -5582,7 +5582,7 @@
         <item name="android:elevation">@dimen/m3_chip_elevated_elevation</item>
         <item name="android:stateListAnimator">@animator/m3_elevated_chip_state_list_anim</item>
         <item name="chipBackgroundColor">@color/m3_elevated_chip_background_color</item>
-        <item name="chipStrokeColor">@android:color/transparent</item>
+        <item name="chipStrokeColor">@*android:color/transparent</item>
     </style>
     <style name="Widget.Material3.Chip.Filter" parent="@style/Base.Widget.Material3.Chip">
         <item name="android:checkable">true</item>
@@ -5603,7 +5603,7 @@
         <item name="android:elevation">@dimen/m3_chip_elevated_elevation</item>
         <item name="android:stateListAnimator">@animator/m3_elevated_chip_state_list_anim</item>
         <item name="chipBackgroundColor">@color/m3_elevated_chip_background_color</item>
-        <item name="chipStrokeColor">@android:color/transparent</item>
+        <item name="chipStrokeColor">@*android:color/transparent</item>
     </style>
     <style name="Widget.Material3.Chip.Input" parent="@style/Base.Widget.Material3.Chip">
         <item name="android:checkable">true</item>
@@ -5622,7 +5622,7 @@
         <item name="android:elevation">@dimen/m3_chip_elevated_elevation</item>
         <item name="android:stateListAnimator">@animator/m3_elevated_chip_state_list_anim</item>
         <item name="chipBackgroundColor">@color/m3_elevated_chip_background_color</item>
-        <item name="chipStrokeColor">@android:color/transparent</item>
+        <item name="chipStrokeColor">@*android:color/transparent</item>
     </style>
     <style name="Widget.Material3.Chip.Input.Icon" parent="@style/Widget.Material3.Chip.Input">
         <item name="chipIconSize">@dimen/m3_chip_icon_size</item>
@@ -5632,7 +5632,7 @@
         <item name="android:elevation">@dimen/m3_chip_elevated_elevation</item>
         <item name="android:stateListAnimator">@animator/m3_elevated_chip_state_list_anim</item>
         <item name="chipBackgroundColor">@color/m3_elevated_chip_background_color</item>
-        <item name="chipStrokeColor">@android:color/transparent</item>
+        <item name="chipStrokeColor">@*android:color/transparent</item>
     </style>
     <style name="Widget.Material3.Chip.Suggestion" parent="@style/Base.Widget.Material3.Chip">
         <item name="android:checkable">true</item>
@@ -5653,7 +5653,7 @@
         <item name="android:elevation">@dimen/m3_chip_elevated_elevation</item>
         <item name="android:stateListAnimator">@animator/m3_elevated_chip_state_list_anim</item>
         <item name="chipBackgroundColor">@color/m3_elevated_chip_background_color</item>
-        <item name="chipStrokeColor">@android:color/transparent</item>
+        <item name="chipStrokeColor">@*android:color/transparent</item>
     </style>
     <style name="Widget.Material3.ChipGroup" parent="@style/Widget.MaterialComponents.ChipGroup">
         <item name="chipSpacingVertical">8.0dip</item>
@@ -5793,7 +5793,7 @@
         <item name="android:visibility">gone</item>
     </style>
     <style name="Widget.Material3.MaterialCalendar.HeaderLayout" parent="@style/Widget.MaterialComponents.MaterialCalendar.HeaderLayout">
-        <item name="android:background">@android:color/transparent</item>
+        <item name="android:background">@*android:color/transparent</item>
     </style>
     <style name="Widget.Material3.MaterialCalendar.HeaderSelection" parent="@style/Widget.MaterialComponents.MaterialCalendar.HeaderSelection">
         <item name="android:textAppearance">?textAppearanceHeadlineLarge</item>
@@ -5812,7 +5812,7 @@
         <item name="android:tint">?colorOnSurfaceVariant</item>
     </style>
     <style name="Widget.Material3.MaterialCalendar.Item" parent="">
-        <item name="itemFillColor">@android:color/transparent</item>
+        <item name="itemFillColor">@*android:color/transparent</item>
         <item name="itemShapeAppearance">?shapeAppearanceSmallComponent</item>
         <item name="itemShapeAppearanceOverlay">@style/ShapeAppearanceOverlay.MaterialComponents.MaterialCalendar.Day</item>
         <item name="itemStrokeColor">@color/m3_calendar_item_stroke_color</item>
@@ -6085,8 +6085,8 @@
         <item name="materialThemeOverlay">@style/ThemeOverlay.Material3.AutoCompleteTextView.OutlinedBox</item>
     </style>
     <style name="Widget.Material3.Toolbar" parent="@style/Widget.AppCompat.Toolbar">
-        <item name="android:outlineSpotShadowColor">@android:color/transparent</item>
-        <item name="android:outlineAmbientShadowColor">@android:color/transparent</item>
+        <item name="android:outlineSpotShadowColor">@*android:color/transparent</item>
+        <item name="android:outlineAmbientShadowColor">@*android:color/transparent</item>
         <item name="contentInsetStartWithNavigation">0.0dip</item>
         <item name="subtitleTextAppearance">?textAppearanceTitleMedium</item>
         <item name="titleTextAppearance">?textAppearanceTitleLarge</item>
@@ -6328,7 +6328,7 @@
         <item name="indicatorDirectionCircular">clockwise</item>
         <item name="indicatorInset">@dimen/mtrl_progress_circular_inset_medium</item>
         <item name="indicatorSize">@dimen/mtrl_progress_circular_size_medium</item>
-        <item name="trackColor">@android:color/transparent</item>
+        <item name="trackColor">@*android:color/transparent</item>
         <item name="trackThickness">@dimen/mtrl_progress_circular_track_thickness_medium</item>
     </style>
     <style name="Widget.MaterialComponents.CircularProgressIndicator.ExtraSmall" parent="@style/Widget.MaterialComponents.CircularProgressIndicator">
@@ -6507,7 +6507,7 @@
         <item name="android:layout_gravity">end|bottom|center</item>
     </style>
     <style name="Widget.MaterialComponents.MaterialCalendar.Item" parent="">
-        <item name="itemFillColor">@android:color/transparent</item>
+        <item name="itemFillColor">@*android:color/transparent</item>
         <item name="itemShapeAppearance">?shapeAppearanceSmallComponent</item>
         <item name="itemStrokeColor">@color/mtrl_calendar_item_stroke_color</item>
         <item name="itemStrokeWidth">1.0dip</item>

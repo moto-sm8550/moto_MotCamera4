@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/tutorial_content_root" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/tutorial_content_image" android:layout_width="fill_parent" android:layout_height="250.0dip" />
+    <TextView android:textColor="@color/persian_green" android:id="@id/tutorial_content_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginStart="@dimen/tutorial_dialog_margin" android:layout_marginEnd="@dimen/tutorial_dialog_margin" style="@style/Headline6" />
+    <TextView android:textSize="16.0sp" android:textColor="@color/dialog_content_text" android:id="@id/tutorial_content_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginStart="@dimen/tutorial_dialog_margin" android:layout_marginEnd="@dimen/tutorial_dialog_margin" />
+</LinearLayout>

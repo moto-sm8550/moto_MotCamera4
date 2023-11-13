@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="filter_names">
+        <item>Werawa naturawa</item>
+        <item>Rumãtiku</item>
+        <item>Sinẽma</item>
+        <item>Mutĩtasawa suẽna</item>
+        <item>Mutĩtasawa ĩtẽsa</item>
+        <item>Enerjia</item>
+        <item>Rusãga</item>
+        <item>Tawá una</item>
+        <item>Gourmet</item>
+        <item>Cyberpunk</item>
+        <item>Mudernu</item>
+        <item>Karuka ũpawasawa</item>
+        <item>P&amp;B kalasiku</item>
+        <item>P&amp;B retãna</item>
+    </string-array>
+    <string-array name="photos_plugin_descriptions">
+        <item></item>
+        <item></item>
+        <item>@string/best_shot_desc</item>
+        <item>@string/original_shot_desc</item>
+        <item>@string/photos_depth_desc</item>
+        <item>@string/photos_layer_desc</item>
+        <item>@string/photos_portrait_desc</item>
+        <item>@string/photos_composition_desc</item>
+        <item>@string/photos_ai_ll_desc</item>
+        <item>@string/photos_doc_desc</item>
+        <item>@string/photos_ai_image_stab_desc</item>
+    </string-array>
+    <string-array name="photos_plugin_edit_class">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>@string/photos_plugin_edit_class_filter_show_activity</item>
+        <item>@string/photos_plugin_edit_class_layer_activity</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>@string/photos_plugin_edit_class_doc_editor_activity</item>
+        <item></item>
+    </string-array>
+    <string-array name="photos_plugin_edit_pkg">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>@string/photos_plugin_edit_pkg_photoeditor</item>
+        <item>@string/photos_plugin_edit_pkg_camera3</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>@string/photos_plugin_edit_pkg_camera3</item>
+        <item></item>
+    </string-array>
+    <string-array name="photos_plugin_names">
+        <item></item>
+        <item></item>
+        <item>@string/best_shot_name</item>
+        <item>@string/original_shot_name</item>
+        <item>@string/photos_depth_name</item>
+        <item>@string/photos_layer_name</item>
+        <item>@string/photos_portrait_name</item>
+        <item>@string/photos_composition_name</item>
+        <item>@string/photos_low_light_name</item>
+        <item>@string/photos_doc_name</item>
+        <item>@string/photos_ai_image_stab_name</item>
+    </string-array>
+    <string-array name="talkback_cli_modes_menu_pills">
+        <item>Rupisawa sãgawera i pukuarewa</item>
+        <item>Rupisawa widiu i pukuarewa</item>
+        <item>Rupisawa widiu kori irũ destaki pukuarewa irũ</item>
+        <item>Rupisawa Time-lapse i pukuarewa</item>
+        <item>Rupisawa kãmera kuruteĩma i pukuarewa</item>
+        <item>Rupisawa sãgawera i pukuarewa</item>
+        <item>Rupisawa kori destaki upé i pukuarewa</item>
+        <item>"Rupisawa 'Maãgawa pitunapura' i pukuarewa"</item>
+        <item>"Rupisawa 'selfie gurupuwara' i pukuarewa"</item>
+        <item>Rupisawa sugarisara ĩteratiwo i pukuarewa</item>
+    </string-array>
+    <string-array name="talkback_pro_mode_close_settings">
+        <item>Rekĩdá fuku yupĩtuwa</item>
+        <item>Rekĩdá muyatimũsawa kariwayara</item>
+        <item>Rekĩdá ubiturasara kurutesawa</item>
+        <item>Rekĩdá ISO</item>
+        <item>Kĩdá mukamẽsawa kũpẽsasãu</item>
+    </string-array>
+    <string-array name="talkback_pro_mode_selectors">
+        <item>Fuku irupĩtuwa parawakasara</item>
+        <item>Muyatimũsawa kariwayara parawakasara</item>
+        <item>Ubiturasara kurutesawa parawakasara</item>
+        <item>Parawakasara ISOyara</item>
+        <item>Kũpẽsasãu purawakasara mukamẽsawa yara</item>
+    </string-array>
+    <string-array name="talkback_tooltip_titles">
+        <item>Sãgawera tuturiawa</item>
+        <item>Cinemagraph tuturiawa</item>
+        <item>"Kori aruãnasawa upé tuturiawa "</item>
+        <item>"Widiu tuturiawa Kori aruãnasawa upé irũ "</item>
+        <item>Rikurti tuturiawa</item>
+        <item>"Ultra-Reis tuturiawa "</item>
+        <item>Tuturiawa asuyara</item>
+    </string-array>
+</resources>

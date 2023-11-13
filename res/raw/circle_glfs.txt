@@ -1,0 +1,40 @@
+precision mediump float;
+varying vec4 v_Color;
+varying vec2 v_Position;
+uniform float u_Radius;
+uniform float u_Opacity;
+uniform vec2 u_Dash;             //x = size, y = ratio
+uniform vec2 u_Angles;           //x = min, y = max
+uniform vec2 u_Size;             //x = border width, 0-1f, default is 1f
+void main() {
+    // default (u_Radius-u_Size.x) is 0, that means to draw a circle
+    if (length(v_Position) <= u_Radius && length(v_Position) >= (u_Radius-u_Size.x)) {
+        float angle = degrees(atan(v_Position.y, v_Position.x));
+        if (angle < 0.0) angle += 360.0;
+
+        if (u_Angles.x > u_Angles.y) {
+            if((angle > u_Angles.x && angle < 360.0) || (angle < u_Angles.y && angle >= 0.0)) {
+                gl_FragColor = v_Color * u_Opacity;
+            } else {
+                discard;
+            }
+        } else {
+            if (angle >= u_Angles.x && angle <= u_Angles.y) {
+                gl_FragColor = v_Color * u_Opacity;
+            } else {
+                discard;
+            }
+        }
+
+        float dashSize = u_Dash.x;
+        float ratio = u_Dash.y;
+        if (ratio > 0.0 && ratio < 1.0 && dashSize > 0.0 && dashSize < 360.0) {
+            float r = 1.0 / ratio;
+            if (abs(mod(floor(angle/dashSize), r)) > 0.0001) {
+                discard;
+            }
+        }
+    } else {
+        discard;
+    }
+}

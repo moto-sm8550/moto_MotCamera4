@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_gravity="end" android:adjustViewBounds="false" android:contentDescription="@string/talkback_preview_swap" style="@style/Large.Floating.ImageButton.SurfaceLight" />
+    <ImageButton android:layout_gravity="end" android:id="@id/dual_capture_preview_swap" android:background="@android:color/transparent" android:src="@drawable/dual_capture_preview_swap" android:adjustViewBounds="false" android:contentDescription="@string/talkback_preview_swap" android:foregroundTint="@color/white" style="@style/Large.Floating.ImageButton.SurfaceLight" />
+</FrameLayout>

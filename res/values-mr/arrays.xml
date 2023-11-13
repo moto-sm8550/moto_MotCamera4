@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="exo_controls_playback_speeds">
+        <item>०.२५x</item>
+        <item>०.५x</item>
+        <item>०.७५x</item>
+        <item>सामान्य</item>
+        <item>१.२५x</item>
+        <item>१.५x</item>
+        <item>२x</item>
+    </string-array>
+    <string-array name="filter_names">
+        <item>Natural Light</item>
+        <item>Romantic</item>
+        <item>Film</item>
+        <item>Muted</item>
+        <item>Dreamy</item>
+        <item>Refreshing</item>
+        <item>Cool</item>
+        <item>Dark Gold</item>
+        <item>Foodie</item>
+        <item>Cyberpunk</item>
+        <item>Youth</item>
+        <item>Late Autumn</item>
+        <item>B&amp;W Classic</item>
+        <item>B&amp;W Vivid</item>
+    </string-array>
+    <string-array name="photos_plugin_descriptions">
+        <item></item>
+        <item></item>
+        <item>@string/best_shot_desc</item>
+        <item>@string/original_shot_desc</item>
+        <item>@string/photos_depth_desc</item>
+        <item>@string/photos_layer_desc</item>
+        <item>@string/photos_portrait_desc</item>
+        <item>@string/photos_composition_desc</item>
+        <item>@string/photos_ai_ll_desc</item>
+        <item>@string/photos_doc_desc</item>
+        <item>@string/photos_ai_image_stab_desc</item>
+    </string-array>
+    <string-array name="photos_plugin_edit_class">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>@string/photos_plugin_edit_class_filter_show_activity</item>
+        <item>@string/photos_plugin_edit_class_layer_activity</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>@string/photos_plugin_edit_class_doc_editor_activity</item>
+        <item></item>
+    </string-array>
+    <string-array name="photos_plugin_edit_pkg">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>@string/photos_plugin_edit_pkg_photoeditor</item>
+        <item>@string/photos_plugin_edit_pkg_camera3</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>@string/photos_plugin_edit_pkg_camera3</item>
+        <item></item>
+    </string-array>
+    <string-array name="photos_plugin_names">
+        <item></item>
+        <item></item>
+        <item>@string/best_shot_name</item>
+        <item>@string/original_shot_name</item>
+        <item>@string/photos_depth_name</item>
+        <item>@string/photos_layer_name</item>
+        <item>@string/photos_portrait_name</item>
+        <item>@string/photos_composition_name</item>
+        <item>@string/photos_low_light_name</item>
+        <item>@string/photos_doc_name</item>
+        <item>@string/photos_ai_image_stab_name</item>
+    </string-array>
+    <string-array name="talkback_cli_modes_menu_pills">
+        <item>फोटो मोड सक्रिय</item>
+        <item>व्हिडिओ मोड सक्रिय</item>
+        <item>स्पॉट रंग व्हिडिओ मोड सक्रिय</item>
+        <item>खंडितकाल मोड सक्रिय</item>
+        <item>संथ गती मोड सक्रिय</item>
+        <item>पोर्ट्रेट मोड सक्रिय</item>
+        <item>स्पॉट रंग मोड सक्रिय</item>
+        <item>रात्रीचे दृश्य मोड सक्रिय</item>
+        <item>संघ सेल्फी मोड सक्रिय</item>
+        <item>लाइव्ह फिल्टर मोड सक्रिय</item>
+    </string-array>
+    <string-array name="talkback_pro_mode_close_settings">
+        <item>स्वयं फोकस बंद करा</item>
+        <item>श्वेत संतुलन बंद करा</item>
+        <item>शटर गती बंद करा</item>
+        <item>ISO बंद करा</item>
+        <item>एक्सपोजर भरपाई बंद करा</item>
+    </string-array>
+    <string-array name="talkback_pro_mode_selectors">
+        <item>स्वयं फोकस निवडक</item>
+        <item>श्वेत संतुलन निवडक</item>
+        <item>शटर गती निवडक</item>
+        <item>ISO निवडक</item>
+        <item>एक्सपोझर भरपाई निवडकर्ता</item>
+    </string-array>
+    <string-array name="talkback_tooltip_titles">
+        <item>पोर्ट्रेट ट्यूटोरिअल</item>
+        <item>सिनेमाग्राफ ट्यूटोरिअल</item>
+        <item>स्पॉट रंग ट्यूटोरिअल</item>
+        <item>स्पॉट रंग व्हिडिओ ट्यूटोरिअल</item>
+        <item>कटआउट ट्यूटोरिअल</item>
+        <item>अल्ट्रा-रिझॉल्यूशन ट्यूटोरिअल</item>
+        <item>मॅक्रो ट्यूटोरिअल</item>
+    </string-array>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/body" android:background="@drawable/rectangle" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_marginBottom="6.0dip" android:layout_marginStart="12.0dip" android:layout_marginEnd="6.0dip">
+        <TextView android:textColor="@color/color_on_primary" android:layout_gravity="center_vertical" android:id="@id/rectangle_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="200.0dip" android:text="@string/caption_wraps_to_more_than_a_line" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/TextAppearance.Moto.Caption" />
+        <ImageView android:id="@id/dismiss" android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@drawable/ic_close_18px" android:layout_marginStart="6.0dip" app:layout_constraintStart_toEndOf="@id/rectangle_text" app:layout_constraintTop_toTopOf="@id/rectangle_text" app:tint="@color/tooltip_dismiss_color" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

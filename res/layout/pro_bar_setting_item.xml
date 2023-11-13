@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/pro_bar_setting_item" android:layout_width="@dimen/pro_bar_height" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/pro_bar_setting_item_image" android:background="@drawable/btn_overlay_medium_container" android:layout_width="@dimen/pro_mode_bar_button_size" android:layout_height="@dimen/pro_mode_bar_button_size" android:scaleType="centerInside" android:tint="@color/pro_bar_image_color_selector" android:backgroundTint="@color/pro_bar_image_background_color_selector" />
+    <TextView android:id="@id/pro_bar_setting_item_text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Caption" />
+</LinearLayout>

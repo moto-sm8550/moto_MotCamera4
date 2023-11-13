@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/tooltip_bg" android:layout_width="240.0dip" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/cinemagraph_text_size" android:textStyle="normal" android:textColor="@android:color/black" android:gravity="start" android:id="@id/tooltip_text" android:paddingTop="@dimen/cinemagraph_tooltip_padding_tb" android:paddingBottom="@dimen/cinemagraph_tooltip_padding_tb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAlignment="viewStart" android:paddingStart="@dimen/cinemagraph_tooltip_padding_lr" android:paddingEnd="@dimen/cinemagraph_tooltip_padding_lr" />
+        <TextView android:textSize="@dimen/cinemagraph_text_size" android:textStyle="bold" android:textColor="@android:color/black" android:gravity="end" android:id="@id/dismiss" android:paddingBottom="@dimen/cinemagraph_tooltip_padding_tb" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/cinemagraph_tooltip_padding_lr" android:paddingEnd="@dimen/cinemagraph_tooltip_padding_lr" />
+    </LinearLayout>
+    <ImageView android:layout_gravity="start" android:id="@id/tooltip_nav_up" android:background="@drawable/nav_top" android:layout_width="@dimen/cinemagraph_tooltip_arrow_size" android:layout_height="@dimen/cinemagraph_tooltip_arrow_size" />
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/audio_lens_switch_toggle_layout" android:layout_width="fill_parent" android:layout_height="@dimen/button_size"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:id="@id/audio_lens_switch_toggle" android:visibility="gone" android:scaleType="fitCenter" style="@style/ToggleButtonStyle" />
+    <ImageButton android:id="@id/audio_lens_switch_pip_window_toggle" android:visibility="gone" android:scaleType="fitCenter" style="@style/ToggleButtonStyle" />
+</FrameLayout>

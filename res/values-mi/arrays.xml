@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="filter_names">
+        <item>Kōmā Maori</item>
+        <item>Rōmana</item>
+        <item>Kiriata</item>
+        <item>Kua wahangu</item>
+        <item>Moe</item>
+        <item>Tāmata ana</item>
+        <item>Mātao</item>
+        <item>Koura Pōuri</item>
+        <item>Tangata kai</item>
+        <item>Cyberpunk</item>
+        <item>taitamariki</item>
+        <item>Tōmuri Autumn</item>
+        <item>Tauhira B&amp;W</item>
+        <item>B&amp;W Vivid</item>
+    </string-array>
+    <string-array name="talkback_cli_modes_menu_pills">
+        <item>E hohe ana te aratau whakaahua</item>
+        <item>Kei te hohe te aratau ataata</item>
+        <item>Kei te hohe te aratau Ataata Tae Wāhi</item>
+        <item>Aratau Timelapse hohe</item>
+        <item>Kei te hohe te aratau Nekeneke Pōturi</item>
+        <item>Kei te hohe te aratau Whakaahua</item>
+        <item>Kei te hohe te aratau Tae Wāhi</item>
+        <item>Kei te hohe te aratau Tirohanga Pō</item>
+        <item>Aratau Rōpū Kiriāhua hohe</item>
+        <item>Aratau Tātari Ora hohe</item>
+    </string-array>
+    <string-array name="talkback_pro_mode_close_settings">
+        <item>Katia te arotahi Aunoa</item>
+        <item>Katia te toenga Mā</item>
+        <item>Katia te tere o te Whakaweto</item>
+        <item>Kati ISO</item>
+        <item>Katia te utu Exposure</item>
+    </string-array>
+    <string-array name="talkback_pro_mode_selectors">
+        <item>Pūtīpako arotahi aunoa</item>
+        <item>Kaitīpako toenga mā</item>
+        <item>Pūtīpako tere whakaweto</item>
+        <item>kaitīpako ISO</item>
+        <item>Kaitīpako utu exposure</item>
+    </string-array>
+    <string-array name="talkback_tooltip_titles">
+        <item>Akoranga Whakaahua</item>
+        <item>Akoranga Whakatarewa</item>
+        <item>Akoranga Tae Wāhi</item>
+        <item>Akoranga Ataata Tae Wāhi</item>
+        <item>Cutout akoranga</item>
+        <item>Akoranga Ultra-Res</item>
+        <item>Akoranga Tonotono</item>
+    </string-array>
+</resources>

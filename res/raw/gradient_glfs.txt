@@ -1,0 +1,27 @@
+precision mediump float;
+
+varying vec2 v_Position;
+uniform float u_Opacity;
+uniform vec4 u_Color;
+uniform float u_Diagonal;
+uniform vec2 u_Invert;
+uniform vec2 u_Factor;
+
+void main() {
+    float factor;
+    float x = (v_Position.x + 1.0) / 2.0;
+    float y = (v_Position.y + 1.0) / 2.0;
+
+    if (u_Invert.x > .5) x = 1. - x;
+    if (u_Invert.y > .5) y = 1. - y;
+    if (u_Diagonal > .5) {
+        factor = sqrt(pow(x, 2.) * pow(y, 2.)); // + .35;
+    } else {
+        x = x * u_Factor.x;
+        y = y * u_Factor.y;
+        factor = x + y;
+    }
+    factor *= u_Opacity;
+    clamp(factor, 0.0, 1.0);
+    gl_FragColor = u_Color * factor;
+}

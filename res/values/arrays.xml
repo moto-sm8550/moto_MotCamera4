@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="com_google_android_gms_fonts_certs">
+        <item>@array/com_google_android_gms_fonts_certs_dev</item>
+        <item>@array/com_google_android_gms_fonts_certs_prod</item>
+    </array>
+    <string-array name="com_google_android_gms_fonts_certs_dev">
+        <item>MIIEqDCCA5CgAwIBAgIJANWFuGx90071MA0GCSqGSIb3DQEBBAUAMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbTAeFw0wODA0MTUyMzM2NTZaFw0zNTA5MDEyMzM2NTZaMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbTCCASAwDQYJKoZIhvcNAQEBBQADggENADCCAQgCggEBANbOLggKv+IxTdGNs8/TGFy0PTP6DHThvbbR24kT9ixcOd9W+EaBPWW+wPPKQmsHxajtWjmQwWfna8mZuSeJS48LIgAZlKkpFeVyxW0qMBujb8X8ETrWy550NaFtI6t9+u7hZeTfHwqNvacKhp1RbE6dBRGWynwMVX8XW8N1+UjFaq6GCJukT4qmpN2afb8sCjUigq0GuMwYXrFVee74bQgLHWGJwPmvmLHC69EH6kWr22ijx4OKXlSIx2xT1AsSHee70w5iDBiK4aph27yH3TxkXy9V89TDdexAcKk/cVHYNnDBapcavl7y0RiQ4biu8ymM8Ga/nmzhRKya6G0cGw8CAQOjgfwwgfkwHQYDVR0OBBYEFI0cxb6VTEM8YYY6FbBMvAPyT+CyMIHJBgNVHSMEgcEwgb6AFI0cxb6VTEM8YYY6FbBMvAPyT+CyoYGapIGXMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbYIJANWFuGx90071MAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQEEBQADggEBABnTDPEF+3iSP0wNfdIjIz1AlnrPzgAIHVvXxunW7SBrDhEglQZBbKJEk5kT0mtKoOD1JMrSu1xuTKEBahWRbqHsXclaXjoBADb0kkjVEJu/Lh5hgYZnOjvlba8Ld7HCKePCVePoTJBdI4fvugnL8TsgK05aIskyY0hKI9L8KfqfGTl1lzOv2KoWD0KWwtAWPoGChZxmQ+nBli+gwYMzM1vAkP+aayLe0a1EQimlOalO762r0GXO0ks+UeXde2Z4e+8S/pf7pITEI/tP+MxJTALw9QUWEv9lKTk+jkbqxbsh8nfBUapfKqYn0eidpwq2AzVp3juYl7//fKnaPhJD9gs=</item>
+    </string-array>
+    <string-array name="com_google_android_gms_fonts_certs_prod">
+        <item>MIIEQzCCAyugAwIBAgIJAMLgh0ZkSjCNMA0GCSqGSIb3DQEBBAUAMHQxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtHb29nbGUgSW5jLjEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDAeFw0wODA4MjEyMzEzMzRaFw0zNjAxMDcyMzEzMzRaMHQxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtHb29nbGUgSW5jLjEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDCCASAwDQYJKoZIhvcNAQEBBQADggENADCCAQgCggEBAKtWLgDYO6IIrgqWbxJOKdoR8qtW0I9Y4sypEwPpt1TTcvZApxsdyxMJZ2JORland2qSGT2y5b+3JKkedxiLDmpHpDsz2WCbdxgxRczfey5YZnTJ4VZbH0xqWVW/8lGmPav5xVwnIiJS6HXk+BVKZF+JcWjAsb/GEuq/eFdpuzSqeYTcfi6idkyugwfYwXFU1+5fZKUaRKYCwkkFQVfcAs1fXA5V+++FGfvjJ/CxURaSxaBvGdGDhfXE28LWuT9ozCl5xw4Yq5OGazvV24mZVSoOO0yZ31j7kYvtwYK6NeADwbSxDdJEqO4k//0zOHKrUiGYXtqw/A0LFFtqoZKFjnkCAQOjgdkwgdYwHQYDVR0OBBYEFMd9jMIhF1Ylmn/Tgt9r45jk14alMIGmBgNVHSMEgZ4wgZuAFMd9jMIhF1Ylmn/Tgt9r45jk14aloXikdjB0MQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLR29vZ2xlIEluYy4xEDAOBgNVBAsTB0FuZHJvaWQxEDAOBgNVBAMTB0FuZHJvaWSCCQDC4IdGZEowjTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBBAUAA4IBAQBt0lLO74UwLDYKqs6Tm8/yzKkEu116FmH4rkaymUIE0P9KaMftGlMexFlaYjzmB2OxZyl6euNXEsQH8gjwyxCUKRJNexBiGcCEyj6z+a1fuHHvkiaai+KL8W1EyNmgjmyy8AW7P+LLlkR+ho5zEHatRbM/YAnqGcFh5iZBqpknHf1SKMXFh4dd239FJ1jWYfbMDMy3NS5CTMQ2XFI1MvcyUTdZPErjQfTbQe3aDQsQcafEQPD+nqActifKZ0Np0IS9L9kR/wbNvyz6ENwPiTrjV2KRkEjH78ZMcUQXg0L3BYHJ3lc69Vs5Ddf9uUGGMYldX3WfMBEmh/9iFBDAaTCK</item>
+    </string-array>
+    <string-array name="exo_controls_playback_speeds">
+        <item>0.25x</item>
+        <item>0.5x</item>
+        <item>0.75x</item>
+        <item>Normal</item>
+        <item>1.25x</item>
+        <item>1.5x</item>
+        <item>2x</item>
+    </string-array>
+    <string-array name="filter_names">
+        <item>Natural Light</item>
+        <item>Romantic</item>
+        <item>Film</item>
+        <item>Muted</item>
+        <item>Dreamy</item>
+        <item>Refreshing</item>
+        <item>Cool</item>
+        <item>Dark Gold</item>
+        <item>Foodie</item>
+        <item>Cyberpunk</item>
+        <item>Youth</item>
+        <item>Late Autumn</item>
+        <item>B&amp;W Classic</item>
+        <item>B&amp;W Vivid</item>
+    </string-array>
+    <string-array name="photos_plugin_configs">
+        <item>@string/photos_plugin_config_badge</item>
+        <item>@string/photos_plugin_config_badge</item>
+        <item>@string/photos_plugin_config_badge</item>
+        <item>@string/photos_plugin_config_badge</item>
+        <item>@string/photos_plugin_config_edit</item>
+        <item>@string/photos_plugin_config_edit</item>
+        <item>@string/photos_plugin_config_badge</item>
+        <item>@string/photos_plugin_config_badge</item>
+        <item>@string/photos_plugin_config_badge</item>
+        <item>@string/photos_plugin_config_edit</item>
+        <item>@string/photos_plugin_config_badge</item>
+    </string-array>
+    <string-array name="photos_plugin_descriptions">
+        <item></item>
+        <item></item>
+        <item>@string/best_shot_desc</item>
+        <item>@string/original_shot_desc</item>
+        <item>@string/photos_depth_desc</item>
+        <item>@string/photos_layer_desc</item>
+        <item>@string/photos_portrait_desc</item>
+        <item>@string/photos_composition_desc</item>
+        <item>@string/photos_ai_ll_desc</item>
+        <item>@string/photos_doc_desc</item>
+        <item>@string/photos_ai_image_stab_desc</item>
+    </string-array>
+    <string-array name="photos_plugin_edit_class">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>@string/photos_plugin_edit_class_filter_show_activity</item>
+        <item>@string/photos_plugin_edit_class_layer_activity</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>@string/photos_plugin_edit_class_doc_editor_activity</item>
+        <item></item>
+    </string-array>
+    <string-array name="photos_plugin_edit_pkg">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>@string/photos_plugin_edit_pkg_photoeditor</item>
+        <item>@string/photos_plugin_edit_pkg_camera3</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>@string/photos_plugin_edit_pkg_camera3</item>
+        <item></item>
+    </string-array>
+    <array name="photos_plugin_icons">
+        <item>-1</item>
+        <item>-1</item>
+        <item>@drawable/ic_just_shot_18dp</item>
+        <item>@drawable/ic_just_shot_18dp</item>
+        <item>@drawable/ic_depth_photo</item>
+        <item>@drawable/ic_badge_cutout</item>
+        <item>@drawable/ic_badge_portrait</item>
+        <item>@drawable/ic_badge_composition</item>
+        <item>@drawable/ic_ai_low_light</item>
+        <item>@drawable/ic_mode_doc_scanner</item>
+        <item>@drawable/ic_ai_image_stab</item>
+    </array>
+    <string-array name="photos_plugin_names">
+        <item></item>
+        <item></item>
+        <item>@string/best_shot_name</item>
+        <item>@string/original_shot_name</item>
+        <item>@string/photos_depth_name</item>
+        <item>@string/photos_layer_name</item>
+        <item>@string/photos_portrait_name</item>
+        <item>@string/photos_composition_name</item>
+        <item>@string/photos_low_light_name</item>
+        <item>@string/photos_doc_name</item>
+        <item>@string/photos_ai_image_stab_name</item>
+    </string-array>
+    <array name="preloaded_fonts">
+        <item>@font/roboto_black_italic</item>
+    </array>
+    <string-array name="talkback_cli_modes_menu_pills">
+        <item>Photo mode active</item>
+        <item>Video mode active</item>
+        <item>Spot Color Video mode active</item>
+        <item>Timelapse mode active</item>
+        <item>Slow Motion mode active</item>
+        <item>Portrait mode active</item>
+        <item>Spot Color mode active</item>
+        <item>Night Vision mode active</item>
+        <item>Group Selfie mode active</item>
+        <item>Live Filter mode active</item>
+    </string-array>
+    <string-array name="talkback_pro_mode_close_settings">
+        <item>Close Auto focus</item>
+        <item>Close White balance</item>
+        <item>Close Shutter speed</item>
+        <item>Close ISO</item>
+        <item>Close Exposure compensation</item>
+    </string-array>
+    <string-array name="talkback_pro_mode_selectors">
+        <item>Auto focus selector</item>
+        <item>White balance selector</item>
+        <item>Shutter speed selector</item>
+        <item>ISO selector</item>
+        <item>Exposure compensation selector</item>
+    </string-array>
+    <string-array name="talkback_tooltip_titles">
+        <item>Portrait tutorial</item>
+        <item>Cinemagraph tutorial</item>
+        <item>Spot Color tutorial</item>
+        <item>Spot Color Video tutorial</item>
+        <item>Cutout tutorial</item>
+        <item>Ultra-Res tutorial</item>
+        <item>Macro tutorial</item>
+    </string-array>
+    <array name="time_lapse_icons">
+        <item>@drawable/timelapse_4x</item>
+        <item>@drawable/timelapse_8x</item>
+        <item>@drawable/timelapse_16x</item>
+        <item>@drawable/timelapse_32x</item>
+    </array>
+    <string-array name="trusted_certificates">
+        <item>24BB24C05E47E0AEFA68A58A766179D9B613A600</item>
+        <item>53BE24215F9E678DAF70F429CD1635758AAA9401</item>
+        <item>2934A82E766EA38742F5D7E6C9AD4B8BB92599ED</item>
+        <item>E6AA5F154E4A8CF633C90D6F55F377756136112B</item>
+        <item>39A2CA57E3915EAD0E335481A30E2C2E52409BA8</item>
+    </string-array>
+</resources>

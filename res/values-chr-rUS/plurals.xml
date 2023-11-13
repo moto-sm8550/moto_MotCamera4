@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="talkback_video_timer_hour">
+        <item quantity="other">%d ᎢᏧᏟᎶᏛ</item>
+        <item quantity="one">%d ᏑᏟᎶᏛ</item>
+    </plurals>
+    <plurals name="talkback_video_timer_minute">
+        <item quantity="other">%d ᎢᏗᏔᏬᏍᏔᏅᎯ</item>
+        <item quantity="one">%dᎢᏯᏔᏬᏍᏔᏅ</item>
+    </plurals>
+    <plurals name="talkback_video_timer_seconds">
+        <item quantity="other">%d ᏓᏓᎾᏩᏍᎬ</item>
+        <item quantity="one">%d ᎠᏓᎾᏩᏍᎬ</item>
+    </plurals>
+</resources>

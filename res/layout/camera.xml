@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/main" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/camera_view_hdr10_stub" android:layout="@layout/camera_view_hdr10" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.motorola.camera.ui.widgets.gl.PreviewSurfaceView android:id="@id/preview_surface" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/hdr10_switch_cover_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerCrop" android:layout_centerInParent="true" />
+    <com.motorola.camera.ui.uicomponents.SplashImageView android:id="@id/splash_preview" android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+    <ViewStub android:id="@id/stage2_ui" android:layout="@layout/camera_stage2_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/stage1_ui" android:layout="@layout/camera_stage1_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/toast_ui" android:layout="@layout/toast" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/tutorial_stub" android:layout="@layout/tutorial_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/cli_container_stub" android:layout="@layout/cli_container_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</RelativeLayout>

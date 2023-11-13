@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.motorola.camera.ui.widgets.RotateLayout android:id="@id/frame" android:layout_width="@dimen/instructional_block_vert_max_width" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+        <RelativeLayout android:gravity="center_horizontal" android:id="@id/text_layout" android:layout_width="@dimen/instructional_text_vert_max_width" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/instructional_headline_text_size" android:textColor="@android:color/white" android:id="@id/instructional_headline" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textAlignment="center" android:letterSpacing="0.0125" android:lineHeight="@dimen/instructional_headline_text_height" />
+            <TextView android:textSize="@dimen/instructional_des_text_size" android:textColor="@android:color/white" android:id="@id/instructional_description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_below="@id/instructional_headline" android:textAlignment="center" android:letterSpacing="0.033" android:lineHeight="@dimen/instructional_des_text_height" />
+        </RelativeLayout>
+    </com.motorola.camera.ui.widgets.RotateLayout>
+    <com.airbnb.lottie.LottieAnimationView android:id="@id/instructional_animation" android:visibility="gone" android:layout_width="@dimen/pano_tutorial_lottie_animation_view_width" android:layout_height="@dimen/pano_tutorial_lottie_animation_view_height" android:layout_marginTop="20.0dip" android:layout_below="@id/frame" android:layout_centerHorizontal="true" app:lottie_autoPlay="true" app:lottie_loop="true" app:lottie_rawRes="@raw/slide_scan_tutorial" />
+</RelativeLayout>

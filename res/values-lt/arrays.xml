@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="exo_controls_playback_speeds">
+        <item>0,25 k.</item>
+        <item>0,5 k.</item>
+        <item>0,75 k.</item>
+        <item>Įprasta</item>
+        <item>1,25 k.</item>
+        <item>1,5 k.</item>
+        <item>2 k.</item>
+    </string-array>
+    <string-array name="filter_names">
+        <item>Natūralus apšvietimas</item>
+        <item>Romantika</item>
+        <item>Filmas</item>
+        <item>Blankus</item>
+        <item>Svajingas</item>
+        <item>Gaivus</item>
+        <item>Šaltas</item>
+        <item>Tamsus auksas</item>
+        <item>Maistas</item>
+        <item>Cyberpunk</item>
+        <item>Jaunimas</item>
+        <item>Vėlyvas ruduo</item>
+        <item>Nespalvotas klasikinis</item>
+        <item>Nespalvotas gyvas vaizdas</item>
+    </string-array>
+    <string-array name="talkback_cli_modes_menu_pills">
+        <item>Fotografavimo režimas aktyvus</item>
+        <item>Filmavimo režimas aktyvus</item>
+        <item>Spalvos aptikimas filmavimo režimu aktyvus</item>
+        <item>Laiko intervalo režimas aktyvus</item>
+        <item>Sulėtinimo režimas aktyvus</item>
+        <item>Stačio formato režimas aktyvus</item>
+        <item>Spalvos aptikimo režimas aktyvus</item>
+        <item>Naktinio matymo režimas aktyvus</item>
+        <item>Grupės asmenukės režimas aktyvus</item>
+        <item>Tiesioginio filtro režimas aktyvus</item>
+    </string-array>
+    <string-array name="talkback_pro_mode_close_settings">
+        <item>Uždaryti automatinę sutelktį</item>
+        <item>Uždaryti baltos spalvos balansą</item>
+        <item>Uždaryti užrakto suveikimo greitį</item>
+        <item>Uždaryti ISO</item>
+        <item>Uždaryti ekspozicijos kompensavimą</item>
+    </string-array>
+    <string-array name="talkback_pro_mode_selectors">
+        <item>Automatinės sutelkties parinkiklis</item>
+        <item>Baltos spalvos balanso parinkiklis</item>
+        <item>Užrakto greičio parinkiklis</item>
+        <item>ISO parinkiklis</item>
+        <item>Ekspozicijos kompensavimo parinkiklis</item>
+    </string-array>
+    <string-array name="talkback_tooltip_titles">
+        <item>Stačio formato mokymo priemonė</item>
+        <item>Kinografijos mokymo priemonė</item>
+        <item>Spalvos aptikimo mokymo priemonė</item>
+        <item>Vaizdo įrašo spalvos aptikimo mokymo priemonė</item>
+        <item>Iškirpimo mokymo priemonė</item>
+        <item>„Ultra-Res“ mokymo priemonė</item>
+        <item>Makromokymo priemonė</item>
+    </string-array>
+</resources>

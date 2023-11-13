@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset android:inset="@dimen/control_panel_toggle_vertical_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <shape android:shape="oval">
+        <size android:height="@dimen/control_panel_toggle_size" />
+        <size android:width="@dimen/control_panel_toggle_size" />
+        <solid android:color="@color/primary_main" />
+    </shape>
+</inset>

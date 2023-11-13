@@ -1,0 +1,7 @@
+uniform mat4 u_MVPMatrix;
+attribute vec4 a_Position;
+varying vec2 v_Position;
+void main() {
+    v_Position = a_Position.xy;
+    gl_Position = u_MVPMatrix * a_Position;
+}

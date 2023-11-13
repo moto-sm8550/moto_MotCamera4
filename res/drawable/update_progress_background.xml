@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="ring" android:useLevel="false" android:innerRadius="@dimen/update_progress_radius" android:thickness="@dimen/update_progress_thickness"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/circular_progress_small_background_color" />
+</shape>

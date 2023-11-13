@@ -1,0 +1,12 @@
+precision highp float;
+varying vec4 v_Color;
+varying  vec2 v_Position;
+uniform float u_Radius;
+uniform float u_Opacity;
+
+void main() {
+    vec2 uv = v_Position;
+    float r = u_Radius - 0.05;
+    float a = 1.0 - smoothstep(0.0, 0.05, length(uv) - r);
+    gl_FragColor = v_Color * u_Opacity * a;
+}

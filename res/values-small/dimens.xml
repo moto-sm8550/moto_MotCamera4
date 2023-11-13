@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="capture_bar_shutter_ring_thickness">6.1999817dip</dimen>
+    <dimen name="container_main_width">184.0dip</dimen>
+    <dimen name="control_panel_bottom_padding">0.0dip</dimen>
+    <dimen name="control_panel_elevation_todo">4.0dip</dimen>
+    <dimen name="control_panel_setting_margin_end">12.0dip</dimen>
+    <dimen name="control_panel_setting_margin_start">12.0dip</dimen>
+    <dimen name="control_panel_setting_spacing">20.0dip</dimen>
+    <dimen name="filter_image_item_size">48.0dip</dimen>
+    <dimen name="mtrl_alert_dialog_background_inset_bottom">24.0dip</dimen>
+    <dimen name="mtrl_alert_dialog_background_inset_top">24.0dip</dimen>
+    <dimen name="toast_max_text_width">166.0dip</dimen>
+    <dimen name="toast_padding_medium">22.0dip</dimen>
+    <dimen name="toast_width">198.0dip</dimen>
+    <dimen name="toggle_bar_margin">24.0dip</dimen>
+    <dimen name="window_bg_icon_size">40.0dip</dimen>
+    <dimen name="window_bg_icon_top">24.0dip</dimen>
+</resources>

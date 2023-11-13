@@ -1,0 +1,13 @@
+.class public final Lcom/google/android/exoplayer2/audio/ChannelMappingAudioProcessor;
+.super Lcom/google/android/exoplayer2/audio/BaseAudioProcessor;
+.source "ChannelMappingAudioProcessor.java"
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Lcom/google/android/exoplayer2/audio/BaseAudioProcessor;-><init>()V
+
+    return-void
+.end method

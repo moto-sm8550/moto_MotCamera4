@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="other">ရှေ့သို့ %d စက္ကန့်ရစ်ရန်</item>
+        <item quantity="one">ရှေ့သို့ %d စက္ကန့်ရစ်ရန်</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="other">နောက်သို့ %d စက္ကန့်ရစ်ရန်</item>
+        <item quantity="one">နောက်သို့ %d စက္ကန့်ရစ်ရန်</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">အကြောင်းကြားချက်အသစ် %d ခု</item>
+        <item quantity="one">အကြောင်းကြားချက်အသစ် %d ခု</item>
+    </plurals>
+    <plurals name="talkback_video_timer_hour">
+        <item quantity="other">%d နာရီ</item>
+    </plurals>
+    <plurals name="talkback_video_timer_minute">
+        <item quantity="other">%d မိနစ်များ</item>
+    </plurals>
+    <plurals name="talkback_video_timer_seconds">
+        <item quantity="other">%d စက္ကန့်</item>
+    </plurals>
+</resources>

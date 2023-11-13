@@ -1,0 +1,98 @@
+precision mediump float;
+varying vec2 v_TextureCoord;
+varying vec4 v_Color;
+uniform sampler2D u_Texture;
+uniform float u_Opacity;
+uniform float u_OpacityFrom;
+uniform float u_OpacityTo;
+uniform float u_OpacityFrom2;
+uniform float u_OpacityTo2;
+uniform vec4 u_ColorBackground;
+uniform int u_Mask;
+uniform vec4 u_ShapeChange; // x = texture aspect ratio, y = geometry aspect ratio, z = x radius, w = y radius
+uniform float u_Darkness;
+
+void main() {
+    if (u_Mask == 4) { //mode carousel
+        float alpha1  =  smoothstep(u_OpacityFrom, u_OpacityTo, v_TextureCoord.x);
+        float alpha2  =  smoothstep(u_OpacityFrom2, u_OpacityTo2, v_TextureCoord.x);
+        float topAlpha = smoothstep(1.0, 0.85, v_TextureCoord.y);
+        float botAlpha = smoothstep(0.0, 0.15, v_TextureCoord.y);
+
+        vec4 sample = texture2D(u_Texture, v_TextureCoord);
+        sample *= u_Opacity;
+
+        if (u_ShapeChange.x > 0.001 && u_ShapeChange.y > 0.001) {
+            if (v_TextureCoord.x >= u_ShapeChange.x && v_TextureCoord.x <= u_ShapeChange.y &&
+                v_TextureCoord.y >= u_ShapeChange.z && v_TextureCoord.y <= u_ShapeChange.w) {
+
+                gl_FragColor = v_Color * sample.a * topAlpha * botAlpha;
+            } else {
+                gl_FragColor = sample * alpha1 * alpha2 * topAlpha * botAlpha;
+            }
+            return;
+        } else {
+            gl_FragColor = sample * alpha1 * alpha2 * topAlpha * botAlpha;
+        }
+        return;
+    } else if (u_ShapeChange.x > 0.0) {
+        vec2 textureCoord0 = 2.0 * abs(v_TextureCoord - vec2(0.5, 0.5));
+        textureCoord0.x *= u_ShapeChange.x;
+        vec2 cropCoord0 = vec2(u_ShapeChange.x, 1.0);
+        if (u_ShapeChange.y > u_ShapeChange.x) cropCoord0.y = cropCoord0.x / u_ShapeChange.y;
+        if (u_ShapeChange.y < u_ShapeChange.x) cropCoord0.x = cropCoord0.y * u_ShapeChange.y;
+        if (any(greaterThan(textureCoord0, cropCoord0))) discard;
+        if (all(greaterThan(u_ShapeChange.zw, vec2(0.0, 0.0)))) {
+            vec2 innerRectCoord0 = cropCoord0 - u_ShapeChange.zw;
+            vec2 relativeCoord0 = textureCoord0 - innerRectCoord0;
+            if (all(greaterThan(relativeCoord0, vec2(0.0, 0.0)))) {
+                if (length(relativeCoord0 / u_ShapeChange.zw) > 1.0) discard;
+            }
+        }
+    }
+
+    vec4 sample = texture2D(u_Texture, v_TextureCoord) * vec4(u_Darkness, u_Darkness, u_Darkness, 1.0);
+    if (u_Mask == 0) {
+        sample *= u_Opacity;
+        gl_FragColor = sample + ((1.0 - sample.a) * u_ColorBackground);
+
+    } else if (u_Mask == 1) { //horizontal
+        sample *= u_Opacity;
+
+        float top = 1.0 - u_OpacityFrom;
+        float alpha1  =  1.0 - smoothstep(top, 1.0, v_TextureCoord.x);
+        float alpha2  =  smoothstep(0.0, u_OpacityFrom, v_TextureCoord.x);
+        gl_FragColor = sample * alpha1 * alpha2;
+    } else if (u_Mask == 4) { //horizontal
+        //sample *= u_Opacity;
+
+        float alpha1  =  smoothstep(u_OpacityFrom, u_OpacityTo, v_TextureCoord.x);
+        float alpha2  =  smoothstep(u_OpacityFrom2, u_OpacityTo2, v_TextureCoord.x);
+        gl_FragColor = sample * alpha1 * alpha2;
+    } else if (u_Mask == 2) { //vertical
+        sample *= u_Opacity;
+
+        float alpha1  =  1.0 - smoothstep(1.0 - u_OpacityFrom, 1.0, v_TextureCoord.y);
+        float alpha2  =  smoothstep(0.0, u_OpacityTo, v_TextureCoord.y);
+        gl_FragColor = sample * alpha1 * alpha2;
+    } else if (u_Mask == 3) {
+        sample *= u_Opacity;
+        if (u_OpacityTo < u_OpacityFrom) {
+            if (v_TextureCoord.x > u_OpacityFrom) {
+                gl_FragColor = sample + ((1.0 - sample.a) * u_ColorBackground);
+            } else if (v_TextureCoord.x < u_OpacityTo) {
+                gl_FragColor = vec4(0.0, 0.0, 0.0, 0.0);
+            } else {
+                gl_FragColor = sample * smoothstep(u_OpacityTo, u_OpacityFrom, v_TextureCoord.x);
+            }
+        } else {
+            if (v_TextureCoord.x < u_OpacityFrom) {
+                gl_FragColor = sample + ((1.0 - sample.a) * u_ColorBackground);
+            } else if (v_TextureCoord.x > u_OpacityTo) {
+                gl_FragColor = vec4(0.0, 0.0, 0.0, 0.0);
+            } else {
+                gl_FragColor = sample * smoothstep(u_OpacityTo, u_OpacityFrom, v_TextureCoord.x);
+            }
+        }
+    }
+}

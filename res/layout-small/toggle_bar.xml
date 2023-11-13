@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/toggle_bar" android:background="@android:color/transparent" android:layout_width="@dimen/capture_bar_width" android:layout_height="@dimen/toggle_bar_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:layout_width="@dimen/button_size" android:layout_height="@dimen/button_size" android:layout_marginStart="@dimen/toggle_bar_margin" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" layout="@layout/toggle_bar_button" />
+</androidx.constraintlayout.widget.ConstraintLayout>

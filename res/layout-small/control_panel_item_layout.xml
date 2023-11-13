@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/control_panel_toggle_layout" android:layout_width="@dimen/control_panel_option_size" android:layout_height="@dimen/control_panel_option_size"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:layout_width="@dimen/control_panel_option_size" android:layout_height="@dimen/control_panel_option_size" layout="@layout/control_panel_item_options" />
+</androidx.constraintlayout.widget.ConstraintLayout>

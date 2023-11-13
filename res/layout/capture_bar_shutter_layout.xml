@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/capture_bar_shutter_layout" android:focusable="true" android:clipChildren="false" android:layout_width="@dimen/capture_bar_shutter_progress_size_cinemagraph" android:layout_height="@dimen/capture_bar_shutter_progress_size_cinemagraph" android:focusedByDefault="true" android:defaultFocusHighlightEnabled="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.motorola.camera.ui.controls_2020.capturebar.shutter.ShutterButton android:id="@id/capture_bar_shutter_button" android:visibility="gone" android:clickable="true" android:longClickable="true" android:layout_width="@dimen/capture_bar_shutter_size" android:layout_height="@dimen/capture_bar_shutter_size" android:defaultFocusHighlightEnabled="false" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <ViewStub android:id="@id/capture_bar_stub" android:layout="@layout/capture_bar_shutter_layout_stub" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

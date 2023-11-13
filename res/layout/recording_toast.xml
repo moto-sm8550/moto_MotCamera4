@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:gravity="center" android:id="@id/recording_toast" android:background="@drawable/btn_overlay" android:visibility="gone" android:layout_width="@dimen/video_indicator_toast_size" android:layout_height="@dimen/video_indicator_toast_size" android:text="@string/recording_toast_indicator" android:backgroundTint="@color/alizarin_crimson_red_60" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/Headline6"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

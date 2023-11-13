@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:ordering="sequentially"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <set>
+        <objectAnimator android:duration="@integer/control_bar_split_anim_step_duration" android:valueFrom="1" android:valueTo="@dimen/control_bar_scale_animation_breakpoint" android:valueType="floatType" android:propertyName="scaleX" />
+        <objectAnimator android:duration="@integer/control_bar_split_anim_step_duration" android:valueFrom="1" android:valueTo="@dimen/control_bar_scale_animation_breakpoint" android:valueType="floatType" android:propertyName="scaleY" />
+        <objectAnimator android:duration="@integer/control_bar_split_anim_alpha_step_duration" android:valueFrom="1" android:valueTo="0" android:valueType="floatType" android:propertyName="alpha" />
+    </set>
+    <set>
+        <objectAnimator android:duration="@integer/control_bar_split_anim_step_duration" android:startOffset="@integer/control_bar_split_anim_step_duration" android:valueFrom="@dimen/control_bar_scale_animation_breakpoint" android:valueTo="1" android:valueType="floatType" android:propertyName="scaleX" />
+        <objectAnimator android:duration="@integer/control_bar_split_anim_step_duration" android:startOffset="@integer/control_bar_split_anim_step_duration" android:valueFrom="@dimen/control_bar_scale_animation_breakpoint" android:valueTo="1" android:valueType="floatType" android:propertyName="scaleY" />
+        <objectAnimator android:duration="@integer/control_bar_split_anim_alpha_step_duration" android:startOffset="@integer/control_bar_split_anim_step_duration" android:valueFrom="0" android:valueTo="1" android:valueType="floatType" android:propertyName="alpha" />
+    </set>
+</set>

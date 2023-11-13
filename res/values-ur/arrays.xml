@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="exo_controls_playback_speeds">
+        <item>0.25x</item>
+        <item>0.5x</item>
+        <item>0.75x</item>
+        <item>عام</item>
+        <item>1.25x</item>
+        <item>1.5x</item>
+        <item>2X</item>
+    </string-array>
+    <string-array name="filter_names">
+        <item>‏Natural Light</item>
+        <item>‏Romantic</item>
+        <item>‏Film</item>
+        <item>‏Muted</item>
+        <item>‏Dreamy</item>
+        <item>‏Refreshing</item>
+        <item>‏Cool</item>
+        <item>‏Dark Gold</item>
+        <item>‏Foodie</item>
+        <item>‏Cyberpunk</item>
+        <item>‏Youth</item>
+        <item>‏Late Autumn</item>
+        <item>‏B&amp;W Classic</item>
+        <item>‏B&amp;W Vivid</item>
+    </string-array>
+    <string-array name="photos_plugin_descriptions">
+        <item></item>
+        <item></item>
+        <item>@string/best_shot_desc</item>
+        <item>@string/original_shot_desc</item>
+        <item>@string/photos_depth_desc</item>
+        <item>@string/photos_layer_desc</item>
+        <item>@string/photos_portrait_desc</item>
+        <item>@string/photos_composition_desc</item>
+        <item>@string/photos_ai_ll_desc</item>
+        <item>@string/photos_doc_desc</item>
+        <item>@string/photos_ai_image_stab_desc</item>
+    </string-array>
+    <string-array name="photos_plugin_edit_class">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>@string/photos_plugin_edit_class_filter_show_activity</item>
+        <item>@string/photos_plugin_edit_class_layer_activity</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>@string/photos_plugin_edit_class_doc_editor_activity</item>
+        <item></item>
+    </string-array>
+    <string-array name="photos_plugin_edit_pkg">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>@string/photos_plugin_edit_pkg_photoeditor</item>
+        <item>@string/photos_plugin_edit_pkg_camera3</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>@string/photos_plugin_edit_pkg_camera3</item>
+        <item></item>
+    </string-array>
+    <string-array name="photos_plugin_names">
+        <item></item>
+        <item></item>
+        <item>@string/best_shot_name</item>
+        <item>@string/original_shot_name</item>
+        <item>@string/photos_depth_name</item>
+        <item>@string/photos_layer_name</item>
+        <item>@string/photos_portrait_name</item>
+        <item>@string/photos_composition_name</item>
+        <item>@string/photos_low_light_name</item>
+        <item>@string/photos_doc_name</item>
+        <item>@string/photos_ai_image_stab_name</item>
+    </string-array>
+    <string-array name="talkback_cli_modes_menu_pills">
+        <item>تصویر موڈ فعال ہے</item>
+        <item>ویڈیو موڈ فعال ہے</item>
+        <item>رنگین ویڈیو موڈ فعال ہے کا پتہ لگائیں</item>
+        <item>ٹیمپلیٹس موڈ فعال ہے</item>
+        <item>سست حرکتی موڈ فعال ہے</item>
+        <item>پورٹریٹ موڈ فعال ہے</item>
+        <item>رنگین موڈ فعال ہے کا پتہ لگائیں</item>
+        <item>نائٹ ویژن موڈ فعال ہے</item>
+        <item>گروپ سیلفی موڈ فعال ہے</item>
+        <item>براہ راست فلٹر موڈ فعال ہے</item>
+    </string-array>
+    <string-array name="talkback_pro_mode_close_settings">
+        <item>خودکار توجہ کو بند کریں</item>
+        <item>وہائٹ بیلنس بند کریں</item>
+        <item>شٹر کی رفتار بند کریں</item>
+        <item>‏ISO بند کریں</item>
+        <item>اکسپوژر کمپنسیشن بند کریں</item>
+    </string-array>
+    <string-array name="talkback_pro_mode_selectors">
+        <item>خودکار توجہ انتخاب کار</item>
+        <item>وہائٹ بیلنس انتخاب کار</item>
+        <item>شٹر کی رفتار کا انتخاب کار</item>
+        <item>‏ISO انتخاب کار</item>
+        <item>ایکسپوژر کمپنسیشن انتخاب کار</item>
+    </string-array>
+    <string-array name="talkback_tooltip_titles">
+        <item>عمودی ٹیٹوریل</item>
+        <item>سنیماگراف ٹیٹوریل</item>
+        <item>اسپاٹ رنگین ٹیٹوریل</item>
+        <item>اسپاٹ رنگین ویڈیو ٹیٹوریل</item>
+        <item>ٹیٹوریل کو کٹ آؤٹ کریں</item>
+        <item>اعلی جزیات کاری ٹیٹوریل</item>
+        <item>میکرو ٹیٹوریل</item>
+    </string-array>
+</resources>

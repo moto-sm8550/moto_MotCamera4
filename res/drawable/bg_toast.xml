@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector android:autoMirrored="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/toast_max_radius" />
+            <solid android:color="@color/overlay_surface_heavy" />
+        </shape>
+    </item>
+</selector>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ToggleBarButtonStyle" parent="@style/XLarge.OverlayWhite">
+        <item name="android:scaleType">fitCenter</item>
+        <item name="android:tint">@color/toggle_bar_button_content_selector</item>
+        <item name="android:backgroundTint">@color/toggle_bar_button_selector</item>
+    </style>
+</resources>

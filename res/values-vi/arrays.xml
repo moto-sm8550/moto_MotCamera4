@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="exo_controls_playback_speeds">
+        <item>0,25x</item>
+        <item>0,5x</item>
+        <item>0,75x</item>
+        <item>Bình thường</item>
+        <item>1,25x</item>
+        <item>1,5x</item>
+        <item>2x</item>
+    </string-array>
+    <string-array name="filter_names">
+        <item>Natural Light</item>
+        <item>Romantic</item>
+        <item>Film</item>
+        <item>Muted</item>
+        <item>Dreamy</item>
+        <item>Refreshing</item>
+        <item>Cool</item>
+        <item>Dark Gold</item>
+        <item>Foodie</item>
+        <item>Cyberpunk</item>
+        <item>Youth</item>
+        <item>Late Autumn</item>
+        <item>B&amp;W Classic</item>
+        <item>B&amp;W Vivid</item>
+    </string-array>
+    <string-array name="photos_plugin_descriptions">
+        <item></item>
+        <item></item>
+        <item>@string/best_shot_desc</item>
+        <item>@string/original_shot_desc</item>
+        <item>@string/photos_depth_desc</item>
+        <item>@string/photos_layer_desc</item>
+        <item>@string/photos_portrait_desc</item>
+        <item>@string/photos_composition_desc</item>
+        <item>@string/photos_ai_ll_desc</item>
+        <item>@string/photos_doc_desc</item>
+        <item>@string/photos_ai_image_stab_desc</item>
+    </string-array>
+    <string-array name="photos_plugin_edit_class">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>@string/photos_plugin_edit_class_filter_show_activity</item>
+        <item>@string/photos_plugin_edit_class_layer_activity</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>@string/photos_plugin_edit_class_doc_editor_activity</item>
+        <item></item>
+    </string-array>
+    <string-array name="photos_plugin_edit_pkg">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>@string/photos_plugin_edit_pkg_photoeditor</item>
+        <item>@string/photos_plugin_edit_pkg_camera3</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>@string/photos_plugin_edit_pkg_camera3</item>
+        <item></item>
+    </string-array>
+    <string-array name="photos_plugin_names">
+        <item></item>
+        <item></item>
+        <item>@string/best_shot_name</item>
+        <item>@string/original_shot_name</item>
+        <item>@string/photos_depth_name</item>
+        <item>@string/photos_layer_name</item>
+        <item>@string/photos_portrait_name</item>
+        <item>@string/photos_composition_name</item>
+        <item>@string/photos_low_light_name</item>
+        <item>@string/photos_doc_name</item>
+        <item>@string/photos_ai_image_stab_name</item>
+    </string-array>
+    <string-array name="talkback_cli_modes_menu_pills">
+        <item>Chế độ ảnh đang hoạt động</item>
+        <item>Chế độ video đang hoạt động</item>
+        <item>Chế độ Video màu mảng đang hoạt động</item>
+        <item>Chế độ tua nhanh thời gian đang hoạt động</item>
+        <item>Chế độ Chuyển động chậm đang hoạt động</item>
+        <item>Chế độ chân dung đang hoạt động</item>
+        <item>Chế độ Màu mảng đang hoạt động</item>
+        <item>Chế độ Tầm nhìn ban đêm đang hoạt động</item>
+        <item>Chế độ Selfie nhóm đang hoạt động</item>
+        <item>Chế độ Bộ lọc trực tiếp đang hoạt động</item>
+    </string-array>
+    <string-array name="talkback_pro_mode_close_settings">
+        <item>Đóng tự động lấy nét</item>
+        <item>Đóng Cân bằng trắng</item>
+        <item>Đóng Tốc độ màn trập</item>
+        <item>Đóng ISO</item>
+        <item>Đóng Bù phơi sáng</item>
+    </string-array>
+    <string-array name="talkback_pro_mode_selectors">
+        <item>Bộ chọn tự động lấy nét</item>
+        <item>Bộ chọn cân bằng trắng</item>
+        <item>Bộ chọn Tốc độ màn trập</item>
+        <item>Bộ chọn ISO</item>
+        <item>Bộ chọn bù phơi sáng</item>
+    </string-array>
+    <string-array name="talkback_tooltip_titles">
+        <item>Hướng dẫn chân dung</item>
+        <item>Hướng dẫn ảnh động cinemagraph</item>
+        <item>Hướng dẫn màu mảng</item>
+        <item>Hướng dẫn video màu mảng</item>
+        <item>Hướng dẫn cắt rời</item>
+        <item>Hướng dẫn Ultra-Res</item>
+        <item>Hướng dẫn macro</item>
+    </string-array>
+</resources>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="exo_controls_playback_speeds">
+        <item>0,25x</item>
+        <item>0,5x</item>
+        <item>0,75x</item>
+        <item>Normal</item>
+        <item>1,25x</item>
+        <item>1,5x</item>
+        <item>2x</item>
+    </string-array>
+    <string-array name="filter_names">
+        <item>Luz natural</item>
+        <item>Romântico</item>
+        <item>Filme</item>
+        <item>Esbatido</item>
+        <item>Sonho</item>
+        <item>Revitalizante</item>
+        <item>Cool</item>
+        <item>Dourado escuro</item>
+        <item>Foodie</item>
+        <item>Cyberpunk</item>
+        <item>Jovem</item>
+        <item>Crepuscular</item>
+        <item>Preto e branco clássico</item>
+        <item>Preto e branco vívido</item>
+    </string-array>
+    <string-array name="photos_plugin_descriptions">
+        <item></item>
+        <item></item>
+        <item>@string/best_shot_desc</item>
+        <item>@string/original_shot_desc</item>
+        <item>@string/photos_depth_desc</item>
+        <item>@string/photos_layer_desc</item>
+        <item>@string/photos_portrait_desc</item>
+        <item>@string/photos_composition_desc</item>
+        <item>@string/photos_ai_ll_desc</item>
+        <item>@string/photos_doc_desc</item>
+        <item>@string/photos_ai_image_stab_desc</item>
+    </string-array>
+    <string-array name="photos_plugin_edit_class">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>@string/photos_plugin_edit_class_filter_show_activity</item>
+        <item>@string/photos_plugin_edit_class_layer_activity</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>@string/photos_plugin_edit_class_doc_editor_activity</item>
+        <item></item>
+    </string-array>
+    <string-array name="photos_plugin_edit_pkg">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>@string/photos_plugin_edit_pkg_photoeditor</item>
+        <item>@string/photos_plugin_edit_pkg_camera3</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>@string/photos_plugin_edit_pkg_camera3</item>
+        <item></item>
+    </string-array>
+    <string-array name="photos_plugin_names">
+        <item></item>
+        <item></item>
+        <item>@string/best_shot_name</item>
+        <item>@string/original_shot_name</item>
+        <item>@string/photos_depth_name</item>
+        <item>@string/photos_layer_name</item>
+        <item>@string/photos_portrait_name</item>
+        <item>@string/photos_composition_name</item>
+        <item>@string/photos_low_light_name</item>
+        <item>@string/photos_doc_name</item>
+        <item>@string/photos_ai_image_stab_name</item>
+    </string-array>
+    <string-array name="talkback_cli_modes_menu_pills">
+        <item>Modo de fotografia ativo</item>
+        <item>Modo de vídeo ativo</item>
+        <item>Modo de vídeo com cor direta ativo</item>
+        <item>Modo Timelapse ativo</item>
+        <item>Modo Câmara lenta ativo</item>
+        <item>Modo retrato ativo</item>
+        <item>Modo de cor direta ativo</item>
+        <item>Modo Visão noturna ativo</item>
+        <item>Modo Selfie de grupo ativo</item>
+        <item>Modo de filtro em direto ativo</item>
+    </string-array>
+    <string-array name="talkback_pro_mode_close_settings">
+        <item>Fechar a focagem automática</item>
+        <item>Fechar balanço de brancos</item>
+        <item>Fechar velocidade do obturador</item>
+        <item>Fechar ISO</item>
+        <item>Fechar compensação da exposição</item>
+    </string-array>
+    <string-array name="talkback_pro_mode_selectors">
+        <item>Seletor de focagem automática</item>
+        <item>Seletor de balanço de brancos</item>
+        <item>Seletor da velocidade do obturador</item>
+        <item>Seletor de ISO</item>
+        <item>Seletor de compensação da exposição</item>
+    </string-array>
+    <string-array name="talkback_tooltip_titles">
+        <item>Tutorial sobre retratos</item>
+        <item>Tutorial sobre cinemagrafia</item>
+        <item>Tutorial sobre cor direta</item>
+        <item>Tutorial sobre vídeo com cor direta</item>
+        <item>Tutorial sobre recortes</item>
+        <item>Tutorial sobre Ultra-Res</item>
+        <item>Tutorial sobre macro</item>
+    </string-array>
+</resources>

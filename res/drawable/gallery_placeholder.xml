@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset android:drawable="@drawable/ic_gallery" android:inset="@dimen/capture_bar_gallery_thumbnail_insets"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

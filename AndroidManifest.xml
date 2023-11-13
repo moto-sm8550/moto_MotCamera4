@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="33" android:compileSdkVersionCodename="13" package="com.motorola.camera3" platformBuildVersionCode="33" platformBuildVersionName="13">
+    <uses-feature android:name="android.hardware.camera"/>
+    <uses-feature android:name="android.hardware.camera.autofocus" android:required="false"/>
+    <uses-feature android:name="android.hardware.wifi" android:required="false"/>
+    <uses-feature android:name="android.hardware.location" android:required="false"/>
+    <uses-feature android:name="android.hardware.location.gps" android:required="false"/>
+    <uses-feature android:name="android.hardware.location.network" android:required="false"/>
+    <uses-feature android:glEsVersion="0x00020000" android:required="true"/>
+    <uses-feature android:name="com.motorola.software.mya" android:required="false"/>
+    <uses-feature android:name="com.motorola.camera3" android:required="true"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES"/>
+    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.START_ACTIVITIES_FROM_BACKGROUND"/>
+    <uses-permission android:name="android.permission.STOP_APP_SWITCHES"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:maxSdkVersion="32" android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.HIGH_SAMPLING_RATE_SENSORS"/>
+    <uses-permission android:name="com.motorola.camera.permission.CONTROL_CAMERA"/>
+    <uses-permission android:name="com.motorola.permission.ACCESS_CHECKIN"/>
+    <uses-permission android:name="com.motorola.permission.GET_ZEN_MODE_CONFIG"/>
+    <uses-permission android:name="com.motorola.permission.SET_ZEN_MODE_CONFIG"/>
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES"/>
+    <uses-permission android:name="com.motorola.moto.mya.provider.permission.READ_MODES"/>
+    <uses-permission android:name="com.motorola.moto.mya.provider.permission.WRITE_MODES"/>
+    <uses-permission android:name="com.motorola.permission.USE_HBM"/>
+    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY"/>
+    <uses-permission android:name="com.motorola.permission.MANAGE_NOTIFICATIONS"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-permission android:name="com.motorola.hardware.ACCESS_CLI"/>
+    <uses-permission android:name="com.motorola.camera2.content.ai.ACCESS"/>
+    <uses-permission android:name="com.motorola.camera3.content.ai.ACCESS"/>
+    <uses-permission android:name="com.motorola.imagertuning.content.ACCESS"/>
+    <uses-permission android:name="com.motorola.permission.WRITE_SECURE_SETTINGS"/>
+    <uses-permission android:name="com.motorola.permission.mobiledesktop.rdp"/>
+    <uses-permission android:name="com.motorola.ccc.notification.READ_NOTIFICATIONS"/>
+    <permission android:description="@string/perm_control_camera_desc" android:label="@string/perm_control_camera_label" android:name="com.motorola.camera.permission.CONTROL_CAMERA" android:protectionLevel="signatureOrSystem"/>
+    <queries>
+        <package android:name="com.android.vending"/>
+        <package android:name="com.google.android.apps.nbu.files"/>
+        <package android:name="com.google.android.apps.photos"/>
+        <package android:name="com.google.android.googlequicksearchbox"/>
+        <package android:name="com.google.android.youtube"/>
+        <package android:name="com.google.ar.lens"/>
+        <package android:name="com.motorola.camera2.content.ai"/>
+        <package android:name="com.motorola.camera3.content.ai"/>
+        <package android:name="com.motorola.ccc.notification"/>
+        <package android:name="com.motorola.cn.gallery"/>
+        <package android:name="com.motorola.imagertuning_V2"/>
+        <package android:name="com.motorola.motcameradesktop"/>
+        <package android:name="com.motorola.livestream"/>
+        <package android:name="com.motorola.moto"/>
+        <package android:name="com.motorola.photoeditor"/>
+        <provider android:authorities="com.google.android.apps.photos.partnercontentprovider"/>
+        <provider android:authorities="com.google.android.googlequicksearchbox.GsaPublicContentProvider"/>
+        <provider android:authorities="com.motorola.camera2.content.ai"/>
+        <provider android:authorities="com.motorola.camera3.content.ai"/>
+        <provider android:authorities="com.motorola.imagertuning.content"/>
+        <intent>
+            <action android:name="android.intent.action.DIAL"/>
+            <data android:scheme="tel"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.INSERT"/>
+            <data android:mimeType="vnd.android.cursor.dir/contact"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.INSERT"/>
+            <data android:mimeType="vnd.android.cursor.dir/event"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.MAIN"/>
+            <category android:name="android.intent.category.APP_GALLERY"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.SEND"/>
+            <data android:mimeType="text/calendar"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.SEND"/>
+            <data android:mimeType="image/*"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.SEND"/>
+            <data android:mimeType="text/plain"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.SEND"/>
+            <data android:mimeType="text/x-vcard"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.SENDTO"/>
+            <data android:scheme="mailto"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.SENDTO"/>
+            <data android:scheme="smsto"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW"/>
+            <data android:scheme="geo"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW"/>
+            <data android:mimeType="image/*"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW"/>
+            <data android:mimeType="video/*"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.WEB_SEARCH"/>
+        </intent>
+        <intent>
+            <action android:name="com.android.camera.action.REVIEW"/>
+            <data android:mimeType="image/*"/>
+        </intent>
+        <intent>
+            <action android:name="com.android.camera.action.REVIEW"/>
+            <data android:mimeType="video/*"/>
+        </intent>
+        <intent>
+            <action android:name="com.motorola.help.ACTION_FEEDBACK"/>
+        </intent>
+    </queries>
+    <application android:allowBackup="false" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:enableOnBackInvokedCallback="true" android:extractNativeLibs="false" android:hardwareAccelerated="true" android:hasCode="true" android:icon="@mipmap/ic_launcher_camera" android:label="@string/act_name_camera" android:largeHeap="true" android:logo="@mipmap/ic_launcher_camera" android:name="com.motorola.camera.CameraApp" android:requestLegacyExternalStorage="true" android:resizeableActivity="false" android:roundIcon="@mipmap/ic_launcher_camera_round" android:supportsRtl="true" android:theme="@style/CameraAppTheme">
+        <meta-data android:name="android.max_aspect" android:value="2.3"/>
+        <uses-library android:name="com.motorola.motosignature" android:required="true"/>
+        <uses-library android:name="moto-settings" android:required="false"/>
+        <uses-native-library android:name="ld-android.so" android:required="false"/>
+        <uses-native-library android:name="libbacktrace.so" android:required="false"/>
+        <uses-native-library android:name="libbase.so" android:required="false"/>
+        <uses-native-library android:name="libcdsprpc.so" android:required="false"/>
+        <uses-native-library android:name="libc++.so" android:required="false"/>
+        <uses-native-library android:name="libcgrouprc.so" android:required="false"/>
+        <uses-native-library android:name="libcutils.so" android:required="false"/>
+        <uses-native-library android:name="libdexfile.so" android:required="false"/>
+        <uses-native-library android:name="libdl_android.so" android:required="false"/>
+        <uses-native-library android:name="libfastcvopt.so" android:required="false"/>
+        <uses-native-library android:name="libhardware.so" android:required="false"/>
+        <uses-native-library android:name="libhidlbase.so" android:required="false"/>
+        <uses-native-library android:name="libion.so" android:required="false"/>
+        <uses-native-library android:name="libjpeg.so" android:required="false"/>
+        <uses-native-library android:name="liblowlight_ai_portrait.arcsoft.so" android:required="false"/>
+        <uses-native-library android:name="liblzma.so" android:required="false"/>
+        <uses-native-library android:name="libdmabufheap.so" android:required="false"/>
+        <uses-native-library android:name="libOpenCL.so" android:required="false"/>
+        <uses-native-library android:name="libprocessgroup.so" android:required="false"/>
+        <uses-native-library android:name="libqti-perfd-client.so" android:required="false"/>
+        <uses-native-library android:name="libstdc++.so" android:required="false"/>
+        <uses-native-library android:name="libSuperSensor_skel.so" android:required="false"/>
+        <uses-native-library android:name="libunwindstack.so" android:required="false"/>
+        <uses-native-library android:name="libutils.so" android:required="false"/>
+        <uses-native-library android:name="libvmmem.so" android:required="false"/>
+        <uses-native-library android:name="libvndksupport.so" android:required="false"/>
+        <uses-native-library android:name="libworker_pool.so" android:required="false"/>
+        <uses-native-library android:name="llibmpbase.so" android:required="false"/>
+        <uses-native-library android:name="llibremosaiclib.so" android:required="false"/>
+        <uses-native-library android:name="vendor.qti.hardware.dsp@1.0.so" android:required="false"/>
+        <uses-native-library android:name="libportrait_repair_ppl3_ocl.so" android:required="false"/>
+        <uses-native-library android:name="libancbase_rt_fusion.so" android:required="false"/>
+        <uses-native-library android:name="libAncHumanSegFigureFusion.so" android:required="false"/>
+        <uses-native-library android:name="libSNPE.so" android:required="false"/>
+        <uses-native-library android:name="libsnpe_loader.so" android:required="false"/>
+        <uses-native-library android:name="libSnpeHtpV73Skel.so" android:required="false"/>
+        <uses-native-library android:name="libSnpeHtpV73Stub.so" android:required="false"/>
+        <activity android:alwaysRetainTaskState="true" android:clearTaskOnLaunch="true" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:exported="true" android:icon="@mipmap/ic_launcher_camera" android:label="@string/act_name_camera" android:launchMode="singleTask" android:name="com.motorola.camera.Camera" android:resizeableActivity="true" android:screenOrientation="nosensor" android:showWhenLocked="true" android:taskAffinity="camera.activity" android:turnScreenOn="true" android:visibleToInstantApps="true" android:windowSoftInputMode="stateAlwaysHidden|adjustResize">
+            <layout android:gravity="center" android:minHeight="200.0dip" android:minWidth="240.0dip"/>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="com.zui.launcher.intent.category.ZUI_LAUNCHER"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.media.action.IMAGE_CAPTURE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="motorola.camera.intent.action.FRONT_CAMERA"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="motorola.camera.intent.action.DEPTH_CAPTURE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="motorola.camera.intent.action.SUPER_NIGHT_CAMERA"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="motorola.camera.intent.action.QR_SCAN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data android:name="com.motorola.activity.AnimInLaunchDisabled" android:value="true"/>
+            <meta-data android:name="com.android.keyguard.layout" android:resource="@layout/keyguard_layout"/>
+            <meta-data android:name="com.android.keyguard.layout_one_or_less_camera" android:resource="@layout/keyguard_layout"/>
+        </activity>
+        <activity-alias android:enabled="true" android:exported="true" android:icon="@mipmap/ic_launcher_camera" android:label="@string/act_name_camera" android:name="com.motorola.camera.LaunchLocSettingAction" android:targetActivity="com.motorola.camera.Camera">
+            <intent-filter>
+                <action android:name="com.google.camera.action.LOCATION_SETTINGS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data android:name="com.android.keyguard.layout" android:resource="@layout/keyguard_layout"/>
+            <meta-data android:name="com.android.keyguard.layout_one_or_less_camera" android:resource="@layout/keyguard_layout"/>
+        </activity-alias>
+        <activity-alias android:enabled="true" android:exported="true" android:icon="@mipmap/ic_launcher_camera" android:label="@string/act_name_camera" android:name="com.motorola.camera.LaunchAction" android:permission="com.motorola.camera.permission.CONTROL_CAMERA" android:targetActivity="com.motorola.camera.Camera">
+            <intent-filter>
+                <action android:name="motorola.camera.intent.action.IMAGE_CAPTURE_SECURE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="motorola.camera.intent.action.IMAGE_CAPTURE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="motorola.camera.intent.action.VIDEO_CAPTURE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="motorola.camera.intent.action.STILL_IMAGE_PREVIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="motorola.camera.intent.action.CINEMAGRAPH_CAMERA"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="motorola.camera.intent.action.SLOW_MOTION_CAPTURE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="motorola.camera.intent.action.PHOTO_DUAL_CAPTURE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="motorola.camera.intent.action.DOC_SCAN_CAPTURE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data android:name="com.android.keyguard.layout" android:resource="@layout/keyguard_layout"/>
+            <meta-data android:name="com.android.keyguard.layout_one_or_less_camera" android:resource="@layout/keyguard_layout"/>
+        </activity-alias>
+        <activity-alias android:enabled="true" android:exported="true" android:icon="@mipmap/ic_launcher_camera" android:label="@string/act_name_camcorder" android:name="com.motorola.camera.Camcorder" android:targetActivity="com.motorola.camera.Camera">
+            <intent-filter>
+                <action android:name="android.media.action.VIDEO_CAPTURE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity-alias>
+        <activity android:exported="true" android:icon="@mipmap/ic_launcher_camera" android:label="@string/act_name_camera" android:launchMode="standard" android:name="com.motorola.camera.CameraScan">
+            <intent-filter>
+                <action android:name="motorola.camera.intent.action.DOC_SCAN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="motorola.camera.intent.action.SLIDE_SCAN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="true" android:launchMode="singleTask" android:name="com.motorola.camera.cli.camera.CliCameraActivity" android:resizeableActivity="true" android:screenOrientation="nosensor" android:windowSoftInputMode="stateAlwaysHidden|adjustPan">
+            <intent-filter>
+                <action android:name="android.motorola.action.STILL_IMAGE_CAMERA_CLI"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.motorola.action.STILL_IMAGE_CAMERA_SECURE_CLI"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data android:name="com.motorola.activity.AnimInLaunchDisabled" android:value="true"/>
+            <meta-data android:name="com.android.keyguard.layout" android:resource="@layout/keyguard_layout"/>
+            <meta-data android:name="com.android.keyguard.layout_one_or_less_camera" android:resource="@layout/keyguard_layout"/>
+        </activity>
+        <activity-alias android:enabled="true" android:exported="false" android:icon="@mipmap/ic_launcher_camera" android:label="@string/act_name_camera" android:name="com.motorola.camera.LaunchActionCli" android:permission="com.motorola.camera.permission.CONTROL_CAMERA" android:targetActivity="com.motorola.camera.cli.camera.CliCameraActivity">
+            <intent-filter>
+                <action android:name="motorola.camera.intent.action.IMAGE_CAPTURE_SECURE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="motorola.camera.intent.action.IMAGE_CAPTURE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="motorola.camera.intent.action.VIDEO_CAPTURE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data android:name="com.android.keyguard.layout" android:resource="@layout/keyguard_layout"/>
+            <meta-data android:name="com.android.keyguard.layout_one_or_less_camera" android:resource="@layout/keyguard_layout"/>
+        </activity-alias>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:label="@string/dialog_menu_setting" android:name="com.motorola.camera.ui.controls_2020.settings.activity.SettingsActivity" android:parentActivityName="com.motorola.camera.Camera" android:resizeableActivity="true" android:theme="@style/SettingList" android:windowSoftInputMode="stateAlwaysHidden|adjustResize"/>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:label="@string/cinemagraph_title" android:name="com.motorola.camera.cinemagraph.CinemagraphMaskActivity" android:parentActivityName="com.motorola.camera.Camera" android:resizeableActivity="true" android:screenOrientation="portrait" android:theme="@style/CameraAppTranslucentNavBar"/>
+        <activity android:exported="true" android:icon="@drawable/editor_icon" android:label="@string/document_scan_title" android:name="com.motorola.camera.editor.DocEditorActivity" android:screenOrientation="portrait" android:theme="@style/CameraAppTranslucentNavBar">
+            <intent-filter>
+                <action android:name="android.motorola.action.DOCUMENT_IMAGE_EDITOR"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="image/*"/>
+            </intent-filter>
+        </activity>
+        <activity android:clearTaskOnLaunch="true" android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode" android:excludeFromRecents="true" android:exported="true" android:icon="@mipmap/ic_launcher_camera" android:label="@string/act_name_camera" android:launchMode="singleTask" android:name="com.motorola.camera.SecureCamera" android:resizeableActivity="true" android:screenOrientation="nosensor" android:showWhenLocked="true" android:taskAffinity="com.motorola.camera.SecureCamera" android:theme="@style/Theme.Camera" android:windowSoftInputMode="stateAlwaysHidden|adjustPan">
+            <intent-filter>
+                <action android:name="motorola.camera.intent.action.STILL_IMAGE_PREVIEW_SECURE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.media.action.IMAGE_CAPTURE_SECURE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data android:name="com.android.keyguard.layout" android:resource="@layout/keyguard_layout"/>
+            <meta-data android:name="com.android.keyguard.layout_one_or_less_camera" android:resource="@layout/keyguard_layout"/>
+        </activity>
+        <activity android:exported="true" android:icon="@drawable/ic_launcher_activity_bg" android:label="@string/title_activity_filter_show_layer" android:name="com.motorola.camera.provider.photos.LayerActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:exported="true" android:name="com.motorola.camera.voice.CameraVoiceActivity" android:resizeableActivity="true" android:showWhenLocked="true" android:taskAffinity="voice.activity" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.media.action.STILL_IMAGE_CAMERA"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.VOICE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.media.action.STILL_IMAGE_CAMERA_SECURE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.VOICE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.media.action.VIDEO_CAMERA"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.VOICE"/>
+            </intent-filter>
+            <meta-data android:name="com.motorola.activity.AnimInLaunchDisabled" android:value="true"/>
+            <meta-data android:name="com.android.keyguard.layout" android:resource="@layout/keyguard_layout"/>
+            <meta-data android:name="com.android.keyguard.layout_one_or_less_camera" android:resource="@layout/keyguard_layout"/>
+        </activity>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:label="@string/super_slow_motion_title" android:name="com.motorola.camera.superslowmotion.SuperSlowMotionActivity" android:parentActivityName="com.motorola.camera.Camera" android:resizeableActivity="true" android:screenOrientation="portrait" android:showWhenLocked="true" android:theme="@style/SuperSlowMotionTheme"/>
+        <receiver android:exported="true" android:name="com.motorola.camera.CameraIntentReceiver" android:permission="com.motorola.camera.permission.CONTROL_CAMERA">
+            <intent-filter>
+                <action android:name="android.intent.action.CAMERA_BUTTON"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.media.action.STILL_IMAGE_CAMERA_SECURE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="motorola.camera.intent.action.STILL_IMAGE_PREVIEW_SECURE"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="true" android:name="com.motorola.camera.LocaleChangeReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.LOCALE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="true" android:name="com.motorola.camera.MediaControlReceiver" android:permission="com.motorola.camera.permission.CONTROL_CAMERA">
+            <intent-filter>
+                <action android:name="motorola.camera.intent.action.TAKE_PICTURE"/>
+                <action android:name="motorola.camera.intent.action.TAKE_SELFIE"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="true" android:name="com.motorola.camera.BootReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="true" android:name="com.motorola.camera.MotoActionsReceiver">
+            <intent-filter>
+                <action android:name="com.motorola.actions.tutorial.QUICKDRAW_SUCCESS"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.motorola.actions.camera.RESET_STOP_COUNT"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:enabled="false" android:exported="true" android:name="com.motorola.camera.SimStateReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.SIM_STATE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <provider android:authorities="@string/provider_authority" android:enabled="true" android:exported="true" android:name="com.motorola.camera.provider.photos.PhotosProvider">
+            <intent-filter>
+                <action android:name="com.google.android.apps.photos.OEM_PROVIDER"/>
+            </intent-filter>
+        </provider>
+        <provider android:authorities="com.motorola.camera3.FileProvider" android:exported="false" android:grantUriPermissions="true" android:name="androidx.core.content.FileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/file_provider_paths"/>
+        </provider>
+        <service android:enabled="true" android:exported="false" android:foregroundServiceType="camera" android:name="com.motorola.camera.service.CameraForegroundService"/>
+        <service android:exported="false" android:name="com.motorola.camera.utility.ClearCacheService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:exported="false" android:name="com.motorola.camera.service.BgJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:exported="false" android:name="com.motorola.camera.service.WatermarkEditorService"/>
+        <service android:exported="true" android:icon="@drawable/ic_quick_settings_selfie" android:label="@string/quick_settings_selfie_camera" android:name="com.motorola.camera.service.SelfieCameraTileService" android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
+            <intent-filter>
+                <action android:name="android.service.quicksettings.action.QS_TILE"/>
+            </intent-filter>
+        </service>
+        <service android:enabled="false" android:exported="true" android:icon="@drawable/ic_qr_code" android:label="@string/quick_settings_qr_scan" android:name="com.motorola.camera.service.QrScannerTileService" android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
+            <intent-filter>
+                <action android:name="android.service.quicksettings.action.QS_TILE"/>
+            </intent-filter>
+        </service>
+        <meta-data android:name="preloaded_fonts" android:resource="@array/preloaded_fonts"/>
+        <service android:enabled="true" android:exported="true" android:largeHeap="true" android:name="com.motorola.camera.camerax_extensions.ExtensionEngineService" android:process=":extensionEngineService">
+            <intent-filter>
+                <action android:name="androidx.camera.extensions.action.VENDOR_ACTION"/>
+            </intent-filter>
+        </service>
+        <provider android:authorities="com.motorola.camera3.background.provider.filedatacontract.FileDataContentProvider" android:exported="false" android:name="com.motorola.camera.background.provider.filedatacontract.FileDataContentProvider" android:process=":postProcService"/>
+        <provider android:authorities="com.motorola.camera3.background.provider.filedatacontract.FileProviderCustom" android:exported="false" android:grantUriPermissions="true" android:name="com.motorola.camera.background.provider.filedatacontract.FileProviderCustom" android:process=":postProcService">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/file_provider_paths"/>
+        </provider>
+        <service android:enabled="true" android:exported="false" android:largeHeap="true" android:name="com.motorola.camera.background.coprocessor.postproc.PostProcService" android:process=":postProcService">
+            <intent-filter>
+                <action android:name="com.motorola.camera.background.coprocessor.postproc.PostProcService"/>
+            </intent-filter>
+        </service>
+        <service android:enabled="true" android:exported="false" android:name="com.motorola.camera.background.service.jms.JobMgrService" android:process=":JobMgrService">
+            <intent-filter>
+                <action android:name="com.motorola.camera.background.service.jms.JobMgrService"/>
+            </intent-filter>
+        </service>
+        <uses-library android:name="androidx.window.extensions" android:required="false"/>
+        <uses-library android:name="androidx.window.sidecar" android:required="false"/>
+        <service android:exported="false" android:name="androidx.work.multiprocess.RemoteWorkManagerService"/>
+        <service android:directBootAware="false" android:enabled="@bool/enable_system_alarm_service_default" android:exported="false" android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"/>
+        <service android:directBootAware="false" android:enabled="@bool/enable_system_job_service_default" android:exported="true" android:name="androidx.work.impl.background.systemjob.SystemJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:directBootAware="false" android:enabled="@bool/enable_system_foreground_service_default" android:exported="false" android:name="androidx.work.impl.foreground.SystemForegroundService"/>
+        <receiver android:directBootAware="false" android:enabled="true" android:exported="false" android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"/>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy">
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED"/>
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy">
+            <intent-filter>
+                <action android:name="android.intent.action.BATTERY_OKAY"/>
+                <action android:name="android.intent.action.BATTERY_LOW"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy">
+            <intent-filter>
+                <action android:name="android.intent.action.DEVICE_STORAGE_LOW"/>
+                <action android:name="android.intent.action.DEVICE_STORAGE_OK"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.TIME_SET"/>
+                <action android:name="android.intent.action.TIMEZONE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="@bool/enable_system_alarm_service_default" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver">
+            <intent-filter>
+                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="true" android:exported="true" android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver" android:permission="android.permission.DUMP">
+            <intent-filter>
+                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS"/>
+            </intent-filter>
+        </receiver>
+        <activity android:exported="false" android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity" android:stateNotNeeded="true" android:theme="@style/Theme.PlayCore.Transparent"/>
+        <service android:directBootAware="true" android:exported="false" android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService">
+            <meta-data android:name="com.google.firebase.components:com.google.mlkit.vision.barcode.internal.BarcodeRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+        </service>
+        <activity android:exported="false" android:name="com.google.android.gms.common.api.GoogleApiActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+        <service android:directBootAware="true" android:exported="false" android:name="androidx.room.MultiInstanceInvalidationService"/>
+        <service android:exported="false" android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery">
+            <meta-data android:name="backend:com.google.android.datatransport.cct.CctBackendFactory" android:value="cct"/>
+        </service>
+        <receiver android:exported="false" android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"/>
+        <meta-data android:name="com.android.dynamic.apk.fused.modules" android:value="base,vendor_rtwo"/>
+        <meta-data android:name="com.android.vending.splits" android:resource="@xml/splits0"/>
+    </application>
+</manifest>

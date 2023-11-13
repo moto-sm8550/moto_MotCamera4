@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.SearchView android:id="@id/debug_ui_search" android:layout_width="fill_parent" android:layout_height="60.0dip" app:defaultQueryHint="@string/debug_ui_search_hint" app:iconifiedByDefault="false" />
+    <TextView android:id="@id/debug_ui_commend" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:layout_below="@id/debug_ui_search" />
+    <ListView android:id="@id/settings_manager_list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/debug_ui_commend" />
+</RelativeLayout>

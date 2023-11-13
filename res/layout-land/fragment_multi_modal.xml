@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/imageView" android:layout_width="144.0dip" android:layout_height="144.0dip" android:src="@drawable/sample_image" android:scaleType="centerCrop" android:layout_alignParentTop="true" android:layout_alignParentStart="true" />
+    <TextView android:textColor="@color/primary_color" android:ellipsize="end" android:id="@id/title_modal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:text="@string/headline" android:maxLines="3" android:layout_alignParentTop="true" android:layout_marginStart="30.0dip" android:layout_toEndOf="@id/imageView" style="@style/TextAppearance.Moto.Headline6" />
+    <TextView android:textColor="@color/color_on_background" android:ellipsize="end" android:id="@id/desc_multi_modal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/desc_text" android:maxLines="3" android:layout_below="@id/title_modal" android:layout_marginStart="30.0dip" android:layout_toEndOf="@id/imageView" style="@style/TextAppearance.Moto.Body2" />
+</RelativeLayout>

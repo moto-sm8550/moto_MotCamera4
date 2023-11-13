@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/tutorial_tip_root" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/tutorial_sequential_tip_root_max_width"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="vertical" android:id="@id/tutorial_tip_content" android:background="@drawable/bg_sequential_tooltip" android:paddingTop="@dimen/tutorial_sequential_tip_content_padding_normal" android:paddingBottom="@dimen/tutorial_sequential_tip_content_padding_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/tutorial_sequential_tip_content_margin_top" android:maxWidth="@dimen/tutorial_sequential_tip_root_max_width" android:paddingStart="@dimen/tutorial_sequential_tip_content_padding_normal" android:paddingEnd="@dimen/tutorial_sequential_tip_content_padding_normal">
+        <TextView android:textColor="@color/black" android:id="@id/tutorial_tip_content_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/tutorial_sequential_tip_content_text_max_width" style="@style/Caption" />
+        <TextView android:textColor="@color/black_60" android:id="@id/tutorial_tip_content_index" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/tutorial_sequential_tip_content_index_margin_top" android:layout_below="@id/tutorial_tip_content_text" style="@style/Caption" />
+        <TextView android:textColor="@color/black" android:id="@id/tutorial_tip_content_control" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/tutorial_sequential_tip_content_control_margin_top" android:layout_below="@id/tutorial_tip_content_text" android:layout_alignEnd="@id/tutorial_tip_content_text" style="@style/Button" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/tutorial_tip_cross_layout" android:layout_width="fill_parent" android:layout_height="@dimen/tutorial_tip_cross_height" android:layout_alignStart="@id/tutorial_tip_content" android:layout_alignEnd="@id/tutorial_tip_content">
+        <View android:id="@id/tutorial_tip_cross" android:layout_width="@dimen/tutorial_tip_cross_width" android:layout_height="@dimen/tutorial_tip_cross_height" android:layout_marginStart="@dimen/tutorial_tip_cross_margin" android:layout_marginEnd="@dimen/tutorial_tip_cross_margin" />
+    </RelativeLayout>
+</RelativeLayout>

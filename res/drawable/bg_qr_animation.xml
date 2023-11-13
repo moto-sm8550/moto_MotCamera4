@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="oval"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/qr_fly_animation_icon" />
+    <stroke android:width="@dimen/qr_fly_animation_icon_stroke" android:color="@color/primary_main" />
+    <size android:height="@dimen/scan_bar_height" android:width="@dimen/scan_bar_height" />
+</shape>

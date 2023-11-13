@@ -1,0 +1,19 @@
+precision mediump float;
+
+uniform sampler2D u_Texture;
+uniform vec2 u_Size;
+uniform vec2 u_Direction;
+int weightSize = 5;
+varying float weight[5];
+varying vec2 v_textCoord;
+
+void main() {
+    vec4 outColor = texture2D(u_Texture, v_textCoord) * weight[0];
+
+    for (int i = 1; i < weightSize; i++) {
+        vec2 offset = float(i) * u_Direction * u_Size;
+        outColor += texture2D(u_Texture, v_textCoord + offset) * weight[i];
+        outColor += texture2D(u_Texture, v_textCoord - offset) * weight[i];
+    }
+    gl_FragColor = outColor;
+}

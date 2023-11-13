@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false">
+        <layer-list android:color="@color/surface_light">
+            <item android:left="0.0dip" android:top="6.0dip" android:right="0.0dip" android:bottom="6.0dip">
+                <shape>
+                    <solid android:color="@color/doc_save_disabled_color" />
+                    <corners android:radius="18.0dip" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item android:state_pressed="true">
+        <layer-list android:color="@color/surface_light">
+            <item android:left="0.0dip" android:top="6.0dip" android:right="0.0dip" android:bottom="6.0dip">
+                <shape>
+                    <solid android:color="@color/doc_save_pressed_color" />
+                    <corners android:radius="18.0dip" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item android:state_pressed="false">
+        <layer-list android:color="@color/surface_light">
+            <item android:left="0.0dip" android:top="6.0dip" android:right="0.0dip" android:bottom="6.0dip">
+                <shape>
+                    <solid android:color="@color/primary_main" />
+                    <corners android:radius="18.0dip" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item>
+        <layer-list android:color="@color/surface_light">
+            <item android:left="0.0dip" android:top="6.0dip" android:right="0.0dip" android:bottom="6.0dip">
+                <shape>
+                    <solid android:color="@color/primary_main" />
+                    <corners android:radius="18.0dip" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+</selector>

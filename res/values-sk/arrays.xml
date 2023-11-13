@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="exo_controls_playback_speeds">
+        <item>0,25 ×</item>
+        <item>0,5 ×</item>
+        <item>0,75 ×</item>
+        <item>Normálne</item>
+        <item>1,25 ×</item>
+        <item>1,5 ×</item>
+        <item>2 ×</item>
+    </string-array>
+    <string-array name="filter_names">
+        <item>Prirodzené svetlo</item>
+        <item>Romantika</item>
+        <item>Film</item>
+        <item>Stlmené farby</item>
+        <item>Sen</item>
+        <item>Svieže farby</item>
+        <item>Chladné farby</item>
+        <item>Tmavé zlato</item>
+        <item>Jedlo</item>
+        <item>Cyberpunk</item>
+        <item>Mladosť</item>
+        <item>Neskorá jeseň</item>
+        <item>Retro ČB</item>
+        <item>Živé ČB</item>
+    </string-array>
+    <string-array name="photos_plugin_descriptions">
+        <item></item>
+        <item></item>
+        <item>@string/best_shot_desc</item>
+        <item>@string/original_shot_desc</item>
+        <item>@string/photos_depth_desc</item>
+        <item>@string/photos_layer_desc</item>
+        <item>@string/photos_portrait_desc</item>
+        <item>@string/photos_composition_desc</item>
+        <item>@string/photos_ai_ll_desc</item>
+        <item>@string/photos_doc_desc</item>
+        <item>@string/photos_ai_image_stab_desc</item>
+    </string-array>
+    <string-array name="photos_plugin_edit_class">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>@string/photos_plugin_edit_class_filter_show_activity</item>
+        <item>@string/photos_plugin_edit_class_layer_activity</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>@string/photos_plugin_edit_class_doc_editor_activity</item>
+        <item></item>
+    </string-array>
+    <string-array name="photos_plugin_edit_pkg">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>@string/photos_plugin_edit_pkg_photoeditor</item>
+        <item>@string/photos_plugin_edit_pkg_camera3</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>@string/photos_plugin_edit_pkg_camera3</item>
+        <item></item>
+    </string-array>
+    <string-array name="photos_plugin_names">
+        <item></item>
+        <item></item>
+        <item>@string/best_shot_name</item>
+        <item>@string/original_shot_name</item>
+        <item>@string/photos_depth_name</item>
+        <item>@string/photos_layer_name</item>
+        <item>@string/photos_portrait_name</item>
+        <item>@string/photos_composition_name</item>
+        <item>@string/photos_low_light_name</item>
+        <item>@string/photos_doc_name</item>
+        <item>@string/photos_ai_image_stab_name</item>
+    </string-array>
+    <string-array name="talkback_cli_modes_menu_pills">
+        <item>Režim fotografie je aktívny</item>
+        <item>Režim videa je aktívny</item>
+        <item>Režim videa so zvýraznenou farbou je aktívny</item>
+        <item>Režim časozberu je aktívny</item>
+        <item>Režim spomalenia je aktívny</item>
+        <item>Režim portrétu je aktívny</item>
+        <item>Režim zvýraznenej farby je aktívny</item>
+        <item>Režim nočného videnia je aktívny</item>
+        <item>Režim skupinového autoportrétu je aktívny</item>
+        <item>Režim živého filtra je aktívny</item>
+    </string-array>
+    <string-array name="talkback_pro_mode_close_settings">
+        <item>Zatvoriť nastavenia automatického zaostrovania</item>
+        <item>Zatvoriť nastavenia vyváženia bielej</item>
+        <item>Zatvoriť nastavenia rýchlosti uzávierky</item>
+        <item>Zatvoriť nastavenia ISO</item>
+        <item>Zatvoriť nastavenia kompenzácie expozície</item>
+    </string-array>
+    <string-array name="talkback_pro_mode_selectors">
+        <item>Výber automatického zaostrovania</item>
+        <item>Výber vyváženia bielej</item>
+        <item>Výber rýchlosti uzávierky</item>
+        <item>Výber ISO</item>
+        <item>Výber kompenzácie expozície</item>
+    </string-array>
+    <string-array name="talkback_tooltip_titles">
+        <item>Návod k portrétu</item>
+        <item>Návod k režimu kinematografu</item>
+        <item>Návod k režimu zvýraznenej farby</item>
+        <item>Návod k videu so zvýraznenou farbou</item>
+        <item>Návod k výrezom</item>
+        <item>Návod k Ultra-Res</item>
+        <item>Návod k režimu makro</item>
+    </string-array>
+</resources>

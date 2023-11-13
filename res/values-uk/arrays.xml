@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="exo_controls_playback_speeds">
+        <item>0,25x</item>
+        <item>0,5x</item>
+        <item>0,75x</item>
+        <item>Звичайна</item>
+        <item>1,25x</item>
+        <item>1,5x</item>
+        <item>2x</item>
+    </string-array>
+    <string-array name="filter_names">
+        <item>Природне світло</item>
+        <item>Романтика</item>
+        <item>Кіно</item>
+        <item>Приглушені кольори</item>
+        <item>Сновидіння</item>
+        <item>Свіжість</item>
+        <item>Прохолода</item>
+        <item>Темне золото</item>
+        <item>Смакота</item>
+        <item>Кіберпанк</item>
+        <item>Юність</item>
+        <item>Пізня осінь</item>
+        <item>Чорно-біла класика</item>
+        <item>Чорно-білий контраст</item>
+    </string-array>
+    <string-array name="photos_plugin_descriptions">
+        <item></item>
+        <item></item>
+        <item>@string/best_shot_desc</item>
+        <item>@string/original_shot_desc</item>
+        <item>@string/photos_depth_desc</item>
+        <item>@string/photos_layer_desc</item>
+        <item>@string/photos_portrait_desc</item>
+        <item>@string/photos_composition_desc</item>
+        <item>@string/photos_ai_ll_desc</item>
+        <item>@string/photos_doc_desc</item>
+        <item>@string/photos_ai_image_stab_desc</item>
+    </string-array>
+    <string-array name="photos_plugin_edit_class">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>@string/photos_plugin_edit_class_filter_show_activity</item>
+        <item>@string/photos_plugin_edit_class_layer_activity</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>@string/photos_plugin_edit_class_doc_editor_activity</item>
+        <item></item>
+    </string-array>
+    <string-array name="photos_plugin_edit_pkg">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>@string/photos_plugin_edit_pkg_photoeditor</item>
+        <item>@string/photos_plugin_edit_pkg_camera3</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>@string/photos_plugin_edit_pkg_camera3</item>
+        <item></item>
+    </string-array>
+    <string-array name="photos_plugin_names">
+        <item></item>
+        <item></item>
+        <item>@string/best_shot_name</item>
+        <item>@string/original_shot_name</item>
+        <item>@string/photos_depth_name</item>
+        <item>@string/photos_layer_name</item>
+        <item>@string/photos_portrait_name</item>
+        <item>@string/photos_composition_name</item>
+        <item>@string/photos_low_light_name</item>
+        <item>@string/photos_doc_name</item>
+        <item>@string/photos_ai_image_stab_name</item>
+    </string-array>
+    <string-array name="talkback_cli_modes_menu_pills">
+        <item>Режим фото активний</item>
+        <item>Режим відео активний</item>
+        <item>Режим \"Відео з плашковим кольором\" активний</item>
+        <item>Режим \"Прискорена зйомка\" активний</item>
+        <item>Режим \"Уповільнена зйомка\" активний</item>
+        <item>Режим \"Портрет\" активний</item>
+        <item>Режим \"Плашковий колір\" активний</item>
+        <item>Режим \"Нічне фото\" активний</item>
+        <item>Режим \"Групове селфі\" активний</item>
+        <item>Режим \"Фільтри\" активний</item>
+    </string-array>
+    <string-array name="talkback_pro_mode_close_settings">
+        <item>Закрити автофокус</item>
+        <item>Закрити баланс білого</item>
+        <item>Закрити елемент \"Витримка\"</item>
+        <item>Закрити ISO</item>
+        <item>Закрити компенсацію експозиції</item>
+    </string-array>
+    <string-array name="talkback_pro_mode_selectors">
+        <item>Селектор автофокусу</item>
+        <item>Селектор балансу білого</item>
+        <item>Селектор параметрів витримки</item>
+        <item>Селектор ISO</item>
+        <item>Селектор компенсації експозиції</item>
+    </string-array>
+    <string-array name="talkback_tooltip_titles">
+        <item>Посібник із портретної зйомки</item>
+        <item>Посібник із функції \"Сінемаграф\"</item>
+        <item>Посібник із функції \"Плашковий колір\"</item>
+        <item>Посібник із функції \"Відео з плашковим кольором\"</item>
+        <item>Посібник із функції \"Обтинання\"</item>
+        <item>Посібник із функції Ultra-Res</item>
+        <item>Посібник із функції \"Макро\"</item>
+    </string-array>
+</resources>

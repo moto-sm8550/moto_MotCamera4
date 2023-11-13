@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="exo_controls_playback_speeds">
+        <item>0,25x</item>
+        <item>0,5x</item>
+        <item>0,75x</item>
+        <item>Normal</item>
+        <item>1,25x</item>
+        <item>1,5x</item>
+        <item>2x</item>
+    </string-array>
+    <string-array name="filter_names">
+        <item>Tabiiy yorugʻlik</item>
+        <item>Romantik</item>
+        <item>Film</item>
+        <item>Ovozi oʻchirilgan</item>
+        <item>Xayolparast</item>
+        <item>Yangilash</item>
+        <item>Sovuq</item>
+        <item>Toʻq oldin</item>
+        <item>Xoʻranda</item>
+        <item>Kiberpank</item>
+        <item>Yoshlar</item>
+        <item>Kech kuz</item>
+        <item>Oq va qora klassik</item>
+        <item>B&amp;W yorqin</item>
+    </string-array>
+    <string-array name="talkback_cli_modes_menu_pills">
+        <item>Fotosurat rejimi faol</item>
+        <item>Video rejimi faol</item>
+        <item>Aralash rang video rejimi faol</item>
+        <item>Tezlashtirilgan tasvirga olish faol</item>
+        <item>Sekinlashtirilgan tasvirga olish rejimi faol</item>
+        <item>Portret rejimi faol</item>
+        <item>Aralash rang rejimi faol</item>
+        <item>Tungi koʻrish rejimi faol</item>
+        <item>Guruhli selfi rejimi faol</item>
+        <item>Jonli filtr rejimi faol</item>
+    </string-array>
+    <string-array name="talkback_pro_mode_close_settings">
+        <item>Avtomatik fokusni yopish</item>
+        <item>Oq rang balansini yopish</item>
+        <item>Obyektiv qopqogʻi tezligini yopish</item>
+        <item>ISO yoilgan</item>
+        <item>Ekspozitsiya kompensatsiyasini yopish</item>
+    </string-array>
+    <string-array name="talkback_pro_mode_selectors">
+        <item>Avtomatik fokus tanlagichi</item>
+        <item>Oq rang balansini tanlagich</item>
+        <item>Obyektiv qopqogʻi tezligi tanlagichi</item>
+        <item>ISO tanlagich</item>
+        <item>Ekspozitsiya kompensatsiyasi tanlagichi</item>
+    </string-array>
+    <string-array name="talkback_tooltip_titles">
+        <item>Portret rejimi qoʻllanmasi</item>
+        <item>Sinemagraf qoʻllanmasi</item>
+        <item>Aralash rang qoʻllanmasi</item>
+        <item>Aralash rang video qoʻllanmasi</item>
+        <item>Kesish boʻyicha qoʻllanma</item>
+        <item>Ultra-Res qoʻllanmasi</item>
+        <item>Makro rejimi qoʻllanmasi</item>
+    </string-array>
+</resources>

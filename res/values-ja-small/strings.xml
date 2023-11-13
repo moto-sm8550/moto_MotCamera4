@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="toast_auto_smile_enabled">自動スマイルキャプチャがONです。撮影設定でOFFにできます。</string>
+    <string name="toast_auto_smile_gesture_enabled">自動スマイルキャプチャとジェスチャー自撮りがONです。撮影設定でOFFにできます。</string>
+    <string name="toast_gesture_enabled">ジェスチャー自撮りがONです。撮影設定でOFFにできます。</string>
+</resources>

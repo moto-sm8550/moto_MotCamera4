@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="exo_controls_playback_speeds">
+        <item>0,25x</item>
+        <item>0,5x</item>
+        <item>0,75x</item>
+        <item>Normaal</item>
+        <item>1,25x</item>
+        <item>1,5x</item>
+        <item>2x</item>
+    </string-array>
+    <string-array name="filter_names">
+        <item>Natuurlijk licht</item>
+        <item>Romantisch</item>
+        <item>Film</item>
+        <item>Gedempt</item>
+        <item>Dromerig</item>
+        <item>Fris</item>
+        <item>Koel</item>
+        <item>Donkergoud</item>
+        <item>Foodie</item>
+        <item>Cyberpunk</item>
+        <item>Jeugd</item>
+        <item>Najaar</item>
+        <item>Z/w klassiek</item>
+        <item>Z/w levendig</item>
+    </string-array>
+    <string-array name="photos_plugin_descriptions">
+        <item></item>
+        <item></item>
+        <item>@string/best_shot_desc</item>
+        <item>@string/original_shot_desc</item>
+        <item>@string/photos_depth_desc</item>
+        <item>@string/photos_layer_desc</item>
+        <item>@string/photos_portrait_desc</item>
+        <item>@string/photos_composition_desc</item>
+        <item>@string/photos_ai_ll_desc</item>
+        <item>@string/photos_doc_desc</item>
+        <item>@string/photos_ai_image_stab_desc</item>
+    </string-array>
+    <string-array name="photos_plugin_edit_class">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>@string/photos_plugin_edit_class_filter_show_activity</item>
+        <item>@string/photos_plugin_edit_class_layer_activity</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>@string/photos_plugin_edit_class_doc_editor_activity</item>
+        <item></item>
+    </string-array>
+    <string-array name="photos_plugin_edit_pkg">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>@string/photos_plugin_edit_pkg_photoeditor</item>
+        <item>@string/photos_plugin_edit_pkg_camera3</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>@string/photos_plugin_edit_pkg_camera3</item>
+        <item></item>
+    </string-array>
+    <string-array name="photos_plugin_names">
+        <item></item>
+        <item></item>
+        <item>@string/best_shot_name</item>
+        <item>@string/original_shot_name</item>
+        <item>@string/photos_depth_name</item>
+        <item>@string/photos_layer_name</item>
+        <item>@string/photos_portrait_name</item>
+        <item>@string/photos_composition_name</item>
+        <item>@string/photos_low_light_name</item>
+        <item>@string/photos_doc_name</item>
+        <item>@string/photos_ai_image_stab_name</item>
+    </string-array>
+    <string-array name="talkback_cli_modes_menu_pills">
+        <item>Fotomodus actief</item>
+        <item>Videomodus actief</item>
+        <item>Modus Spotkleurvideo actief</item>
+        <item>Modus Timelapse actief</item>
+        <item>Modus Slowmotion actief</item>
+        <item>Portretmodus actief</item>
+        <item>Modus Spotkleur actief</item>
+        <item>Modus Nachtzicht actief</item>
+        <item>Modus Groepsselfie actief</item>
+        <item>Modus Live-filter actief</item>
+    </string-array>
+    <string-array name="talkback_pro_mode_close_settings">
+        <item>Automatisch scherpstellen sluiten</item>
+        <item>Witbalans sluiten</item>
+        <item>Sluitertijd sluiten</item>
+        <item>ISO sluiten</item>
+        <item>Belichtingscompensatie sluiten</item>
+    </string-array>
+    <string-array name="talkback_pro_mode_selectors">
+        <item>Schuifregelaar automatisch scherpstellen</item>
+        <item>Schuifregelaar witbalans</item>
+        <item>Schuifregelaar sluitertijd</item>
+        <item>Schuifregelaar ISO</item>
+        <item>Schuifregelaar belichtingscompensatie</item>
+    </string-array>
+    <string-array name="talkback_tooltip_titles">
+        <item>Tutorial portret</item>
+        <item>Tutorial cinemagraph</item>
+        <item>Tutorial spotkleur</item>
+        <item>Tutorial spotkleurvideo</item>
+        <item>Tutorial uitsnede</item>
+        <item>Tutorial Ultra-Res</item>
+        <item>Tutorial macro</item>
+    </string-array>
+</resources>

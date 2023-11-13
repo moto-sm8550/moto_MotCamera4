@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/controls" android:layout_width="fill_parent" android:layout_height="fill_parent" android:splitMotionEvents="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/leveler_stub" android:layout="@layout/leveler" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include layout="@layout/camera_controls_v3" />
+    <include layout="@layout/camera_controls_2020" />
+    <ViewStub android:id="@id/instructional_stub" android:layout="@layout/instructional_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/instructional_margin_top" />
+    <ViewStub android:id="@id/talkback_stub" android:layout="@layout/talkback" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/timer_dots_stub" android:layout="@layout/timer_dots_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+    <ViewStub android:id="@id/display_cutout_circle_stub" android:layout="@layout/display_cutout_circle_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ViewStub android:id="@id/pano_tutorial_stub" android:layout="@layout/pano_tutorial" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/auto_focus_tracking_stub" android:layout="@layout/auto_focus_tracking_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</RelativeLayout>

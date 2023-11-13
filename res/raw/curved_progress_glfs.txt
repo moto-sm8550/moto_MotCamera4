@@ -1,0 +1,35 @@
+precision mediump float;
+
+varying vec2 v_Position;         //Interpolated texture position
+uniform vec4 u_ColorForeground;
+uniform vec4 u_ColorBackground;
+uniform float u_Opacity;
+uniform vec2 u_Radii;            //x = min, y = max
+uniform vec2 u_Angles;           //x = min, y = max
+uniform float u_Factor;          //progress 0-1f
+
+void main() {
+    float len = length(v_Position);
+    float smooth_offset = (u_Radii.y - u_Radii.x) * .2;
+    float min_boundary = u_Radii.x - smooth_offset;
+    float max_boundary = u_Radii.y + smooth_offset;
+
+    float min_smoothing = smoothstep(min_boundary, u_Radii.x, len);
+    float max_smoothing = 1.0 - smoothstep(u_Radii.y, max_boundary, len);
+    float smoothing = min_smoothing + max_smoothing - 1.0;
+
+    if (smoothing > 0.001) {
+        float angle = degrees(atan(v_Position.y, v_Position.x));
+        if (angle < 0.0) angle += 360.0;
+
+        if (angle > u_Angles.x && angle < u_Angles.y) {
+            float progress = u_Angles.x + ((u_Angles.y - u_Angles.x) * u_Factor);
+            gl_FragColor = angle < progress ? u_ColorForeground : u_ColorBackground;
+            gl_FragColor.a = clamp(gl_FragColor.a * u_Opacity * smoothing, 0.0, 1.0);
+        } else {
+            discard;
+        }
+    } else {
+        discard;
+    }
+}

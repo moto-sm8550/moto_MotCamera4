@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="exo_controls_playback_speeds">
+        <item>0,25-kratna</item>
+        <item>0,5-kratna</item>
+        <item>0,75-kratna</item>
+        <item>Običajna</item>
+        <item>1,25-kratna</item>
+        <item>1,5-kratna</item>
+        <item>2-kratna</item>
+    </string-array>
+    <string-array name="filter_names">
+        <item>Naravna svetloba</item>
+        <item>Romantično</item>
+        <item>Film</item>
+        <item>Nemo</item>
+        <item>Sanjavo</item>
+        <item>Osvežujoče</item>
+        <item>Hladno</item>
+        <item>Temno zlato</item>
+        <item>Gurmansko</item>
+        <item>Kiberpunk</item>
+        <item>Mladost</item>
+        <item>Pozna jesen</item>
+        <item>ČB klasično</item>
+        <item>ČB živahno</item>
+    </string-array>
+    <string-array name="photos_plugin_descriptions">
+        <item></item>
+        <item></item>
+        <item>@string/best_shot_desc</item>
+        <item>@string/original_shot_desc</item>
+        <item>@string/photos_depth_desc</item>
+        <item>@string/photos_layer_desc</item>
+        <item>@string/photos_portrait_desc</item>
+        <item>@string/photos_composition_desc</item>
+        <item>@string/photos_ai_ll_desc</item>
+        <item>@string/photos_doc_desc</item>
+        <item>@string/photos_ai_image_stab_desc</item>
+    </string-array>
+    <string-array name="photos_plugin_edit_class">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>@string/photos_plugin_edit_class_filter_show_activity</item>
+        <item>@string/photos_plugin_edit_class_layer_activity</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>@string/photos_plugin_edit_class_doc_editor_activity</item>
+        <item></item>
+    </string-array>
+    <string-array name="photos_plugin_edit_pkg">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>@string/photos_plugin_edit_pkg_photoeditor</item>
+        <item>@string/photos_plugin_edit_pkg_camera3</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>@string/photos_plugin_edit_pkg_camera3</item>
+        <item></item>
+    </string-array>
+    <string-array name="photos_plugin_names">
+        <item></item>
+        <item></item>
+        <item>@string/best_shot_name</item>
+        <item>@string/original_shot_name</item>
+        <item>@string/photos_depth_name</item>
+        <item>@string/photos_layer_name</item>
+        <item>@string/photos_portrait_name</item>
+        <item>@string/photos_composition_name</item>
+        <item>@string/photos_low_light_name</item>
+        <item>@string/photos_doc_name</item>
+        <item>@string/photos_ai_image_stab_name</item>
+    </string-array>
+    <string-array name="talkback_cli_modes_menu_pills">
+        <item>Način za fotografiranje je aktiven</item>
+        <item>Videonačin je aktiven</item>
+        <item>Način videa s posebno barvo je aktiven</item>
+        <item>Način časovnega zamika je aktiven</item>
+        <item>Način upočasnjenega posnetka je aktiven</item>
+        <item>Portretni način je aktiven</item>
+        <item>Način posebne barve je aktiven</item>
+        <item>Način nočnega vida je aktiven</item>
+        <item>Način skupinskega sebka je aktiven</item>
+        <item>Način filtra v živo je aktiven</item>
+    </string-array>
+    <string-array name="talkback_pro_mode_close_settings">
+        <item>Zapri samodejno izostritev</item>
+        <item>Zapri izravnavo beline</item>
+        <item>Zapri hitrost zaklopa</item>
+        <item>Zapri ISO</item>
+        <item>Zapri izravnavo osvetlitve</item>
+    </string-array>
+    <string-array name="talkback_pro_mode_selectors">
+        <item>Izbirnik samodejne izostritve</item>
+        <item>Izbirnik za izravnavo beline</item>
+        <item>Izbirnik hitrosti zaklopa</item>
+        <item>Izbirnik ISO</item>
+        <item>Izbirnik izravnave osvetlitve</item>
+    </string-array>
+    <string-array name="talkback_tooltip_titles">
+        <item>Vadnica za portrete</item>
+        <item>Vadnica za animirane fotografije</item>
+        <item>Vadnica za posebne barve</item>
+        <item>Vadnica za video s posebno barvo</item>
+        <item>Vadnica za izrez</item>
+        <item>Vadnica za Ultra-Res</item>
+        <item>Vadnica za makro</item>
+    </string-array>
+</resources>

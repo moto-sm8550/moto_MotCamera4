@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="talkback_video_timer_hour">
+        <item quantity="other">%d घंटे</item>
+        <item quantity="one">%d घंटा</item>
+    </plurals>
+    <plurals name="talkback_video_timer_minute">
+        <item quantity="other">%d मिनट</item>
+        <item quantity="one">%d मिंट</item>
+    </plurals>
+    <plurals name="talkback_video_timer_seconds">
+        <item quantity="other">%d सकिंट</item>
+        <item quantity="one">%d स्किण्ट</item>
+    </plurals>
+</resources>

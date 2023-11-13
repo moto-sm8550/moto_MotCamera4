@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="exo_controls_playback_speeds">
+        <item>0.25x</item>
+        <item>0.5x</item>
+        <item>0.75x</item>
+        <item>Normal</item>
+        <item>1.25x</item>
+        <item>1.5x</item>
+        <item>2x</item>
+    </string-array>
+    <string-array name="filter_names">
+        <item>Təbii İşıq</item>
+        <item>Romantik</item>
+        <item>Film</item>
+        <item>Səssiz</item>
+        <item>Xəyalpərəst</item>
+        <item>Təravətləndirici</item>
+        <item>Sərin</item>
+        <item>Tünd qızıl</item>
+        <item>Yemək mütəxəssisi</item>
+        <item>Kiberpunk</item>
+        <item>Gənclik</item>
+        <item>Gec payız</item>
+        <item>B &amp; W Klassik</item>
+        <item>B &amp; W Canlı</item>
+    </string-array>
+    <string-array name="photos_plugin_descriptions">
+        <item></item>
+        <item></item>
+        <item>@string/best_shot_desc</item>
+        <item>@string/original_shot_desc</item>
+        <item>@string/photos_depth_desc</item>
+        <item>@string/photos_layer_desc</item>
+        <item>@string/photos_portrait_desc</item>
+        <item>@string/photos_composition_desc</item>
+        <item>@string/photos_ai_ll_desc</item>
+        <item>@string/photos_doc_desc</item>
+        <item>@string/photos_ai_image_stab_desc</item>
+    </string-array>
+    <string-array name="photos_plugin_edit_class">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>@string/photos_plugin_edit_class_filter_show_activity</item>
+        <item>@string/photos_plugin_edit_class_layer_activity</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>@string/photos_plugin_edit_class_doc_editor_activity</item>
+        <item></item>
+    </string-array>
+    <string-array name="photos_plugin_edit_pkg">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>@string/photos_plugin_edit_pkg_photoeditor</item>
+        <item>@string/photos_plugin_edit_pkg_camera3</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>@string/photos_plugin_edit_pkg_camera3</item>
+        <item></item>
+    </string-array>
+    <string-array name="photos_plugin_names">
+        <item></item>
+        <item></item>
+        <item>@string/best_shot_name</item>
+        <item>@string/original_shot_name</item>
+        <item>@string/photos_depth_name</item>
+        <item>@string/photos_layer_name</item>
+        <item>@string/photos_portrait_name</item>
+        <item>@string/photos_composition_name</item>
+        <item>@string/photos_low_light_name</item>
+        <item>@string/photos_doc_name</item>
+        <item>@string/photos_ai_image_stab_name</item>
+    </string-array>
+    <string-array name="talkback_cli_modes_menu_pills">
+        <item>Foto rejimi aktivdir</item>
+        <item>Video rejimi aktivdir</item>
+        <item>Spot Color Video rejimi aktivdir</item>
+        <item>Timelapse rejimi aktivdir</item>
+        <item>Yavaş Hərəkət rejimi aktivdir</item>
+        <item>Portret rejimi aktivdir</item>
+        <item>Ləkə rəng rejimi aktivdir</item>
+        <item>Gecə Görmə rejimi aktivdir</item>
+        <item>Qrup Selfie rejimi aktivdir</item>
+        <item>Canlı Filtre rejimi aktivdir</item>
+    </string-array>
+    <string-array name="talkback_pro_mode_close_settings">
+        <item>Avtomatik fokusu bağlayın</item>
+        <item>Ağ balansı bağlayın</item>
+        <item>Deklanşör sürətini bağlayın</item>
+        <item>"ISO'yu bağlayın"</item>
+        <item>Pozlama təzminatını bağlayın</item>
+    </string-array>
+    <string-array name="talkback_pro_mode_selectors">
+        <item>Avtomatik fokus seçici</item>
+        <item>Ağ balans seçicisi</item>
+        <item>Deklanşör sürəti seçicisi</item>
+        <item>ISO seçicisi</item>
+        <item>Poz kompensasiya seçicisi</item>
+    </string-array>
+    <string-array name="talkback_tooltip_titles">
+        <item>Portret təlimatı</item>
+        <item>Cinemagraph təlimatı</item>
+        <item>Ləkə rəngi təlimatı</item>
+        <item>Spot Color Video təlimatı</item>
+        <item>Kəsmə təlimatı</item>
+        <item>Ultra-Res təlimatı</item>
+        <item>Makro təlimatı</item>
+    </string-array>
+</resources>

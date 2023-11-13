@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="talkback_video_timer_hour">
+        <item quantity="other">%d hāora</item>
+        <item quantity="one">%d haora</item>
+    </plurals>
+    <plurals name="talkback_video_timer_minute">
+        <item quantity="other">%d ngā meneti</item>
+        <item quantity="one">%d meneti</item>
+    </plurals>
+    <plurals name="talkback_video_timer_seconds">
+        <item quantity="other">%d ngā hēkona</item>
+        <item quantity="one">%d hekona</item>
+    </plurals>
+</resources>

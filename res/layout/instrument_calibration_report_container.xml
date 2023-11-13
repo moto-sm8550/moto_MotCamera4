@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="18.0sp" android:textColor="@color/settings_list_inverse_main_color" android:gravity="center" android:id="@id/camera_app_version" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="2.0dip" android:layout_marginRight="10.0dip" android:layout_alignParentStart="true" />
+    <TextView android:textSize="18.0sp" android:textColor="@color/settings_list_inverse_main_color" android:gravity="center" android:id="@id/au_tag_text_item" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="2.0dip" android:layout_marginRight="10.0dip" android:layout_below="@id/camera_app_version" android:layout_alignParentStart="true" />
+    <ExpandableListView android:id="@id/calibrationinstrumentReport" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="4.0dip" android:layout_below="@id/camera_app_version" android:layout_centerVertical="true" android:layout_alignParentStart="true" />
+    <TextView android:textSize="18.0sp" android:id="@id/empty_expandable_list_item" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/no_calibration_data" android:layout_centerInParent="true" />
+</RelativeLayout>

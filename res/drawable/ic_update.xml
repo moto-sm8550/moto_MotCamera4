@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <size android:height="@dimen/update_banner_icon" android:width="@dimen/update_banner_icon" />
+            <solid android:color="@color/secondary_main" />
+        </shape>
+    </item>
+    <item android:gravity="center" android:drawable="@drawable/update" />
+</layer-list>

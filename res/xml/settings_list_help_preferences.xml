@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.motorola.camera.ui.controls_2020.settings.preferences.OnlineHelpPreference android:layout="@layout/oneline_help" android:key="@string/settings_list_about_help_layout_key" />
+</PreferenceScreen>

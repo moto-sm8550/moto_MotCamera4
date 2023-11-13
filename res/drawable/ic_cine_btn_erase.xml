@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="true" android:state_selected="true">
+        <layer-list>
+            <item android:gravity="center">
+                <vector android:height="40.0dip" android:width="40.0dip" android:viewportWidth="40.0" android:viewportHeight="40.0">
+                    <path android:fillColor="@color/primary_main" android:pathData="M1,20A19,19 0,1 1,20 39,19 19,0 0,1 1,20Z" />
+                </vector>
+            </item>
+            <item android:gravity="center">
+                <vector android:height="24.0dip" android:width="24.0dip" android:viewportWidth="24.0" android:viewportHeight="24.0">
+                    <path android:fillColor="@color/black" android:pathData="M21,18H13l1.31,-1.31L15,16l5.3,-5.3a2,2 0,0 0,0 -2.83L16.07,3.59a2,2 0,0 0,-2.83 0L3.69,13.13a2,2 0,0 0,0 2.83l1.42,1.41L7.73,20H21ZM6.52,16 L5.11,14.55h0L9.35,10.3l4.24,4.25h0L10.14,18H8.56Z" />
+                </vector>
+            </item>
+        </layer-list>
+    </item>
+    <item android:state_enabled="true" android:state_selected="false">
+        <layer-list>
+            <item android:gravity="center">
+                <vector android:height="40.0dip" android:width="40.0dip" android:viewportWidth="40.0" android:viewportHeight="40.0">
+                    <path android:fillColor="@color/black" android:pathData="M1,20A19,19 0,1 1,20 39,19 19,0 0,1 1,20Z" />
+                </vector>
+            </item>
+            <item android:gravity="center">
+                <vector android:height="24.0dip" android:width="24.0dip" android:viewportWidth="24.0" android:viewportHeight="24.0"
+                  xmlns:android="http://schemas.android.com/apk/res/android">
+                    <path android:fillColor="@color/primary_main" android:pathData="M21,18H13l1.31,-1.31L15,16l5.3,-5.3a2,2 0,0 0,0 -2.83L16.07,3.59a2,2 0,0 0,-2.83 0L3.69,13.13a2,2 0,0 0,0 2.83l1.42,1.41L7.73,20H21ZM6.52,16 L5.11,14.55h0L9.35,10.3l4.24,4.25h0L10.14,18H8.56Z" />
+                </vector>
+            </item>
+            <item android:gravity="center">
+                <vector android:height="40.0dip" android:width="40.0dip" android:viewportWidth="40.0" android:viewportHeight="40.0">
+                    <path android:fillColor="@color/primary_main" android:pathData="M20,1A19,19 0,1 1,1 20,19 19,0 0,1 20,1m0,-1A20,20 0,1 0,40 20,20 20,0 0,0 20,0Z" />
+                </vector>
+            </item>
+        </layer-list>
+    </item>
+</selector>

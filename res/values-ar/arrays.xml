@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="exo_controls_playback_speeds">
+        <item>أسرع بـ 0.25 مرة</item>
+        <item>أسرع بـ 0.5 مرات</item>
+        <item>أسرع بـ 0.75 مرة</item>
+        <item>عادية</item>
+        <item>أسرع بـ 1.25 مرة</item>
+        <item>أسرع بـ 1.5 مرة</item>
+        <item>أسرع بمرتين</item>
+    </string-array>
+    <string-array name="filter_names">
+        <item>ضوء طبيعي</item>
+        <item>رومانسي</item>
+        <item>أفلام</item>
+        <item>خافت</item>
+        <item>حالم</item>
+        <item>منعش</item>
+        <item>عصري</item>
+        <item>ذهبي داكن</item>
+        <item>ذواقة</item>
+        <item>سايبربانك</item>
+        <item>شبابي</item>
+        <item>أواخر الخريف</item>
+        <item>أبيض وأسود كلاسيكي</item>
+        <item>أبيض وأسود حيوي</item>
+    </string-array>
+    <string-array name="photos_plugin_descriptions">
+        <item></item>
+        <item></item>
+        <item>@string/best_shot_desc</item>
+        <item>@string/original_shot_desc</item>
+        <item>@string/photos_depth_desc</item>
+        <item>@string/photos_layer_desc</item>
+        <item>@string/photos_portrait_desc</item>
+        <item>@string/photos_composition_desc</item>
+        <item>@string/photos_ai_ll_desc</item>
+        <item>@string/photos_doc_desc</item>
+        <item>@string/photos_ai_image_stab_desc</item>
+    </string-array>
+    <string-array name="photos_plugin_edit_class">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>@string/photos_plugin_edit_class_filter_show_activity</item>
+        <item>@string/photos_plugin_edit_class_layer_activity</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>@string/photos_plugin_edit_class_doc_editor_activity</item>
+        <item></item>
+    </string-array>
+    <string-array name="photos_plugin_edit_pkg">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>@string/photos_plugin_edit_pkg_photoeditor</item>
+        <item>@string/photos_plugin_edit_pkg_camera3</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>@string/photos_plugin_edit_pkg_camera3</item>
+        <item></item>
+    </string-array>
+    <string-array name="photos_plugin_names">
+        <item></item>
+        <item></item>
+        <item>@string/best_shot_name</item>
+        <item>@string/original_shot_name</item>
+        <item>@string/photos_depth_name</item>
+        <item>@string/photos_layer_name</item>
+        <item>@string/photos_portrait_name</item>
+        <item>@string/photos_composition_name</item>
+        <item>@string/photos_low_light_name</item>
+        <item>@string/photos_doc_name</item>
+        <item>@string/photos_ai_image_stab_name</item>
+    </string-array>
+    <string-array name="talkback_cli_modes_menu_pills">
+        <item>وضع الصورة نشط</item>
+        <item>وضع الفيديو نشط</item>
+        <item>وضع الفيديو باللون الموضعي نشط</item>
+        <item>وضع التسريع الزمني نشط</item>
+        <item>وضع الحركة البطيئة نشط</item>
+        <item>وضع الصورة لوجه الشخص نشط</item>
+        <item>وضع اللون الموضعي نشط</item>
+        <item>وضع التصوير الليلي نشط</item>
+        <item>وضع الصورة الذاتية للمجموعة نشط</item>
+        <item>وضع التأثير المباشر نشط</item>
+    </string-array>
+    <string-array name="talkback_pro_mode_close_settings">
+        <item>إغلاق التركيز التلقائي</item>
+        <item>إغلاق توازن اللون الأبيض</item>
+        <item>إغلاق سرعة الغالق</item>
+        <item>إغلاق ISO</item>
+        <item>إغلاق تعويض التعرض</item>
+    </string-array>
+    <string-array name="talkback_pro_mode_selectors">
+        <item>محدد التركيز التلقائي</item>
+        <item>محدد توازن اللون الأبيض</item>
+        <item>محدد سرعة الغالق</item>
+        <item>محدد ISO</item>
+        <item>محدد تعويض التعرض</item>
+    </string-array>
+    <string-array name="talkback_tooltip_titles">
+        <item>برنامج تعليمي حول الصورة لوجه الشخص</item>
+        <item>برنامج تعليمي حول الصورة بالحركة الخفيفة المتكررة</item>
+        <item>برنامج تعليمي حول اللون الموضعي</item>
+        <item>برنامج تعليمي حول الفيديو بلون موضعي</item>
+        <item>برنامج تعليمي حول الاقتطاع</item>
+        <item>برنامج تعليمي حول Ultra-Res</item>
+        <item>برنامج تعليمي حول ماكرو</item>
+    </string-array>
+</resources>

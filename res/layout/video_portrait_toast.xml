@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_horizontal" android:id="@id/video_portrait_toast" android:focusable="false" android:visibility="invisible" android:clickable="false" android:longClickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:background="@drawable/bg_toast_portrait_video" android:paddingTop="@dimen/toast_padding_small" android:paddingBottom="@dimen/toast_padding_small" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/toast_padding_medium" android:paddingEnd="@dimen/toast_padding_medium">
+        <TextView android:textColor="@android:color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/toast_find_person" android:textAlignment="center" android:paddingStart="@dimen/control_panel_elevation_todo" android:paddingEnd="@dimen/control_panel_elevation_todo" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintWidth_max="@dimen/toast_max_text_width" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>

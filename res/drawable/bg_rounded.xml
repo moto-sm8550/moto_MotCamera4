@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <size android:height="@dimen/control_panel_toggle_size" />
+    <corners android:radius="@dimen/control_panel_toggle_radius" />
+    <solid android:color="@color/surface_main" />
+</shape>

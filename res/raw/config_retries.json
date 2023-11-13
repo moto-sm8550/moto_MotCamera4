@@ -1,0 +1,17 @@
+//1.The purpose to add this "retry feature" was only helping Zach to pass the ESD verification,
+//at that time, Zach's HW was lockdown and it was the end of the project.
+//So we add this pure workaround for it from SW.
+//2.The default value of retry is 2 times and each time have 0.5 second delay in JsonConfig.java.
+//NUM_OF_RETRIES = 2, DELAY_TIME_OF_RETRIES = 500.
+//3.The number of retry in the config file will override the default value we set in Java layer.
+//4.Will showing a black screen if error and retry, the maximum black screen up
+//about (retryNum * delaySeconds) seconds, e.g. will showing maximum black screen 9s(3*3),
+//if we set retrNum to 3 and each time have 3s delay.
+{
+  "sanders" : {
+    "retry-config" : {
+      "retryNum" : 8,
+      "retryDelaySeconds" : [0, 1, 2, 2, 5, 10, 15, 20]
+    }
+  }
+}

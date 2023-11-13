@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/transparent" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.airbnb.lottie.LottieAnimationView android:id="@id/lottieAnimationView" android:layout_width="@dimen/pano_tutorial_lottie_animation_view_width" android:layout_height="@dimen/pano_tutorial_lottie_animation_view_height" android:layout_marginTop="@dimen/pano_tutorial_lottie_animation_view_marginTop" android:layout_centerHorizontal="true" app:lottie_autoPlay="false" app:lottie_loop="false" app:lottie_rawRes="@raw/img_tutorial_pano_move" app:lottie_renderMode="hardware" app:lottie_repeatCount="2" />
+    <com.airbnb.lottie.LottieAnimationView android:id="@id/lottieAnimationViewCapture" android:layout_width="@dimen/pano_tutorial_lottie_animation_view_width" android:layout_height="@dimen/pano_tutorial_lottie_animation_view_height" android:layout_marginTop="@dimen/pano_tutorial_lottie_animation_view_marginTop" android:layout_centerHorizontal="true" app:lottie_autoPlay="false" app:lottie_loop="true" app:lottie_rawRes="@raw/img_tutorial_pano_dots" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/mask_bg" android:background="@color/scrim_black_medium" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="" android:alpha="1.0" />
+</RelativeLayout>

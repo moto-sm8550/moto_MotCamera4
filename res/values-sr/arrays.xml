@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="exo_controls_playback_speeds">
+        <item>0,25x</item>
+        <item>0,5x</item>
+        <item>0,75x</item>
+        <item>Нормално</item>
+        <item>1,25x</item>
+        <item>1,5x</item>
+        <item>2x</item>
+    </string-array>
+    <string-array name="filter_names">
+        <item>Природно светло</item>
+        <item>Романтично</item>
+        <item>Филм</item>
+        <item>Пригушено</item>
+        <item>У сну</item>
+        <item>Освежавајуће</item>
+        <item>Хладно</item>
+        <item>Тамно злато</item>
+        <item>Храна</item>
+        <item>Сајберпанк</item>
+        <item>Младалачки</item>
+        <item>Касна јесен</item>
+        <item>Класично црно-бело</item>
+        <item>Живописно црно-бело</item>
+    </string-array>
+    <string-array name="photos_plugin_descriptions">
+        <item></item>
+        <item></item>
+        <item>@string/best_shot_desc</item>
+        <item>@string/original_shot_desc</item>
+        <item>@string/photos_depth_desc</item>
+        <item>@string/photos_layer_desc</item>
+        <item>@string/photos_portrait_desc</item>
+        <item>@string/photos_composition_desc</item>
+        <item>@string/photos_ai_ll_desc</item>
+        <item>@string/photos_doc_desc</item>
+        <item>@string/photos_ai_image_stab_desc</item>
+    </string-array>
+    <string-array name="photos_plugin_edit_class">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>@string/photos_plugin_edit_class_filter_show_activity</item>
+        <item>@string/photos_plugin_edit_class_layer_activity</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>@string/photos_plugin_edit_class_doc_editor_activity</item>
+        <item></item>
+    </string-array>
+    <string-array name="photos_plugin_edit_pkg">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>@string/photos_plugin_edit_pkg_photoeditor</item>
+        <item>@string/photos_plugin_edit_pkg_camera3</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>@string/photos_plugin_edit_pkg_camera3</item>
+        <item></item>
+    </string-array>
+    <string-array name="photos_plugin_names">
+        <item></item>
+        <item></item>
+        <item>@string/best_shot_name</item>
+        <item>@string/original_shot_name</item>
+        <item>@string/photos_depth_name</item>
+        <item>@string/photos_layer_name</item>
+        <item>@string/photos_portrait_name</item>
+        <item>@string/photos_composition_name</item>
+        <item>@string/photos_low_light_name</item>
+        <item>@string/photos_doc_name</item>
+        <item>@string/photos_ai_image_stab_name</item>
+    </string-array>
+    <string-array name="talkback_cli_modes_menu_pills">
+        <item>Активан је режим за фотографије</item>
+        <item>Активан је видео режим</item>
+        <item>Активан је режим за видео са спот бојом</item>
+        <item>Активан је режим убрзаног протока времена</item>
+        <item>Активан је режим за успорени снимак</item>
+        <item>Активан је режим за портрете</item>
+        <item>Активан је режим спот боја</item>
+        <item>Активан је режим Ноћни вид</item>
+        <item>Активан је режим Групни селфи</item>
+        <item>Активан је режим филтера уживо</item>
+    </string-array>
+    <string-array name="talkback_pro_mode_close_settings">
+        <item>Затвори аутоматски фокус</item>
+        <item>Затвори баланс беле</item>
+        <item>Брзина затварача</item>
+        <item>Затвори ISO</item>
+        <item>Затвори компензацију експозиције</item>
+    </string-array>
+    <string-array name="talkback_pro_mode_selectors">
+        <item>Бирач аутоматског фокуса</item>
+        <item>Бирач баланса беле</item>
+        <item>Бирач брзине затварача</item>
+        <item>ISO бирач</item>
+        <item>Бирач компензације експозиције</item>
+    </string-array>
+    <string-array name="talkback_tooltip_titles">
+        <item>Упутство за портрет</item>
+        <item>Упутство за синемаграф</item>
+        <item>Упутство за спот боју</item>
+        <item>Упутство за видео са спот бојом</item>
+        <item>Упутство за исечак</item>
+        <item>Ultra-Res упутство</item>
+        <item>Упутство за макро</item>
+    </string-array>
+</resources>

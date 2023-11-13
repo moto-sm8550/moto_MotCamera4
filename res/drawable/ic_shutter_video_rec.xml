@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="80.0dip" android:width="80.0dip" android:viewportWidth="80.0" android:viewportHeight="80.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/white" android:pathData="M40,40m-36,0a36,36 0,1 1,72 0a36,36 0,1 1,-72 0" />
+    <path android:fillColor="@color/white" android:pathData="M40,40m-24,0a24,24 0,1 1,48 0a24,24 0,1 1,-48 0" />
+    <group android:name="videoCircle" android:pivotX="40.0" android:pivotY="40.0" android:scaleX="3.0" android:scaleY="3.0">
+        <path android:fillColor="@color/recording_red" android:pathData="M40,40m-12,0a12,12 0,1 1,24 0a12,12 0,1 1,-24 0" />
+    </group>
+    <group android:name="videoRec" android:pivotX="40.0" android:pivotY="40.0" android:scaleX="1.0" android:scaleY="1.0">
+        <path android:fillColor="@color/white" android:pathData="M28,28h24v24h-24z" />
+    </group>
+</vector>

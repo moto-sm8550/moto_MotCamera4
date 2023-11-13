@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <size android:height="@dimen/header_banner_icon_background_size" android:width="@dimen/header_banner_icon_background_size" />
+            <solid android:color="@color/primary_main" />
+        </shape>
+    </item>
+    <item android:gravity="center" android:drawable="@drawable/ic_stabilize_conflicts_banner_off_image" />
+</layer-list>

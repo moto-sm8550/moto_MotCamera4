@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="exo_controls_playback_speeds">
+        <item>0,25</item>
+        <item>0,5</item>
+        <item>0,75</item>
+        <item>Обычная</item>
+        <item>1,25</item>
+        <item>1,5</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="filter_names">
+        <item>Естественный свет</item>
+        <item>Романтика</item>
+        <item>Кино</item>
+        <item>Тусклый</item>
+        <item>Сны</item>
+        <item>Свежесть</item>
+        <item>Холодный</item>
+        <item>Серебро</item>
+        <item>Еда</item>
+        <item>Киберпанк</item>
+        <item>Юность</item>
+        <item>Поздняя осень</item>
+        <item>Ч/Б классика</item>
+        <item>Ч/Б контраст</item>
+    </string-array>
+    <string-array name="photos_plugin_descriptions">
+        <item></item>
+        <item></item>
+        <item>@string/best_shot_desc</item>
+        <item>@string/original_shot_desc</item>
+        <item>@string/photos_depth_desc</item>
+        <item>@string/photos_layer_desc</item>
+        <item>@string/photos_portrait_desc</item>
+        <item>@string/photos_composition_desc</item>
+        <item>@string/photos_ai_ll_desc</item>
+        <item>@string/photos_doc_desc</item>
+        <item>@string/photos_ai_image_stab_desc</item>
+    </string-array>
+    <string-array name="photos_plugin_edit_class">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>@string/photos_plugin_edit_class_filter_show_activity</item>
+        <item>@string/photos_plugin_edit_class_layer_activity</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>@string/photos_plugin_edit_class_doc_editor_activity</item>
+        <item></item>
+    </string-array>
+    <string-array name="photos_plugin_edit_pkg">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>@string/photos_plugin_edit_pkg_photoeditor</item>
+        <item>@string/photos_plugin_edit_pkg_camera3</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>@string/photos_plugin_edit_pkg_camera3</item>
+        <item></item>
+    </string-array>
+    <string-array name="photos_plugin_names">
+        <item></item>
+        <item></item>
+        <item>@string/best_shot_name</item>
+        <item>@string/original_shot_name</item>
+        <item>@string/photos_depth_name</item>
+        <item>@string/photos_layer_name</item>
+        <item>@string/photos_portrait_name</item>
+        <item>@string/photos_composition_name</item>
+        <item>@string/photos_low_light_name</item>
+        <item>@string/photos_doc_name</item>
+        <item>@string/photos_ai_image_stab_name</item>
+    </string-array>
+    <string-array name="talkback_cli_modes_menu_pills">
+        <item>Режим фотосъемки активен</item>
+        <item>Режим видеосъемки активен</item>
+        <item>Режим видео с точечным цветом активен</item>
+        <item>Режим Timelapse активен</item>
+        <item>Режим замедленной съемки активен</item>
+        <item>Режим портрета активен</item>
+        <item>Режим точечного цвета активен</item>
+        <item>Режим \"Ночное фото\" активен</item>
+        <item>Режим группового селфи активен</item>
+        <item>Режим фильтров активен</item>
+    </string-array>
+    <string-array name="talkback_pro_mode_close_settings">
+        <item>Закрыть автофокусировку</item>
+        <item>Закрыть баланс белого</item>
+        <item>Закрыть выдержку</item>
+        <item>Закрыть ISO</item>
+        <item>Закрыть экспокоррекцию</item>
+    </string-array>
+    <string-array name="talkback_pro_mode_selectors">
+        <item>Выбор автофокусировки</item>
+        <item>Выбор баланса белого</item>
+        <item>Выбор значения выдержки</item>
+        <item>Выбор значения ISO</item>
+        <item>Выбор экспокоррекции</item>
+    </string-array>
+    <string-array name="talkback_tooltip_titles">
+        <item>Обучение портретной съемке</item>
+        <item>Обучение синемаграфии</item>
+        <item>Обучение функции \"Точечный цвет\"</item>
+        <item>Обучение съемке видео с точечным цветом</item>
+        <item>Обучение функции \"Обрезка\"</item>
+        <item>Обучение режиму Ultra-Res</item>
+        <item>Обучение макросъемке</item>
+    </string-array>
+</resources>

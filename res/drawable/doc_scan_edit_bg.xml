@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset android:inset="20.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <shape android:shape="rectangle">
+        <corners android:radius="45.0dip" />
+        <size android:height="30.0dip" />
+        <size android:width="@dimen/control_panel_toggle_size" />
+        <solid android:color="@color/black_60" />
+    </shape>
+</inset>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="oval"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/timer_dot_inactive_color" />
+    <stroke android:width="@dimen/timer_dot_outline_size" android:color="@color/timer_dot_outline_color" />
+    <size android:height="@dimen/timer_dot_inactive_size" android:width="@dimen/timer_dot_inactive_size" />
+</shape>

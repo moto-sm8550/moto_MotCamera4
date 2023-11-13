@@ -1,0 +1,63 @@
+#extension GL_OES_EGL_image_external : require
+precision mediump float;
+varying vec2 v_TextureCoord;
+varying vec2 v_Position;
+uniform samplerExternalOES u_Texture;
+uniform float u_Alpha;
+uniform float u_Radius;
+uniform vec2 u_Size;
+
+void main() {
+    vec2 pos = v_Position;
+    float radius = u_Radius / u_Size.x;
+    float ratio = u_Size.y / u_Size.x;
+    vec2 size = vec2(1.0 - radius * ratio, 1.0 - radius);
+    float alpha = u_Alpha;
+
+    float min = 0.9;
+    float max = 1.1;
+
+    float offsetX = 1.0 - size.x;
+    float offsetY = 1.0 - size.y;
+    float oX2 = offsetX * offsetX;
+    float oY2 = offsetY * offsetY;
+    if ((pos.x > -1.0 + offsetX && pos.x < 1.0 - offsetX) ||
+        (pos.y > -1.0 + offsetY && pos.y < 1.0 - offsetY)) {
+        alpha = u_Alpha;
+    } else {
+        // left top
+        float dX = abs((-1.0 + offsetX) - v_Position.x);
+        float dY = abs((1.0 - offsetY) - v_Position.y);
+        float dist = (dY*dY)/oY2 + (dX*dX)/oX2;
+        if(dist <= 1.0) {
+            alpha = (1.0 - smoothstep(min, max, dist)) * u_Alpha;
+        } else {
+            // left bottom
+            float dX = abs((-1.0 + offsetX) - v_Position.x);
+            float dY = abs((-1.0 + offsetY) - v_Position.y);
+            float dist = (dY*dY)/oY2 + (dX*dX)/oX2;
+            if(dist <= 1.0) {
+                alpha = (1.0 - smoothstep(min, max, dist)) * u_Alpha;
+            } else {
+                // right top
+                float dX = abs((1.0 - offsetX) - v_Position.x);
+                float dY = abs((1.0 - offsetY) - v_Position.y);
+                float dist = (dY*dY)/oY2 + (dX*dX)/oX2;
+                if(dist <= 1.0) {
+                    alpha = (1.0 - smoothstep(min, max, dist)) * u_Alpha;
+                } else {
+                    // right bottom
+                    float dX = abs((1.0 - offsetX) - v_Position.x);
+                    float dY = abs((-1.0 + offsetY) - v_Position.y);
+                    float dist = (dY*dY)/oY2 + (dX*dX)/oX2;
+                    if(dist <= 1.0) {
+                        alpha = (1.0 - smoothstep(min, max, dist)) * u_Alpha;
+                    } else {
+                        alpha = 0.0;
+                    }
+                }
+            }
+        }
+    }
+    gl_FragColor = texture2D(u_Texture, v_TextureCoord) * alpha;
+}

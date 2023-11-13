@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/controls" android:layout_width="fill_parent" android:layout_height="fill_parent" android:splitMotionEvents="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/scene_debug_stub" android:layout="@layout/scene_mode_debug_menu" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ViewStub android:id="@id/oneline_help_stub" android:layout="@layout/oneline_help" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@android:color/black" />
+    <item android:gravity="center" android:height="@dimen/window_bg_icon_size" android:width="@dimen/window_bg_icon_size" android:top="@dimen/window_bg_icon_top">
+        <bitmap android:gravity="fill" android:src="@drawable/cold_start" />
+    </item>
+</layer-list>

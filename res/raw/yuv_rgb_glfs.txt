@@ -1,0 +1,19 @@
+precision mediump float;
+
+varying vec2 v_textCoord;
+uniform sampler2D u_Y_texture;
+uniform sampler2D u_UV_texture;
+uniform float u_Opacity;
+
+void main() {
+    float y = texture2D(u_Y_texture, v_textCoord).r;
+    float u = texture2D(u_UV_texture, v_textCoord).a - 0.5;
+    float v = texture2D(u_UV_texture, v_textCoord).r - 0.5;
+    float r = y + (1.370705 * v);
+    float g = y - (0.698001 * v) - (0.337633 * u);
+    float b = y + (1.732446 * u);
+    r = clamp(r, 0.0, 1.0);
+    g = clamp(g, 0.0, 1.0);
+    b = clamp(b, 0.0, 1.0);
+    gl_FragColor = vec4(r,g,b,1.0) * u_Opacity;
+}

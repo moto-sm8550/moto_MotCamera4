@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:left="-4.0dip" android:top="-4.0dip" android:right="-4.0dip" android:bottom="2.0dip">
+        <selector>
+            <item android:state_focused="true" android:state_enabled="true">
+                <shape android:shape="rectangle">
+                    <stroke android:width="2.0dip" android:color="@color/settings_list_main_color" />
+                </shape>
+            </item>
+            <item>
+                <shape android:shape="rectangle">
+                    <stroke android:width="1.0dip" android:color="@color/watermark_signature_inactive" />
+                </shape>
+            </item>
+        </selector>
+    </item>
+</layer-list>

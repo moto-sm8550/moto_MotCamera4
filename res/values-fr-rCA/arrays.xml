@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="exo_controls_playback_speeds">
+        <item>0,25x</item>
+        <item>0,5x</item>
+        <item>0,75x</item>
+        <item>Normal</item>
+        <item>1,25x</item>
+        <item>1,5x</item>
+        <item>2x</item>
+    </string-array>
+    <string-array name="filter_names">
+        <item>Lumière naturelle</item>
+        <item>Romantique</item>
+        <item>Film</item>
+        <item>Son désactivé</item>
+        <item>Rêveur</item>
+        <item>Actualisation</item>
+        <item>Froid</item>
+        <item>Doré foncé</item>
+        <item>Nourriture</item>
+        <item>Cyberpunk</item>
+        <item>Jeune</item>
+        <item>Automne tardif</item>
+        <item>Noir et blanc classique</item>
+        <item>Noir et blanc vif</item>
+    </string-array>
+    <string-array name="talkback_cli_modes_menu_pills">
+        <item>Mode Photo actif</item>
+        <item>Mode vidéo actif</item>
+        <item>Mode vidéo de filtre de couleur activé</item>
+        <item>Mode accéléré actif</item>
+        <item>Mode ralenti actif</item>
+        <item>Mode portrait actif</item>
+        <item>Mode de filtre de couleur activé</item>
+        <item>Mode vision nocturne actif</item>
+        <item>Mode autoportrait de groupe activé</item>
+        <item>Mode Filtre dynamique activé</item>
+    </string-array>
+    <string-array name="talkback_pro_mode_close_settings">
+        <item>Fermer la mise au point automatique</item>
+        <item>Fermer la balance des blancs</item>
+        <item>"Fermer la vitesse d'obturateur"</item>
+        <item>Fermer ISO</item>
+        <item>"Fermer la compensation d'exposition"</item>
+    </string-array>
+    <string-array name="talkback_pro_mode_selectors">
+        <item>Sélecteur de mise au point automatique</item>
+        <item>Sélecteur de balance des blancs</item>
+        <item>Sélecteur de vitesse de l’obturateur</item>
+        <item>Sélecteur ISO</item>
+        <item>"Sélecteur de compensation d'exposition"</item>
+    </string-array>
+    <string-array name="talkback_tooltip_titles">
+        <item>Tutoriel du mode Portrait</item>
+        <item>Tutoriel pour Cinémagraphe</item>
+        <item>Tutoriel sur le filtre de couleur</item>
+        <item>Tutoriel vidéo sur le filtre de couleur</item>
+        <item>Tutoriel sur le détourage</item>
+        <item>Tutoriel sur Ultra-Res</item>
+        <item>Tutoriel sur les macros</item>
+    </string-array>
+</resources>

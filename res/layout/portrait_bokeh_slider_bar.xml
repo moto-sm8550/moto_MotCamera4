@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/portrait_bokeh_slider_bar_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:layout_width="fill_parent" android:layout_height="@dimen/toggle_bar_height" app:layout_constraintBottom_toBottomOf="@id/guideline_toggle_bar" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" layout="@layout/toggle_bar" />
+    <include android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/slider_bar_label_margin_end" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/portrait_bokeh_slider_bar" app:layout_constraintTop_toTopOf="parent" layout="@layout/slider_bar_label" />
+    <SeekBar android:id="@id/portrait_bokeh_slider_bar" android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="fill_parent" android:contentDescription="@string/talkback_portrait_bokeh_slider" android:layout_marginStart="@dimen/seek_bar_margin" android:layout_marginEnd="@dimen/seek_bar_margin" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/PortraitBokehSeekBar" />
+</androidx.constraintlayout.widget.ConstraintLayout>

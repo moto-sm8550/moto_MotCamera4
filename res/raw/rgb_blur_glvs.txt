@@ -1,0 +1,17 @@
+attribute vec4 a_Position;
+attribute vec2 a_TextureCoord;
+varying vec2 v_textCoord;
+varying float weight[5];
+
+void main()
+{
+   gl_Position = a_Position;
+   v_textCoord = a_TextureCoord;
+
+   weight[0] = 0.152781;
+   weight[1] = 0.144599;
+   weight[2] = 0.122589;
+   weight[3] = 0.093095;
+   weight[4] = 0.063327;
+
+}

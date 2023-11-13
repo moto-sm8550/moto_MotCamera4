@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/timer_dot_first" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/timer_dots_extra_margin" layout="@layout/timer_dot_view" />
+    <include android:id="@id/timer_dot_second" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/timer_dots_extra_margin" android:layout_toRightOf="@id/timer_dot_first" android:layout_centerHorizontal="true" layout="@layout/timer_dot_view" />
+    <include android:id="@id/timer_dot_third" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/timer_dot_second" layout="@layout/timer_dot_view" />
+</RelativeLayout>

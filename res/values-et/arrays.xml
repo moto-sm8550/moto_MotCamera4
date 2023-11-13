@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="exo_controls_playback_speeds">
+        <item>0,25-kordne</item>
+        <item>0,5-kordne</item>
+        <item>0,75-kordne</item>
+        <item>Tavaline</item>
+        <item>1,25-kordne</item>
+        <item>1,5-kordne</item>
+        <item>2-kordne</item>
+    </string-array>
+    <string-array name="filter_names">
+        <item>Loomulik valgus</item>
+        <item>Romantiline</item>
+        <item>Film</item>
+        <item>Hääletu</item>
+        <item>Unistav</item>
+        <item>Värskendav</item>
+        <item>Jahe</item>
+        <item>Tumekuld</item>
+        <item>Toiduarmastaja</item>
+        <item>Küberpunk</item>
+        <item>Noorus</item>
+        <item>Hilissügis</item>
+        <item>Mustvalge klassika</item>
+        <item>Ere mustvalge</item>
+    </string-array>
+    <string-array name="talkback_cli_modes_menu_pills">
+        <item>Fotorežiim aktiivne</item>
+        <item>Videorežiim aktiivne</item>
+        <item>Täpi värvi videorežiim aktiivne</item>
+        <item>Aegvõte režiim aktiivne</item>
+        <item>Aegluubis režiim aktiivne</item>
+        <item>Portree režiim aktiivne</item>
+        <item>Täpi värvi režiim aktiivne</item>
+        <item>Pimedas nägemise režiim aktiivne</item>
+        <item>Grupifoto režiim aktiivne</item>
+        <item>Otsefiltri režiim aktiivne</item>
+    </string-array>
+    <string-array name="talkback_pro_mode_close_settings">
+        <item>Sule automaatne fokusseerimine</item>
+        <item>Sule valge tasakaalustus</item>
+        <item>Sule katiku kiirus</item>
+        <item>Sule ISO</item>
+        <item>Sule säriaja kompensatsioon</item>
+    </string-array>
+    <string-array name="talkback_pro_mode_selectors">
+        <item>Automaatse fokusseerimise selektor</item>
+        <item>Valge tasakaalustus selektor</item>
+        <item>Sule katiku selektor</item>
+        <item>ISO selektor</item>
+        <item>Säriaja kompensatsioon selektor</item>
+    </string-array>
+    <string-array name="talkback_tooltip_titles">
+        <item>Portree õpetus</item>
+        <item>Filmirežiimi õpetus</item>
+        <item>Täpi värvi õpetus</item>
+        <item>Täpi värvi videoõpetus</item>
+        <item>Väljalõike õpetus</item>
+        <item>Ülisuure resolutsiooni õpetus</item>
+        <item>Lähivõtte õpetus</item>
+    </string-array>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="2000" android:drawable="@drawable/img_tutorial_cutout_01" />
+    <item android:duration="200" android:drawable="@drawable/img_tutorial_cutout_02" />
+    <item android:duration="3000" android:drawable="@drawable/img_tutorial_cutout_03" />
+    <item android:duration="200" android:drawable="@drawable/img_tutorial_cutout_02" />
+</animation-list>

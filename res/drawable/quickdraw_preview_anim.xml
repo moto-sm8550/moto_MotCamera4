@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="2000" android:drawable="@drawable/quick_draw_frame_01" />
+    <item android:duration="100" android:drawable="@drawable/quick_draw_frame_02" />
+    <item android:duration="200" android:drawable="@drawable/quick_draw_frame_03" />
+    <item android:duration="100" android:drawable="@drawable/quick_draw_frame_02" />
+    <item android:duration="200" android:drawable="@drawable/quick_draw_frame_01" />
+    <item android:duration="100" android:drawable="@drawable/quick_draw_frame_02" />
+    <item android:duration="200" android:drawable="@drawable/quick_draw_frame_03" />
+    <item android:duration="100" android:drawable="@drawable/quick_draw_frame_02" />
+    <item android:duration="100" android:drawable="@drawable/quick_draw_frame_04" />
+    <item android:duration="100" android:drawable="@drawable/quick_draw_frame_05" />
+    <item android:duration="100" android:drawable="@drawable/quick_draw_frame_06" />
+    <item android:duration="2000" android:drawable="@drawable/quick_draw_frame_07" />
+    <item android:duration="100" android:drawable="@drawable/quick_draw_frame_05" />
+</animation-list>

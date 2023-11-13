@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="2000" android:drawable="@drawable/quickcap_01" />
+    <item android:duration="70" android:drawable="@drawable/quickcap_02" />
+    <item android:duration="100" android:drawable="@drawable/quickcap_03" />
+    <item android:duration="70" android:drawable="@drawable/quickcap_02" />
+    <item android:duration="100" android:drawable="@drawable/quickcap_01" />
+    <item android:duration="70" android:drawable="@drawable/quickcap_02" />
+    <item android:duration="100" android:drawable="@drawable/quickcap_03" />
+    <item android:duration="70" android:drawable="@drawable/quickcap_02" />
+    <item android:duration="2000" android:drawable="@drawable/quickcap_04" />
+    <item android:duration="70" android:drawable="@drawable/quickcap_02" />
+    <item android:duration="100" android:drawable="@drawable/quickcap_03" />
+    <item android:duration="70" android:drawable="@drawable/quickcap_02" />
+    <item android:duration="100" android:drawable="@drawable/quickcap_04" />
+    <item android:duration="70" android:drawable="@drawable/quickcap_02" />
+    <item android:duration="100" android:drawable="@drawable/quickcap_03" />
+    <item android:duration="70" android:drawable="@drawable/quickcap_02" />
+</animation-list>

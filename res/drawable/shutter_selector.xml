@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-selector
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@id/video_processing" android:drawable="@drawable/ic_shutter_video" app:state_video_processing="true" />
+    <item android:id="@id/photo_processing" android:drawable="@drawable/ic_shutter_photo_processing" app:state_photo_processing="true" />
+    <item android:id="@id/cinemagraph" android:drawable="@drawable/ic_shutter_cinemagraph" app:state_cinemagraph="true" />
+    <item android:id="@id/timer" android:drawable="@drawable/ic_shutter_timer" app:state_timer="true" />
+    <item android:id="@id/video" android:drawable="@drawable/ic_shutter_video" app:state_video="true" />
+    <item android:id="@id/video_rec" android:drawable="@drawable/ic_shutter_video_rec" app:state_video_rec="true" />
+    <item android:state_pressed="true" android:id="@id/photo_pressed" android:drawable="@drawable/ic_shutter_photo_pressed" app:state_photo="true" />
+    <item android:id="@id/photo_capturing" android:drawable="@drawable/ic_shutter_photo_pressed" app:state_photo_capturing="true" />
+    <item android:id="@id/photo" android:drawable="@drawable/ic_shutter_photo" app:state_photo="true" />
+    <item android:id="@id/default_state" android:drawable="@drawable/ic_shutter_photo" />
+    <transition android:drawable="@drawable/ic_shutter_photo_to_photo_pressed" android:toId="@id/photo_pressed" android:fromId="@id/photo" />
+    <transition android:drawable="@drawable/ic_shutter_photo_pressed_to_photo" android:toId="@id/photo" android:fromId="@id/photo_pressed" />
+    <transition android:drawable="@drawable/ic_shutter_photo_to_photo_pressed" android:toId="@id/photo_capturing" android:fromId="@id/photo" />
+    <transition android:drawable="@drawable/ic_shutter_photo_pressed_to_photo" android:toId="@id/photo" android:fromId="@id/photo_capturing" />
+    <transition android:drawable="@drawable/ic_shutter_photo_to_photo_processing" android:toId="@id/photo_processing" android:fromId="@id/photo" />
+    <transition android:drawable="@drawable/ic_shutter_photo_processing_to_photo" android:toId="@id/photo" android:fromId="@id/photo_processing" />
+    <transition android:drawable="@drawable/ic_shutter_photo_to_timer" android:toId="@id/timer" android:fromId="@id/photo" />
+    <transition android:drawable="@drawable/ic_shutter_timer_to_photo" android:toId="@id/photo" android:fromId="@id/timer" />
+    <transition android:drawable="@drawable/ic_shutter_photo_to_video" android:toId="@id/video" android:fromId="@id/photo" />
+    <transition android:drawable="@drawable/ic_shutter_video_to_photo" android:toId="@id/photo" android:fromId="@id/video" />
+    <transition android:drawable="@drawable/ic_shutter_video_to_video_rec" android:toId="@id/video_rec" android:fromId="@id/video" />
+    <transition android:drawable="@drawable/ic_shutter_video_rec_to_video_processing" android:toId="@id/video_processing" android:fromId="@id/video_rec" />
+    <transition android:drawable="@drawable/ic_shutter_video_processing_to_video" android:toId="@id/video" android:fromId="@id/video_processing" />
+    <transition android:drawable="@drawable/ic_shutter_video_rec_to_video" android:toId="@id/video" android:fromId="@id/video_rec" />
+    <transition android:drawable="@drawable/ic_shutter_cinemagraph_idle_to_rec" android:toId="@id/video_rec" android:fromId="@id/cinemagraph" />
+    <transition android:drawable="@drawable/ic_shutter_cinemagraph_rec_to_idle" android:toId="@id/cinemagraph" android:fromId="@id/video_rec" />
+</animated-selector>

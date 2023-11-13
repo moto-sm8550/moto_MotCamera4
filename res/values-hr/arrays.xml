@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="exo_controls_playback_speeds">
+        <item>0,25 x</item>
+        <item>0,5 x</item>
+        <item>0,75 x</item>
+        <item>Uobičajeno</item>
+        <item>1,25 x</item>
+        <item>1,5 x</item>
+        <item>2 x</item>
+    </string-array>
+    <string-array name="filter_names">
+        <item>Prirodno svjetlo</item>
+        <item>Romantic</item>
+        <item>Film</item>
+        <item>Muted</item>
+        <item>Dreamy</item>
+        <item>Refreshing</item>
+        <item>Cool</item>
+        <item>Tamnozlatno</item>
+        <item>Foodie</item>
+        <item>Cyberpunk</item>
+        <item>Youth</item>
+        <item>Kasna jesen</item>
+        <item>Klasično crno-bijelo</item>
+        <item>Živopisno crno-bijelo</item>
+    </string-array>
+    <string-array name="photos_plugin_descriptions">
+        <item></item>
+        <item></item>
+        <item>@string/best_shot_desc</item>
+        <item>@string/original_shot_desc</item>
+        <item>@string/photos_depth_desc</item>
+        <item>@string/photos_layer_desc</item>
+        <item>@string/photos_portrait_desc</item>
+        <item>@string/photos_composition_desc</item>
+        <item>@string/photos_ai_ll_desc</item>
+        <item>@string/photos_doc_desc</item>
+        <item>@string/photos_ai_image_stab_desc</item>
+    </string-array>
+    <string-array name="photos_plugin_edit_class">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>@string/photos_plugin_edit_class_filter_show_activity</item>
+        <item>@string/photos_plugin_edit_class_layer_activity</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>@string/photos_plugin_edit_class_doc_editor_activity</item>
+        <item></item>
+    </string-array>
+    <string-array name="photos_plugin_edit_pkg">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>@string/photos_plugin_edit_pkg_photoeditor</item>
+        <item>@string/photos_plugin_edit_pkg_camera3</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>@string/photos_plugin_edit_pkg_camera3</item>
+        <item></item>
+    </string-array>
+    <string-array name="photos_plugin_names">
+        <item></item>
+        <item></item>
+        <item>@string/best_shot_name</item>
+        <item>@string/original_shot_name</item>
+        <item>@string/photos_depth_name</item>
+        <item>@string/photos_layer_name</item>
+        <item>@string/photos_portrait_name</item>
+        <item>@string/photos_composition_name</item>
+        <item>@string/photos_low_light_name</item>
+        <item>@string/photos_doc_name</item>
+        <item>@string/photos_ai_image_stab_name</item>
+    </string-array>
+    <string-array name="talkback_cli_modes_menu_pills">
+        <item>Aktivan način za fotografiranje</item>
+        <item>Način videozapisa aktivan</item>
+        <item>Aktivan način videozapisa sa spot bojom</item>
+        <item>Način rada s protokom vremena aktivan</item>
+        <item>Način usporenog kretanja aktivan</item>
+        <item>Portretni način rada aktivan</item>
+        <item>Način rada sa spot bojom aktivan</item>
+        <item>Način noćnog snimanja aktivan</item>
+        <item>Način grupne autoportrete aktivan</item>
+        <item>Aktivan način filtriranja uživo</item>
+    </string-array>
+    <string-array name="talkback_pro_mode_close_settings">
+        <item>Zatvori automatsko izoštravanje</item>
+        <item>Zatvori ravnotežu bijele boje</item>
+        <item>Brzina zatvaranja zatvarača</item>
+        <item>Zatvori ISO</item>
+        <item>Zatvori kompenzaciju ekspozicije</item>
+    </string-array>
+    <string-array name="talkback_pro_mode_selectors">
+        <item>Odabir automatskog izoštravanja</item>
+        <item>Odabir ravnoteže bijele boje</item>
+        <item>Odabir brzine zatvarača</item>
+        <item>Odabir ISO vrijednosti</item>
+        <item>Odabir kompenzacije ekspozicije</item>
+    </string-array>
+    <string-array name="talkback_tooltip_titles">
+        <item>Vodič za portrete</item>
+        <item>Vodič za pokretne fotografije</item>
+        <item>Vodič za spot boje</item>
+        <item>Vodič za videozapise sa spot bojom</item>
+        <item>Vodič za izrezivanje</item>
+        <item>Vodič za Ultra razlučivost</item>
+        <item>Makro vodič</item>
+    </string-array>
+</resources>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageButton android:id="@id/toggle_bar_button" android:visibility="gone" android:layout_width="@dimen/button_size" android:layout_height="@dimen/button_size" android:scaleType="fitCenter" style="@style/ToggleBarButtonStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

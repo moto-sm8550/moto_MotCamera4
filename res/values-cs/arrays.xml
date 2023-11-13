@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="exo_controls_playback_speeds">
+        <item>0,25×</item>
+        <item>0,5×</item>
+        <item>0,75×</item>
+        <item>Normální</item>
+        <item>1,25×</item>
+        <item>1,5×</item>
+        <item>2×</item>
+    </string-array>
+    <string-array name="filter_names">
+        <item>Natural Light</item>
+        <item>Romantic</item>
+        <item>Film</item>
+        <item>Muted</item>
+        <item>Dreamy</item>
+        <item>Refreshing</item>
+        <item>Cool</item>
+        <item>Dark Gold</item>
+        <item>Foodie</item>
+        <item>Cyberpunk</item>
+        <item>Youth</item>
+        <item>Late Autumn</item>
+        <item>B&amp;W Classic</item>
+        <item>B&amp;W Vivid</item>
+    </string-array>
+    <string-array name="photos_plugin_descriptions">
+        <item></item>
+        <item></item>
+        <item>@string/best_shot_desc</item>
+        <item>@string/original_shot_desc</item>
+        <item>@string/photos_depth_desc</item>
+        <item>@string/photos_layer_desc</item>
+        <item>@string/photos_portrait_desc</item>
+        <item>@string/photos_composition_desc</item>
+        <item>@string/photos_ai_ll_desc</item>
+        <item>@string/photos_doc_desc</item>
+        <item>@string/photos_ai_image_stab_desc</item>
+    </string-array>
+    <string-array name="photos_plugin_edit_class">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>@string/photos_plugin_edit_class_filter_show_activity</item>
+        <item>@string/photos_plugin_edit_class_layer_activity</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>@string/photos_plugin_edit_class_doc_editor_activity</item>
+        <item></item>
+    </string-array>
+    <string-array name="photos_plugin_edit_pkg">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>@string/photos_plugin_edit_pkg_photoeditor</item>
+        <item>@string/photos_plugin_edit_pkg_camera3</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>@string/photos_plugin_edit_pkg_camera3</item>
+        <item></item>
+    </string-array>
+    <string-array name="photos_plugin_names">
+        <item></item>
+        <item></item>
+        <item>@string/best_shot_name</item>
+        <item>@string/original_shot_name</item>
+        <item>@string/photos_depth_name</item>
+        <item>@string/photos_layer_name</item>
+        <item>@string/photos_portrait_name</item>
+        <item>@string/photos_composition_name</item>
+        <item>@string/photos_low_light_name</item>
+        <item>@string/photos_doc_name</item>
+        <item>@string/photos_ai_image_stab_name</item>
+    </string-array>
+    <string-array name="talkback_cli_modes_menu_pills">
+        <item>Režim fotografování je aktivní</item>
+        <item>Režim videa je aktivní</item>
+        <item>Režim Video s přímou barvou je aktivní</item>
+        <item>Režim Časosběr je aktivní</item>
+        <item>Režim Pomalý pohyb je aktivní</item>
+        <item>Režim Portrét je aktivní</item>
+        <item>Režim Přímá barva je aktivní</item>
+        <item>Režim Noční vidění je aktivní</item>
+        <item>Režim Skupinové selfie je aktivní</item>
+        <item>Režim Živý filtr je aktivní</item>
+    </string-array>
+    <string-array name="talkback_pro_mode_close_settings">
+        <item>Zavřít automatické zaostření</item>
+        <item>Zavřít vyvážení bílé</item>
+        <item>Zavřít rychlost závěrky</item>
+        <item>Zavřít ISO</item>
+        <item>Zavřít kompenzaci expozice</item>
+    </string-array>
+    <string-array name="talkback_pro_mode_selectors">
+        <item>Výběr automatického zaostření</item>
+        <item>Výběr vyvážení bílé</item>
+        <item>Výběr rychlosti závěrky</item>
+        <item>Výběr ISO</item>
+        <item>Výběr kompenzace expozice</item>
+    </string-array>
+    <string-array name="talkback_tooltip_titles">
+        <item>Výukový program režimu Portrét</item>
+        <item>Výukový program pro režim Cinemagraf</item>
+        <item>Výukový program režimu Přímá barva</item>
+        <item>Výukový program režimu Video s přímou barvou</item>
+        <item>Výukový program režimu výřezu</item>
+        <item>Výukový program režimu Ultra-Res</item>
+        <item>Výukový program režimu Makro</item>
+    </string-array>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/dual_capture_control_bar_old" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:id="@id/capture_bar_lens_select" android:src="@drawable/dual_capture_lens_rf" android:contentDescription="@string/talkback_dual_capture_lens" android:layout_marginEnd="@dimen/dual_capture_camera_group_select_margin_end" style="@style/Large.Floating.ImageButton.SurfaceLight" />
+    <ImageButton android:id="@id/capture_bar_layout_switch" android:src="@drawable/dual_capture_layout_pip_old" android:contentDescription="@string/talkback_layout_switch" style="@style/Large.Floating.ImageButton.SurfaceLight" />
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/capture_bar_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/capture_bar_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.Guideline android:orientation="vertical" android:id="@id/capture_bar_left_guideline" android:layout_width="wrap_content" android:layout_height="fill_parent" app:layout_constraintGuide_percent="0.5" />
+    <RelativeLayout android:id="@id/video_pause_flyout" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/capture_bar_left_guideline" app:layout_constraintTop_toTopOf="parent">
+        <View android:background="@drawable/bg_rounded_white" android:layout_width="@dimen/video_pause_bar_width" android:layout_height="@dimen/capture_bar_button_size" />
+        <ImageButton android:id="@id/video_capture_bar_pause_button" android:src="@drawable/video_pause_resume" android:tint="@color/video_pause_foreground_color_selector" android:contentDescription="@string/talkback_pause_video" android:backgroundTint="@color/video_pause_background_color_selector" style="@style/Large.Floating.ImageButtonWhite.SurfaceWhite" />
+    </RelativeLayout>
+    <ImageButton android:id="@id/video_capture_bar_snapshot_button" android:src="@drawable/ic_video_shutter" android:contentDescription="@string/talkback_video_snapshot" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="@id/capture_bar_left_guideline" app:layout_constraintTop_toTopOf="parent" style="@style/Large.Floating.ImageButton.SurfaceMain" />
+</androidx.constraintlayout.widget.ConstraintLayout>

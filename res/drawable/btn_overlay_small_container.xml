@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple android:color="@color/surface_light"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <inset android:drawable="@drawable/circular_button_background" android:inset="@dimen/container_small_inset" />
+    </item>
+</ripple>

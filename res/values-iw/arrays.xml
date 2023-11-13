@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="exo_controls_playback_speeds">
+        <item>0.25x</item>
+        <item>0.5x</item>
+        <item>0.75x</item>
+        <item>רגילה</item>
+        <item>1.25x</item>
+        <item>1.5x</item>
+        <item>2x</item>
+    </string-array>
+    <string-array name="filter_names">
+        <item>‏Natural Light</item>
+        <item>‏Romantic</item>
+        <item>‏Film</item>
+        <item>‏Muted</item>
+        <item>‏Dreamy</item>
+        <item>‏Refreshing</item>
+        <item>‏Cool</item>
+        <item>‏Dark Gold</item>
+        <item>‏Foodie</item>
+        <item>‏Cyberpunk</item>
+        <item>‏Youth</item>
+        <item>‏Late Autumn</item>
+        <item>‏B&amp;W Classic</item>
+        <item>‏B&amp;W Vivid</item>
+    </string-array>
+    <string-array name="photos_plugin_descriptions">
+        <item></item>
+        <item></item>
+        <item>@string/best_shot_desc</item>
+        <item>@string/original_shot_desc</item>
+        <item>@string/photos_depth_desc</item>
+        <item>@string/photos_layer_desc</item>
+        <item>@string/photos_portrait_desc</item>
+        <item>@string/photos_composition_desc</item>
+        <item>@string/photos_ai_ll_desc</item>
+        <item>@string/photos_doc_desc</item>
+        <item>@string/photos_ai_image_stab_desc</item>
+    </string-array>
+    <string-array name="photos_plugin_edit_class">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>@string/photos_plugin_edit_class_filter_show_activity</item>
+        <item>@string/photos_plugin_edit_class_layer_activity</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>@string/photos_plugin_edit_class_doc_editor_activity</item>
+        <item></item>
+    </string-array>
+    <string-array name="photos_plugin_edit_pkg">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>@string/photos_plugin_edit_pkg_photoeditor</item>
+        <item>@string/photos_plugin_edit_pkg_camera3</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>@string/photos_plugin_edit_pkg_camera3</item>
+        <item></item>
+    </string-array>
+    <string-array name="photos_plugin_names">
+        <item></item>
+        <item></item>
+        <item>@string/best_shot_name</item>
+        <item>@string/original_shot_name</item>
+        <item>@string/photos_depth_name</item>
+        <item>@string/photos_layer_name</item>
+        <item>@string/photos_portrait_name</item>
+        <item>@string/photos_composition_name</item>
+        <item>@string/photos_low_light_name</item>
+        <item>@string/photos_doc_name</item>
+        <item>@string/photos_ai_image_stab_name</item>
+    </string-array>
+    <string-array name="talkback_cli_modes_menu_pills">
+        <item>"מצב 'תמונה' פעיל"</item>
+        <item>"מצב 'וידאו' פעיל"</item>
+        <item>"מצב 'סרטון וידאו עם צבע ספוט' פעיל"</item>
+        <item>"מצב 'קיטועי זמן' פעיל"</item>
+        <item>"מצב 'הילוך איטי' פעיל"</item>
+        <item>מצב פורטרט פעיל</item>
+        <item>"מצב 'צבע ספוט' פעיל"</item>
+        <item>"מצב 'תצוגת לילה' פעיל"</item>
+        <item>"מצב 'צילום סלפי קבוצתי' פעיל"</item>
+        <item>"מצב 'מסנן חי' פעיל"</item>
+    </string-array>
+    <string-array name="talkback_pro_mode_close_settings">
+        <item>סגור מיקוד אוטומטי</item>
+        <item>סגור איזון לבן</item>
+        <item>סגור מהירות צמצם</item>
+        <item>סגור ISO</item>
+        <item>סגור פיצוי חשיפה</item>
+    </string-array>
+    <string-array name="talkback_pro_mode_selectors">
+        <item>בורר מיקוד אוטומטי</item>
+        <item>בורר איזון לבן</item>
+        <item>בורר מהירות צמצם</item>
+        <item>בורר ISO</item>
+        <item>בורר פיצוי חשיפה</item>
+    </string-array>
+    <string-array name="talkback_tooltip_titles">
+        <item>ערכת לימוד של פורטרט</item>
+        <item>ערכת לימוד של Cinemagraph</item>
+        <item>ערכת לימוד של צבע ספוט</item>
+        <item>ערכת לימוד של סרטון במצב צבע ספוט</item>
+        <item>ערכת לימוד של גזיר</item>
+        <item>ערכת לימוד של Ultra-Res</item>
+        <item>ערכת לימוד של מאקרו</item>
+    </string-array>
+</resources>

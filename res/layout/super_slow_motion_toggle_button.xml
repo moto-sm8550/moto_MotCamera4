@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/super_slow_motion_toggle_layout" android:paddingTop="@dimen/container_medium_padding" android:layout_width="fill_parent" android:layout_height="@dimen/toggle_bar_height" android:paddingEnd="@dimen/container_medium_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:id="@id/super_slow_motion_toggle" android:visibility="gone" android:scaleType="fitCenter" style="@style/ToggleButtonStyle" />
+</FrameLayout>

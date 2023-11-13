@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/control_bar_setting_item_0" android:padding="0.0dip" style="@style/Medium"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:layout_gravity="center" android:tag="binding_1" android:scaleType="centerInside" android:adjustViewBounds="false" android:tint="@color/control_bar_item_color_selector" android:tintMode="src_atop" style="@style/Medium.OverlayWhite" />
+</FrameLayout>

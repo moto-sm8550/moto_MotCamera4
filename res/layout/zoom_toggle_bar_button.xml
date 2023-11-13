@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Button android:id="@id/zoom_toggle_bar_button" android:background="@drawable/circular_button_background_surface_medium" android:visibility="gone" android:layout_width="@dimen/button_size" android:layout_height="@dimen/button_size" android:scaleType="fitCenter" android:text="@string/zoom_pattern_decimal"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

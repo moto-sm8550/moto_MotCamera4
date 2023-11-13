@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/preview_ll" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" android:layout_marginStart="56.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.viewpager.widget.ViewPager android:layout_gravity="center" android:id="@id/preview_vp" android:clipChildren="false" android:layout_width="@dimen/watermark_preview_width" android:layout_height="@dimen/watermark_preview_height" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip" />
+    <RelativeLayout android:layout_gravity="center" android:id="@id/pager_ind" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginBottom="4.0dip" android:layoutDirection="ltr">
+        <ImageView android:id="@id/left_ind" android:layout_width="4.0dip" android:layout_height="4.0dip" android:layout_marginTop="4.0dip" android:layout_marginBottom="4.0dip" android:src="@drawable/watermark_page_active" android:layout_marginStart="4.0dip" android:layout_marginEnd="4.0dip" />
+        <ImageView android:id="@id/right_ind" android:layout_width="4.0dip" android:layout_height="4.0dip" android:layout_marginTop="4.0dip" android:layout_marginBottom="4.0dip" android:src="@drawable/watermark_page_inactive" android:layout_marginStart="4.0dip" android:layout_marginEnd="4.0dip" android:layout_toEndOf="@id/left_ind" />
+    </RelativeLayout>
+</RelativeLayout>

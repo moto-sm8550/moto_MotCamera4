@@ -1,0 +1,31 @@
+precision highp float;
+varying vec4 v_Color;
+varying vec2 v_Position;
+uniform vec2 u_MiddleSize;
+uniform float u_Opacity;
+uniform float u_OpacityBottom;
+uniform float u_Radius;
+uniform vec2 u_HollowSize;
+uniform float u_HollowTop;
+uniform float u_TopGuide;
+
+float udRoundRect(vec2 p, vec2 b, float r)
+{
+    return length(max(abs(p) - b, 0.0)) - r;
+}
+
+void main() {
+    vec2 pos = v_Position;
+    float alpha = 0.0;
+    float radius = u_HollowSize.x;
+    float trans = u_HollowTop - u_HollowSize.y;
+    vec2 yTranslation = u_TopGuide>0.0 ? vec2(0.0, u_TopGuide - u_MiddleSize.y) : vec2(0.0, 0.0);
+    float dis = udRoundRect(pos - yTranslation, u_MiddleSize - u_Radius, u_Radius);
+    if (dis < 0.0) {
+        dis = udRoundRect(pos - vec2(0.0, trans), u_HollowSize - radius, radius);
+        alpha = 1.0 - smoothstep(0.0, 1.0, dis);
+        gl_FragColor = mix(v_Color * v_Color.a * u_Opacity, vec4(0.0, 0.0, 0.0, 0.0), alpha);
+    } else {
+        gl_FragColor = mix(v_Color * v_Color.a * u_OpacityBottom, vec4(0.0, 0.0, 0.0, 0.0), 0.0);
+    }
+}

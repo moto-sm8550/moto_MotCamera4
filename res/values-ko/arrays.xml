@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="exo_controls_playback_speeds">
+        <item>0.25배속</item>
+        <item>0.5배속</item>
+        <item>0.75배속</item>
+        <item>보통</item>
+        <item>1.25배속</item>
+        <item>1.5배속</item>
+        <item>2배속</item>
+    </string-array>
+    <string-array name="filter_names">
+        <item>Natural Light</item>
+        <item>Romantic</item>
+        <item>Film</item>
+        <item>Muted</item>
+        <item>Dreamy</item>
+        <item>Refreshing</item>
+        <item>Cool</item>
+        <item>Dark Gold</item>
+        <item>Foodie</item>
+        <item>Cyberpunk</item>
+        <item>Youth</item>
+        <item>Late Autumn</item>
+        <item>B&amp;W Classic</item>
+        <item>B&amp;W Vivid</item>
+    </string-array>
+    <string-array name="photos_plugin_descriptions">
+        <item></item>
+        <item></item>
+        <item>@string/best_shot_desc</item>
+        <item>@string/original_shot_desc</item>
+        <item>@string/photos_depth_desc</item>
+        <item>@string/photos_layer_desc</item>
+        <item>@string/photos_portrait_desc</item>
+        <item>@string/photos_composition_desc</item>
+        <item>@string/photos_ai_ll_desc</item>
+        <item>@string/photos_doc_desc</item>
+        <item>@string/photos_ai_image_stab_desc</item>
+    </string-array>
+    <string-array name="photos_plugin_edit_class">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>@string/photos_plugin_edit_class_filter_show_activity</item>
+        <item>@string/photos_plugin_edit_class_layer_activity</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>@string/photos_plugin_edit_class_doc_editor_activity</item>
+        <item></item>
+    </string-array>
+    <string-array name="photos_plugin_edit_pkg">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>@string/photos_plugin_edit_pkg_photoeditor</item>
+        <item>@string/photos_plugin_edit_pkg_camera3</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>@string/photos_plugin_edit_pkg_camera3</item>
+        <item></item>
+    </string-array>
+    <string-array name="photos_plugin_names">
+        <item></item>
+        <item></item>
+        <item>@string/best_shot_name</item>
+        <item>@string/original_shot_name</item>
+        <item>@string/photos_depth_name</item>
+        <item>@string/photos_layer_name</item>
+        <item>@string/photos_portrait_name</item>
+        <item>@string/photos_composition_name</item>
+        <item>@string/photos_low_light_name</item>
+        <item>@string/photos_doc_name</item>
+        <item>@string/photos_ai_image_stab_name</item>
+    </string-array>
+    <string-array name="talkback_cli_modes_menu_pills">
+        <item>사진 모드 활성</item>
+        <item>동영상 모드 활성</item>
+        <item>스폿 컬러 동영상 모드 활성</item>
+        <item>타임 랩스 모드 활성</item>
+        <item>슬로 모션 모드 활성</item>
+        <item>인물 모드 활성</item>
+        <item>스폿 컬러 모드 활성</item>
+        <item>나이트 비전 모드 활성</item>
+        <item>단체 셀피 모드 활성</item>
+        <item>라이브 필터 모드 활성</item>
+    </string-array>
+    <string-array name="talkback_pro_mode_close_settings">
+        <item>자동 포커스 닫기</item>
+        <item>화이트밸런스 닫기</item>
+        <item>셔터 속도 닫기</item>
+        <item>ISO 닫기</item>
+        <item>노출 보정 닫기</item>
+    </string-array>
+    <string-array name="talkback_pro_mode_selectors">
+        <item>자동 포커스 선택기</item>
+        <item>화이트밸런스 선택기</item>
+        <item>셔터 속도 선택기</item>
+        <item>ISO 선택기</item>
+        <item>노출 보정 선택기</item>
+    </string-array>
+    <string-array name="talkback_tooltip_titles">
+        <item>인물 모드 튜토리얼</item>
+        <item>시네마그래프 선택기</item>
+        <item>스폿 컬러 튜토리얼</item>
+        <item>스폿 컬러 동영상 튜토리얼</item>
+        <item>컷아웃 튜토리얼</item>
+        <item>Ultra-Res 튜토리얼</item>
+        <item>접사 튜토리얼</item>
+    </string-array>
+</resources>

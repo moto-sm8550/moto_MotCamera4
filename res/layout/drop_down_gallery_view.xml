@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/fragment_container_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintWidth_min="220.0dip">
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/collapsable_view" android:clickable="true" android:layout_width="fill_parent" android:layout_height="48.0dip">
+            <LinearLayout android:gravity="center" android:id="@id/icon_container" android:layout_width="64.0dip" android:layout_height="48.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+                <ImageView android:id="@id/icon" android:background="@android:color/transparent" android:layout_width="24.0dip" android:layout_height="24.0dip" />
+            </LinearLayout>
+            <TextView android:textColor="?colorPrimary" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gallery_view" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toEndOf="@id/icon_container" app:layout_constraintTop_toTopOf="parent" />
+            <TextView android:textColor="@color/color_background" android:id="@id/badge_icon" android:background="@drawable/circle_parasalling" android:layout_width="0.0dip" android:layout_height="wrap_content" android:minWidth="20.0dip" android:minHeight="20.0dip" android:textAlignment="center" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintDimensionRatio="1:1" app:layout_constraintEnd_toStartOf="@id/expand_button" app:layout_constraintTop_toTopOf="parent" />
+            <ImageButton android:id="@id/expand_button" android:background="@android:color/transparent" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/keyboard_arrow_down_24dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <FrameLayout android:id="@id/expanded_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintEnd_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+            <com.motorola.patternlibrary.api.GalleryView android:id="@id/gallery_view" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintWidth_max="0.0dip" />
+            <ImageButton android:layout_gravity="end|bottom|center" android:id="@id/collapse_button" android:background="@android:color/transparent" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/keyboard_arrow_up_24dp" app:layout_constraintEnd_toEndOf="parent" />
+        </FrameLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

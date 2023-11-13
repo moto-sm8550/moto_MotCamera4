@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="exo_controls_playback_speeds">
+        <item>0.25 倍</item>
+        <item>0.5 倍</item>
+        <item>0.75 倍</item>
+        <item>正常</item>
+        <item>1.25 倍</item>
+        <item>1.5 倍</item>
+        <item>2 倍</item>
+    </string-array>
+    <string-array name="filter_names">
+        <item>自然光</item>
+        <item>浪漫</item>
+        <item>电影</item>
+        <item>柔和</item>
+        <item>梦幻</item>
+        <item>清爽</item>
+        <item>个性</item>
+        <item>黑金</item>
+        <item>美食</item>
+        <item>赛博朋克</item>
+        <item>青春</item>
+        <item>晚秋</item>
+        <item>黑白经典</item>
+        <item>黑白分明</item>
+    </string-array>
+    <string-array name="photos_plugin_descriptions">
+        <item></item>
+        <item></item>
+        <item>@string/best_shot_desc</item>
+        <item>@string/original_shot_desc</item>
+        <item>@string/photos_depth_desc</item>
+        <item>@string/photos_layer_desc</item>
+        <item>@string/photos_portrait_desc</item>
+        <item>@string/photos_composition_desc</item>
+        <item>@string/photos_ai_ll_desc</item>
+        <item>@string/photos_doc_desc</item>
+        <item>@string/photos_ai_image_stab_desc</item>
+    </string-array>
+    <string-array name="photos_plugin_edit_class">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>@string/photos_plugin_edit_class_filter_show_activity</item>
+        <item>@string/photos_plugin_edit_class_layer_activity</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>@string/photos_plugin_edit_class_doc_editor_activity</item>
+        <item></item>
+    </string-array>
+    <string-array name="photos_plugin_edit_pkg">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>@string/photos_plugin_edit_pkg_photoeditor</item>
+        <item>@string/photos_plugin_edit_pkg_camera3</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>@string/photos_plugin_edit_pkg_camera3</item>
+        <item></item>
+    </string-array>
+    <string-array name="photos_plugin_names">
+        <item></item>
+        <item></item>
+        <item>@string/best_shot_name</item>
+        <item>@string/original_shot_name</item>
+        <item>@string/photos_depth_name</item>
+        <item>@string/photos_layer_name</item>
+        <item>@string/photos_portrait_name</item>
+        <item>@string/photos_composition_name</item>
+        <item>@string/photos_low_light_name</item>
+        <item>@string/photos_doc_name</item>
+        <item>@string/photos_ai_image_stab_name</item>
+    </string-array>
+    <string-array name="talkback_cli_modes_menu_pills">
+        <item>照片模式处于激活状态</item>
+        <item>视频模式处于激活状态</item>
+        <item>专色录像模式处于激活状态</item>
+        <item>延时模式处于激活状态</item>
+        <item>慢动作模式处于激活状态</item>
+        <item>人像模式处于激活状态</item>
+        <item>专色模式处于激活状态</item>
+        <item>夜景模式处于激活状态</item>
+        <item>多人自拍模式处于激活状态</item>
+        <item>实时滤镜模式处于激活状态</item>
+    </string-array>
+    <string-array name="talkback_pro_mode_close_settings">
+        <item>关闭自动对焦</item>
+        <item>关闭白平衡</item>
+        <item>关闭快门速度</item>
+        <item>关闭 ISO</item>
+        <item>关闭曝光补偿</item>
+    </string-array>
+    <string-array name="talkback_pro_mode_selectors">
+        <item>自动对焦选择器</item>
+        <item>白平衡选择器</item>
+        <item>快门速度选择器</item>
+        <item>ISO 选择器</item>
+        <item>曝光补偿选择器</item>
+    </string-array>
+    <string-array name="talkback_tooltip_titles">
+        <item>人像教程</item>
+        <item>微动摄影教程</item>
+        <item>专色教程</item>
+        <item>专色录像教程</item>
+        <item>无痕人像教程</item>
+        <item>超清画质教程</item>
+        <item>微距教程</item>
+    </string-array>
+</resources>

@@ -1,0 +1,12 @@
+precision mediump float;
+varying highp vec2 v_TextureCoord;
+uniform sampler2D u_Texture;
+uniform float u_Opacity;
+uniform vec4 u_ColorBackground;
+
+void main() {
+    vec4 sample = texture2D(u_Texture, v_TextureCoord);
+
+    sample *= u_Opacity;
+    gl_FragColor = sample + ((1.0 - sample.a) * u_ColorBackground);
+}

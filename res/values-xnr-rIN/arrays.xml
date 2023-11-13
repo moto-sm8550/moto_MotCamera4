@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="filter_names">
+        <item>प्रकर्तिक बिजली/लाइट</item>
+        <item>रोमांटिक</item>
+        <item>फिल्म</item>
+        <item>चुप करितेया</item>
+        <item>सपने साई</item>
+        <item>दबारा ताजा करा दे</item>
+        <item>ठंडा</item>
+        <item>गूढे रंगे दा सोना</item>
+        <item>जादा खाणे आला</item>
+        <item>साइबर गुंडा</item>
+        <item>जवान</item>
+        <item>खत्म होणे आली शरद् ऋतु</item>
+        <item>क कने व क्लासिक</item>
+        <item>B&amp;W विविड</item>
+    </string-array>
+    <string-array name="talkback_cli_modes_menu_pills">
+        <item>फोटो मोड सक्रिय ए</item>
+        <item>विडियो मोड सक्रिय</item>
+        <item>"रंगीन वीडियो मोड सक्रिय टोळा "</item>
+        <item>टाइमलैप्स मोड सक्रिय</item>
+        <item>स्लो मोशन मोड चालु ए</item>
+        <item>पोर्ट्रेट मोड सक्षम करा</item>
+        <item>धब्बा रंग मोड सक्रिय ए</item>
+        <item>नाईट विजन मोड चालु</item>
+        <item>ग्रुप सेल्फ़ी मोड सक्रिय</item>
+        <item>लाईव फिल्टर मोड चालु ए</item>
+    </string-array>
+    <string-array name="talkback_pro_mode_close_settings">
+        <item>ऑटो फोक्स बंद करा</item>
+        <item>चिट्टे बैलेंस जो बंद करा</item>
+        <item>शटर गतिया जो बंद करा</item>
+        <item>ISO बंद करा</item>
+        <item>एक्सपोजर कम्पनसेशण बन्द करा</item>
+    </string-array>
+    <string-array name="talkback_pro_mode_selectors">
+        <item>ऑटो फोकस सेलेक्टर</item>
+        <item>चिट्टा बेलेन्स चुणने आला</item>
+        <item>शटर गति चयनकर्ता</item>
+        <item>ISO चुणणे आला</item>
+        <item>एक्सपोजर कंपणसेशण चुंणने आला</item>
+    </string-array>
+    <string-array name="talkback_tooltip_titles">
+        <item>पोर्ट्रेट ट्यूटोरियल</item>
+        <item>सिनेमोग्राफ ट्यूटोरियल</item>
+        <item>रंग धब्बे दा ट्यूटोरियल</item>
+        <item>रंगीन विडियो टूटोरियल तोपा</item>
+        <item>कटआउट ट्यूटोरियल</item>
+        <item>अल्ट्रा -रिस टिटोरियल</item>
+        <item>बड्डा ट्यूटोरियल</item>
+    </string-array>
+</resources>

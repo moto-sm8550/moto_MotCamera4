@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <objectAnimator android:interpolator="@android:interpolator/linear" android:duration="@integer/shutter_animation_duration" android:valueFrom="M40,40m-36,0a36,36 0,1 1,72 0a36,36 0,1 1,-72 0" android:valueTo="M40,40m-30,0a30,30 0,1 1,60 0a30,30 0,1 1,-60 0" android:valueType="pathType" android:propertyName="pathData" />
+    <objectAnimator android:interpolator="@android:interpolator/linear" android:duration="@integer/shutter_animation_duration" android:valueFrom="@color/primary_main" android:valueTo="@color/middle_circle_shutter" android:valueType="colorType" android:propertyName="fillColor" />
+</set>

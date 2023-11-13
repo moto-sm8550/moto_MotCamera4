@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector android:autoMirrored="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <size android:height="@dimen/cinemagraph_clear_button_height" />
+            <corners android:radius="@dimen/cinemagraph_clear_button_radius" />
+            <stroke android:width="1.0dip" android:color="#3fffffff" />
+            <solid android:color="#7f000000" />
+        </shape>
+    </item>
+</selector>

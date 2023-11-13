@@ -1,0 +1,17 @@
+precision mediump float;
+
+varying vec2 v_Position;
+uniform vec4 u_Color;
+uniform float u_Opacity;
+uniform float u_OpacityFrom;
+uniform float u_OpacityTo;
+void main() {
+    float factor;
+    float y = 1.0 - abs(v_Position.y); // 0-1-0
+    float dist = u_OpacityFrom - u_OpacityTo;
+
+    factor = u_OpacityFrom - (dist * y);
+    factor *= u_Opacity;
+    clamp(factor, 0.0, 1.0);
+    gl_FragColor = u_Color * factor;
+}

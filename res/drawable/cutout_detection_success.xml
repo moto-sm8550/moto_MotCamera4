@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <stroke android:width="@dimen/cutout_mode_bracket_line_width" android:color="@color/primary_main" />
+    <corners android:radius="@dimen/cutout_mode_bracket_corner_radius" />
+</shape>

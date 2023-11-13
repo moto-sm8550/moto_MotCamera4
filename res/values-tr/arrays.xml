@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="exo_controls_playback_speeds">
+        <item>0,25x</item>
+        <item>0,5x</item>
+        <item>0,75x</item>
+        <item>Normal</item>
+        <item>1,25x</item>
+        <item>1,5x</item>
+        <item>2x</item>
+    </string-array>
+    <string-array name="filter_names">
+        <item>Doğal Işık</item>
+        <item>Romantik</item>
+        <item>Film</item>
+        <item>Ses kapatıldı</item>
+        <item>Rüya</item>
+        <item>Enerjik</item>
+        <item>Havalı</item>
+        <item>Koyu Altın</item>
+        <item>Gurme</item>
+        <item>Bilgisayar Korsanı</item>
+        <item>Genç</item>
+        <item>Güz Sonu</item>
+        <item>Siyah Beyaz Klasik</item>
+        <item>Siyah Beyaz Canlı</item>
+    </string-array>
+    <string-array name="photos_plugin_descriptions">
+        <item></item>
+        <item></item>
+        <item>@string/best_shot_desc</item>
+        <item>@string/original_shot_desc</item>
+        <item>@string/photos_depth_desc</item>
+        <item>@string/photos_layer_desc</item>
+        <item>@string/photos_portrait_desc</item>
+        <item>@string/photos_composition_desc</item>
+        <item>@string/photos_ai_ll_desc</item>
+        <item>@string/photos_doc_desc</item>
+        <item>@string/photos_ai_image_stab_desc</item>
+    </string-array>
+    <string-array name="photos_plugin_edit_class">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>@string/photos_plugin_edit_class_filter_show_activity</item>
+        <item>@string/photos_plugin_edit_class_layer_activity</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>@string/photos_plugin_edit_class_doc_editor_activity</item>
+        <item></item>
+    </string-array>
+    <string-array name="photos_plugin_edit_pkg">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>@string/photos_plugin_edit_pkg_photoeditor</item>
+        <item>@string/photos_plugin_edit_pkg_camera3</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>@string/photos_plugin_edit_pkg_camera3</item>
+        <item></item>
+    </string-array>
+    <string-array name="photos_plugin_names">
+        <item></item>
+        <item></item>
+        <item>@string/best_shot_name</item>
+        <item>@string/original_shot_name</item>
+        <item>@string/photos_depth_name</item>
+        <item>@string/photos_layer_name</item>
+        <item>@string/photos_portrait_name</item>
+        <item>@string/photos_composition_name</item>
+        <item>@string/photos_low_light_name</item>
+        <item>@string/photos_doc_name</item>
+        <item>@string/photos_ai_image_stab_name</item>
+    </string-array>
+    <string-array name="talkback_cli_modes_menu_pills">
+        <item>Fotoğraf modu etkin</item>
+        <item>Video modu etkin</item>
+        <item>Spot Renk Video modu etkin</item>
+        <item>Zaman Atlama modu etkin</item>
+        <item>Yavaş Çekim modu etkin</item>
+        <item>Portre modu etkin</item>
+        <item>Spot Renk modu etkin</item>
+        <item>Gece Görüşü modu etkin</item>
+        <item>Toplu Selfie modu etkin</item>
+        <item>Canlı Filtre modu etkin</item>
+    </string-array>
+    <string-array name="talkback_pro_mode_close_settings">
+        <item>Otomatik odaklamayı kapat</item>
+        <item>Beyaz dengesini kapat</item>
+        <item>Deklanşör hızını kapat</item>
+        <item>"ISO'yu kapat"</item>
+        <item>Pozlama telafisini kapat</item>
+    </string-array>
+    <string-array name="talkback_pro_mode_selectors">
+        <item>Otomatik odaklama seçicisi</item>
+        <item>Beyaz dengesi seçicisi</item>
+        <item>Deklanşör hızı seçicisi</item>
+        <item>ISO seçicisi</item>
+        <item>Pozlama telafisi seçicisi</item>
+    </string-array>
+    <string-array name="talkback_tooltip_titles">
+        <item>Portre eğiticisi</item>
+        <item>Sinemagraf eğiticisi</item>
+        <item>Spot Renk eğiticisi</item>
+        <item>Spot Renk Video eğiticisi</item>
+        <item>Kesme eğiticisi</item>
+        <item>Ultra-Res eğiticisi</item>
+        <item>Makro eğiticisi</item>
+    </string-array>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory>
+        <SwitchPreferenceCompat android:key="@string/settings_list_quick_capture_enable_key" android:summaryOn="@string/settings_list_switch_on" android:summaryOff="@string/settings_list_off" />
+        <com.motorola.camera.ui.controls_2020.settings.preferences.QuickCaptureImageViewPreference android:layout="@layout/settings_image_view_layout" android:key="@string/settings_list_quick_capture_layout_key" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/main_setting_quick_launch_camera_facing">
+        <com.motorola.camera.ui.controls_2020.settings.preferences.QuickCaptureRadioGroupPreference android:layout="@layout/settings_radio_group_layout" android:key="@string/settings_list_quick_capture_radio_key" />
+    </PreferenceCategory>
+</PreferenceScreen>

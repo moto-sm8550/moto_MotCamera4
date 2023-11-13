@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:clipToPadding="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginStart="@dimen/pageMarginAndOffset" android:layout_marginEnd="@dimen/pageMarginAndOffset"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.motorola.patternlibrary.api.MotoCardView android:id="@id/card_fragment" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/gallery_card_margin_top" android:layout_marginStart="@dimen/gallery_card_margin_left" android:layout_marginEnd="@dimen/gallery_card_margin_right" app:cardElevation="1.0dip" app:cardUseCompatPadding="true" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:motoCardStyle="LARGE" app:overlineVisibility="GONE" />
+</androidx.constraintlayout.widget.ConstraintLayout>

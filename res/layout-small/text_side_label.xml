@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/text_side_label" android:background="@android:color/transparent" android:layout_width="@dimen/capture_bar_width" android:layout_height="@dimen/toggle_bar_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="12.0sp" android:textColor="@color/primary_main" android:gravity="center" android:id="@id/time_lapse_value_text" android:visibility="invisible" android:layout_width="@dimen/button_size" android:layout_height="@dimen/button_size" android:textAlignment="center" android:layout_marginStart="@dimen/toggle_bar_margin" android:letterSpacing="0.033" android:lineHeight="16.0sp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

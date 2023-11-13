@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="exo_controls_playback_speeds">
+        <item>0.25x</item>
+        <item>0.5x</item>
+        <item>0.75x</item>
+        <item>සාමාන්‍ය</item>
+        <item>1.25x</item>
+        <item>1.5x</item>
+        <item>2x</item>
+    </string-array>
+    <string-array name="filter_names">
+        <item>Natural Light</item>
+        <item>Romantic</item>
+        <item>Film</item>
+        <item>Muted</item>
+        <item>Dreamy</item>
+        <item>Refreshing</item>
+        <item>Cool</item>
+        <item>Dark Gold</item>
+        <item>Foodie</item>
+        <item>Cyberpunk</item>
+        <item>Youth</item>
+        <item>Late Autumn</item>
+        <item>B&amp;W Classic</item>
+        <item>B&amp;W Vivid</item>
+    </string-array>
+    <string-array name="photos_plugin_descriptions">
+        <item></item>
+        <item></item>
+        <item>@string/best_shot_desc</item>
+        <item>@string/original_shot_desc</item>
+        <item>@string/photos_depth_desc</item>
+        <item>@string/photos_layer_desc</item>
+        <item>@string/photos_portrait_desc</item>
+        <item>@string/photos_composition_desc</item>
+        <item>@string/photos_ai_ll_desc</item>
+        <item>@string/photos_doc_desc</item>
+        <item>@string/photos_ai_image_stab_desc</item>
+    </string-array>
+    <string-array name="photos_plugin_edit_class">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>@string/photos_plugin_edit_class_filter_show_activity</item>
+        <item>@string/photos_plugin_edit_class_layer_activity</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>@string/photos_plugin_edit_class_doc_editor_activity</item>
+        <item></item>
+    </string-array>
+    <string-array name="photos_plugin_edit_pkg">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>@string/photos_plugin_edit_pkg_photoeditor</item>
+        <item>@string/photos_plugin_edit_pkg_camera3</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>@string/photos_plugin_edit_pkg_camera3</item>
+        <item></item>
+    </string-array>
+    <string-array name="photos_plugin_names">
+        <item></item>
+        <item></item>
+        <item>@string/best_shot_name</item>
+        <item>@string/original_shot_name</item>
+        <item>@string/photos_depth_name</item>
+        <item>@string/photos_layer_name</item>
+        <item>@string/photos_portrait_name</item>
+        <item>@string/photos_composition_name</item>
+        <item>@string/photos_low_light_name</item>
+        <item>@string/photos_doc_name</item>
+        <item>@string/photos_ai_image_stab_name</item>
+    </string-array>
+    <string-array name="talkback_cli_modes_menu_pills">
+        <item>ඡායාරූප ප්‍රකාරය සක්‍රීයයි.</item>
+        <item>වීඩියෝ ප්‍රකාරය සක්‍රීයයි</item>
+        <item>වර්ණ හඳුනාගැනීමේ වීඩියෝ ප්‍රකාරය සක්‍රීයයි</item>
+        <item>ටයිම්ලැප්ස් ප්‍රකාරය සක්‍රීයයි</item>
+        <item>මන්දගාමී චලන ප්‍රකාරය සක්‍රීයයි</item>
+        <item>සිරස් ප්‍රකාරය සක්‍රීයයි</item>
+        <item>වර්ණ හඳුනාගැනීමේ ප්‍රකාරය සක්‍රීයයි</item>
+        <item>රාත්‍රී දර්ශන ප්‍රකාරය සක්‍රීයයි</item>
+        <item>සමූහ සෙල්ෆි ප්‍රකාරය සක්‍රීයයි</item>
+        <item>සජීවී පෙරහන් ප්‍රකාරය සක්‍රියයි</item>
+    </string-array>
+    <string-array name="talkback_pro_mode_close_settings">
+        <item>ස්වයංක්‍රීය නාභිගත වීම වසන්න</item>
+        <item>සුදු සමබරතාව වසන්න</item>
+        <item>ෂටරයේ වේගය වසන්න</item>
+        <item>ISO වසන්න</item>
+        <item>නිරාවරණ අනුපූරකය වසන්න</item>
+    </string-array>
+    <string-array name="talkback_pro_mode_selectors">
+        <item>ස්වයංක්‍රීය නාභිගත කිරීම තෝරනය</item>
+        <item>සුදු සමබරතාව තෝරනය</item>
+        <item>ෂටර වේග තෝරනය</item>
+        <item>ISO තෝරනය</item>
+        <item>නිරාවරණ අනුපූරක තෝරනය</item>
+    </string-array>
+    <string-array name="talkback_tooltip_titles">
+        <item>ප්‍රතිමූර්ති නිබන්ධනය</item>
+        <item>සිනමාකරණ නිබන්ධනය</item>
+        <item>පැල්ලම් වර්ණ නිබන්ධනය</item>
+        <item>පැල්ලම් වර්ණ වීඩියෝ නිබන්ධනය</item>
+        <item>කපා හරින නිබන්ධනය</item>
+        <item>Ultra-Res නිබන්ධනය</item>
+        <item>මැක්‍රෝ නිබන්ධනය</item>
+    </string-array>
+</resources>

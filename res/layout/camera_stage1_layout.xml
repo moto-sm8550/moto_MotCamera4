@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/stage1_layout" android:background="@color/transparent" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.Guideline android:orientation="horizontal" android:id="@id/guideline_stage1_capture_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintGuide_begin="0.0dip" />
+    <include android:layout_width="fill_parent" android:layout_height="@dimen/capture_bar_height" app:layout_constraintBottom_toBottomOf="@id/guideline_stage1_capture_bar" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/guideline_stage1_capture_bar" layout="@layout/capture_bar" />
+    <ViewStub android:id="@id/mask_stub" android:layout="@layout/camera_controls_mask" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

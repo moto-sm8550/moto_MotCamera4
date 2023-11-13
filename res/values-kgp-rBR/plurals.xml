@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="talkback_video_timer_hour">
+        <item quantity="other">%d óra</item>
+        <item quantity="one">%d óra</item>
+    </plurals>
+    <plurals name="talkback_video_timer_minute">
+        <item quantity="other">Mĩnũto tỹ %d ke</item>
+        <item quantity="one">%d mĩnũto</item>
+    </plurals>
+    <plurals name="talkback_video_timer_seconds">
+        <item quantity="other">%d segũno ag</item>
+        <item quantity="one">%d sigũnu</item>
+    </plurals>
+</resources>

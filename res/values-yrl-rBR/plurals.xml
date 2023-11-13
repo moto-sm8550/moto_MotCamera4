@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="talkback_video_timer_hour">
+        <item quantity="other">%d kuriwara</item>
+        <item quantity="one">%d kuriwara</item>
+    </plurals>
+    <plurals name="talkback_video_timer_minute">
+        <item quantity="other">%d kurimirĩ</item>
+        <item quantity="one">%d kurimirĩ</item>
+    </plurals>
+    <plurals name="talkback_video_timer_seconds">
+        <item quantity="other">%d segũdu</item>
+        <item quantity="one">%d segũdu</item>
+    </plurals>
+</resources>

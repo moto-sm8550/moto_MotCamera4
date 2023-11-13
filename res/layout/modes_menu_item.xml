@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="@dimen/modes_menu_item_size" android:layout_height="@dimen/modes_menu_item_size"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/modes_menu_item_icon" android:layout_width="@dimen/modes_menu_icon_size" android:layout_height="@dimen/modes_menu_icon_size" android:layout_marginTop="@dimen/modes_menu_icon_margin_top" android:scaleType="fitCenter" android:adjustViewBounds="false" />
+    <TextView android:ellipsize="marquee" android:gravity="center_horizontal" android:id="@id/modes_menu_item_name" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:marqueeRepeatLimit="2" style="@style/Subtitle3.Elevation" />
+</LinearLayout>

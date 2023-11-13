@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:gravity="center" android:id="@id/slider_bar_label_text" android:visibility="invisible" android:layout_width="@dimen/slider_bar_label_text_width" android:layout_height="wrap_content" style="@style/SubtitleSliderBar"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

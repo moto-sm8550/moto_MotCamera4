@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector android:drawable="@drawable/ic_shutter_photo"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <target android:name="outerRing" android:animation="@drawable/$ic_shutter_photo_pressed_to_photo__0" />
+    <target android:name="middleRing" android:animation="@drawable/$ic_shutter_photo_pressed_to_photo__1" />
+    <target android:name="innerRing" android:animation="@drawable/$ic_shutter_photo_pressed_to_photo__2" />
+</animated-vector>

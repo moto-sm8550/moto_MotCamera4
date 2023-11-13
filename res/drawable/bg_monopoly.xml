@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset android:inset="@dimen/container_medium_inset"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <vector android:height="@dimen/monopoly_qr_icon_size" android:width="@dimen/monopoly_qr_icon_size" android:viewportWidth="40.0" android:viewportHeight="40.0">
+        <path android:fillColor="#ffffffff" android:pathData="M32.21,30.11a28.73,28.73 0,0 0,-2.55 -7,4.57 4.57,0 0,0 -3.94,-2.55c-1.25,                     0 -2.33,0.7 -3.67,2.59a30.9,30.9 0,0 0,-2.06 4s-0.48,-1.12 -1,-2.24a13.94,13.94 0,0                     0,-1 -1.76c-1.35,-1.89 -2.43,-2.57 -3.67,-2.59a4.57,4.57 0,0 0,-3.94 2.55,28.73                     28.73,0 0,0 -2.55,7H6.34L14,4.92 20,24.59l0,0 0,0L26,4.92l7.68,25.19ZM20,0A20,20 0,                     1 0,40 20,20 20,0 0,0 20,0" />
+    </vector>
+</inset>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="exo_controls_playback_speeds">
+        <item>0,25x</item>
+        <item>0,5x</item>
+        <item>0,75x</item>
+        <item>Normāls</item>
+        <item>1,25x</item>
+        <item>1,5x</item>
+        <item>2x</item>
+    </string-array>
+    <string-array name="filter_names">
+        <item>Dabīgs apgaismojums</item>
+        <item>Romantisks</item>
+        <item>Filma</item>
+        <item>Pieklusināts</item>
+        <item>Sapņains</item>
+        <item>Atspirdzinošs</item>
+        <item>Vēss</item>
+        <item>Tumšais zelts</item>
+        <item>Gardēdis</item>
+        <item>Kiberpanks</item>
+        <item>Jaunība</item>
+        <item>Vēls rudens</item>
+        <item>Klasisks melns un balts</item>
+        <item>Košs melns un balts</item>
+    </string-array>
+    <string-array name="talkback_cli_modes_menu_pills">
+        <item>Foto režīms aktivizēts</item>
+        <item>Video režīms aktivizēts</item>
+        <item>Spot Color video režīms aktivizēts</item>
+        <item>Laiklēciena režīms aktivizēts</item>
+        <item>Palēninājuma režīms aktivizēts</item>
+        <item>Portreta režīms aktivizēts</item>
+        <item>Spot Color režīms aktivizēts</item>
+        <item>Nakts redzamības režīms aktivizēts</item>
+        <item>Grupas pašportreta režīms aktivizēts</item>
+        <item>Tiešsaistes filtru režīms aktivizēts</item>
+    </string-array>
+    <string-array name="talkback_pro_mode_close_settings">
+        <item>Aizvērt automātisko fokusu</item>
+        <item>Aizvērt baltās krāsas balansu</item>
+        <item>Aizvērt slēga ātrumu</item>
+        <item>Aizvērt ISO</item>
+        <item>Aizvērt ekspozīcijas kompensāciju</item>
+    </string-array>
+    <string-array name="talkback_pro_mode_selectors">
+        <item>Automātiskā fokusa atlasītājs</item>
+        <item>Baltās krāsas balansa atlasītājs</item>
+        <item>Slēga ātruma atlasītājs</item>
+        <item>ISO atlasītājs</item>
+        <item>Ekspozīcijas kompensācijas atlasītājs</item>
+    </string-array>
+    <string-array name="talkback_tooltip_titles">
+        <item>Portreta apmācība</item>
+        <item>Cinemagraph apmācība</item>
+        <item>Spot Color apmācība</item>
+        <item>Spot Color video apmācība</item>
+        <item>Izgriešanas apmācība</item>
+        <item>Ultra-Res apmācība</item>
+        <item>Macro apmācība</item>
+    </string-array>
+</resources>
